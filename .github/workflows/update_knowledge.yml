@@ -71,7 +71,8 @@ jobs:
         echo "Sync complete"
 
     - name: Run evaluation suite
-      run: python scripts/run_eval.py
+      run: |
+        python scripts/run_eval.py
       env:
         GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         PYTHONUTF8: "1"
