@@ -3773,7 +3773,6 @@
     "chunk_index": 212,
     "word_count": 75
   },
-  [
   {
     "text": "What is SPL and what research problems does it focus on? SPL studies how people automation and organizations interact inside safety-critical high-consequence systems that must work reliably in real time such as rail traffic control. A core theme is turning dynamic safety concepts into measurable computable models that help operators and leaders understand when performance is stable and when it is drifting toward unsafe conditions.",
     "source_url": "https://www.spl.ise.vt.edu/about.html",
@@ -3846,5 +3845,4 @@
     "chunk_index": 411,
     "word_count": 57
   }
-]
 ]
