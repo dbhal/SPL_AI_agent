@@ -1,0 +1,501 @@
+<!--
+  SPL HokieBot Widget
+  ====================
+  Paste this ONE script tag anywhere in your Ensemble page HTML:
+
+  <script src="https://YOUR-HF-SPACE.hf.space/widget.js"></script>
+
+  Or embed the full widget HTML directly in Ensemble's custom HTML block.
+
+  Update BACKEND_URL below to your Hugging Face Spaces URL.
+-->
+
+<style>
+  #spl-widget-wrap * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+
+  /* Floating button */
+  #spl-fab {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #75091D;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(117,9,29,0.4);
+    z-index: 9999;
+    transition: transform .15s;
+  }
+  #spl-fab:hover { transform: scale(1.07); }
+  #spl-fab-badge {
+    position: absolute;
+    top: -3px; right: -3px;
+    width: 20px; height: 20px;
+    background: #E5A823;
+    border-radius: 50%;
+    border: 2px solid #75091D;
+    font-size: 11px;
+    font-weight: 700;
+    color: #3a2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Chat window */
+  #spl-window {
+    position: fixed;
+    bottom: 104px;
+    right: 28px;
+    width: 360px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    z-index: 9998;
+    display: none;
+    flex-direction: column;
+    max-height: 580px;
+    background: #fff;
+  }
+  #spl-window.open { display: flex; }
+
+  /* Header */
+  #spl-header { background: #75091D; }
+  #spl-header-top {
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+  #spl-vt-text { font-size: 11px; color: rgba(255,255,255,0.7); letter-spacing: .5px; flex: 1; }
+  #spl-close {
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #spl-header-bot {
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  #spl-avatar {
+    width: 46px; height: 46px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    border: 1.5px solid rgba(255,255,255,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  #spl-bot-name { font-size: 14px; font-weight: 600; color: #fff; }
+  #spl-bot-sub { font-size: 11px; color: rgba(255,255,255,0.65); margin-top: 2px; }
+  #spl-online { display: flex; align-items: center; gap: 4px; margin-top: 4px; }
+  #spl-dot { width: 7px; height: 7px; border-radius: 50%; background: #6fcf6f; }
+  #spl-online-txt { font-size: 10px; color: rgba(255,255,255,0.6); }
+
+  /* Tab bar */
+  #spl-tabs {
+    background: #5a0716;
+    display: flex;
+    border-bottom: 2px solid #E5A823;
+  }
+  .spl-tab {
+    flex: 1;
+    padding: 7px 4px;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(255,255,255,0.65);
+    cursor: pointer;
+    letter-spacing: .3px;
+    border-right: 1px solid rgba(255,255,255,0.1);
+  }
+  .spl-tab:last-child { border-right: none; }
+  .spl-tab.active { color: #E5A823; font-weight: 600; background: rgba(229,168,35,0.1); }
+  .spl-tab:hover { color: #fff; }
+
+  /* Messages */
+  #spl-msgs {
+    background: #f9f7f4;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 180px;
+    max-height: 280px;
+  }
+  .spl-msg { display: flex; gap: 8px; }
+  .spl-msg.user { flex-direction: row-reverse; }
+  .spl-msg-av {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    background: #75091D;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .spl-msg-body { display: flex; flex-direction: column; gap: 3px; max-width: 82%; }
+  .spl-bubble { padding: 9px 13px; font-size: 13px; line-height: 1.55; }
+  .spl-msg.bot .spl-bubble {
+    background: #fff;
+    color: #1a1a1a;
+    border-radius: 0 10px 10px 10px;
+    border: 1px solid #ddd;
+  }
+  .spl-msg.user .spl-bubble {
+    background: #75091D;
+    color: #fff;
+    border-radius: 10px 0 10px 10px;
+  }
+  .spl-ts { font-size: 10px; color: #888; padding: 0 4px; }
+  .spl-msg.user .spl-ts { text-align: right; }
+  .spl-bubble a { color: #75091D; font-weight: 500; }
+  .spl-msg.user .spl-bubble a { color: #ffd0b0; }
+
+  /* Typing indicator */
+  #spl-typing { display: none; align-items: center; gap: 5px; padding: 8px 0; }
+  #spl-typing.show { display: flex; }
+  .spl-typing-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: #999;
+    animation: spl-blink 1.2s infinite;
+  }
+  .spl-typing-dot:nth-child(2) { animation-delay: .2s; }
+  .spl-typing-dot:nth-child(3) { animation-delay: .4s; }
+  @keyframes spl-blink { 0%,80%,100%{opacity:.2} 40%{opacity:1} }
+
+  /* Quick links */
+  #spl-quick {
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 12px;
+  }
+  #spl-quick-title { font-size: 10px; color: #666; letter-spacing: .5px; text-transform: uppercase; margin-bottom: 7px; }
+  #spl-quick-grid { display: flex; flex-wrap: wrap; gap: 5px; }
+  .spl-qbtn {
+    background: #f4f0ec;
+    border: 1px solid #d0c8c0;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: #75091D;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .spl-qbtn:hover { background: #75091D; color: #fff; border-color: #75091D; }
+
+  /* Input row */
+  #spl-input-row {
+    padding: 10px 12px;
+    display: flex;
+    gap: 8px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+  }
+  #spl-inp {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-size: 13px;
+    background: #fff;
+    color: #1a1a1a;
+    outline: none;
+  }
+  #spl-inp:focus { border-color: #75091D; box-shadow: 0 0 0 2px rgba(117,9,29,0.1); }
+  #spl-send {
+    background: #75091D;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    padding: 8px 14px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: .3px;
+  }
+  #spl-send:hover { background: #5a0716; }
+  #spl-send:disabled { background: #ccc; cursor: not-allowed; }
+
+  /* Footer */
+  #spl-footer {
+    background: #1a1a1a;
+    padding: 7px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #spl-footer-vt { font-size: 10px; color: rgba(255,255,255,0.5); }
+  #spl-footer-vt b { color: #E5A823; }
+  #spl-footer-links { display: flex; gap: 10px; }
+  .spl-footer-link { font-size: 10px; color: rgba(255,255,255,0.4); cursor: pointer; text-decoration: none; }
+  .spl-footer-link:hover { color: #E5A823; }
+
+  @media (max-width: 400px) {
+    #spl-window { width: calc(100vw - 24px); right: 12px; bottom: 90px; }
+    #spl-fab { right: 16px; bottom: 16px; }
+  }
+</style>
+
+<div id="spl-widget-wrap">
+
+  <!-- Floating button -->
+  <button id="spl-fab" aria-label="Open SPL chatbot" onclick="splToggle()">
+    <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
+      <ellipse cx="19" cy="23" rx="9" ry="10" fill="#75091D"/>
+      <ellipse cx="19" cy="25" rx="5.5" ry="6.5" fill="#8a0f22"/>
+      <ellipse cx="27" cy="21" rx="4.5" ry="7" fill="#fff" transform="rotate(18,27,21)"/>
+      <ellipse cx="28.5" cy="19" rx="3.5" ry="5.5" fill="#eee" transform="rotate(32,28.5,19)"/>
+      <ellipse cx="17" cy="12" rx="7.5" ry="6.5" fill="#75091D"/>
+      <ellipse cx="20" cy="10.5" rx="2.8" ry="2.2" fill="#fff"/>
+      <circle cx="21" cy="10.5" r="1.4" fill="#1a0800"/>
+      <circle cx="21.5" cy="10" r="0.5" fill="#fff"/>
+      <path d="M17 9 Q20 7.5 23 9" stroke="#4a0010" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+      <path d="M11 12 Q8.5 11 8 14 Q10 13 11 13.5Z" fill="#E5892A"/>
+      <path d="M11 13.5 Q8.5 13.5 8.5 16 Q10.5 15 11 13.5Z" fill="#CC7020"/>
+      <g transform="translate(5,14) rotate(-25)">
+        <rect x="0" y="0" width="2.2" height="8" rx="1.1" fill="#aaa"/>
+        <path d="M-1.5 0 Q1.1 -2.5 3.7 0 Q2.2 1.2 1.1 1.2 Q0 1.2 -1.5 0Z" fill="#999"/>
+        <path d="M-1.5 0 Q1.1 2.2 3.7 0 Q2.2 -1.2 1.1 -1.2 Q0 -1.2 -1.5 0Z" fill="#bbb"/>
+      </g>
+      <path d="M27 20 Q32 17 33 13" stroke="#75091D" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <g transform="translate(31,9)">
+        <circle cx="0" cy="0" r="3" fill="none" stroke="#aaa" stroke-width="1.6"/>
+        <circle cx="0" cy="0" r="1" fill="#aaa"/>
+        <line x1="0" y1="-3" x2="0" y2="-4.5" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="0" y1="3" x2="0" y2="4.5" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="-3" y1="0" x2="-4.5" y2="0" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="3" y1="0" x2="4.5" y2="0" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="-2.1" y1="-2.1" x2="-3.2" y2="-3.2" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="2.1" y1="2.1" x2="3.2" y2="3.2" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="2.1" y1="-2.1" x2="3.2" y2="-3.2" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
+        <line x1="-2.1" y1="2.1" x2="-3.2" y2="3.2" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
+      </g>
+      <line x1="16" y1="32" x2="14" y2="37" stroke="#E5892A" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="20" y1="32" x2="22" y2="37" stroke="#E5892A" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M11 37 Q14 36 16 37 Q14 38 11 37Z" fill="#E5892A"/>
+      <path d="M19 37 Q22 36 25 37 Q22 38 19 37Z" fill="#E5892A"/>
+    </svg>
+    <div id="spl-fab-badge">1</div>
+  </button>
+
+  <!-- Chat window -->
+  <div id="spl-window" role="dialog" aria-label="SPL HokieBot chat">
+
+    <div id="spl-header">
+      <div id="spl-header-top">
+        <svg width="20" height="14" viewBox="0 0 140 100"><text x="0" y="80" font-size="90" font-family="Arial" font-weight="900" fill="white">VT</text></svg>
+        <span id="spl-vt-text">VIRGINIA TECH®</span>
+        <button id="spl-close" onclick="splToggle()" aria-label="Close chat">✕</button>
+      </div>
+      <div id="spl-header-bot">
+        <div id="spl-avatar">
+          <svg width="34" height="34" viewBox="0 0 36 36" fill="none">
+            <ellipse cx="18" cy="22" rx="8" ry="9" fill="#9B1030"/>
+            <ellipse cx="18" cy="24" rx="4.5" ry="5.5" fill="#7a0e22"/>
+            <ellipse cx="25" cy="20" rx="4" ry="6" fill="#fff" transform="rotate(18,25,20)"/>
+            <ellipse cx="26" cy="18" rx="3" ry="5" fill="#eee" transform="rotate(32,26,18)"/>
+            <ellipse cx="16" cy="11" rx="6.5" ry="5.5" fill="#75091D"/>
+            <ellipse cx="18.5" cy="9.5" rx="2.4" ry="1.9" fill="#fff"/>
+            <circle cx="19.5" cy="9.5" r="1.2" fill="#1a0800"/>
+            <path d="M15 8.5 Q18 7 21 8.5" stroke="#4a0010" stroke-width="1" fill="none" stroke-linecap="round"/>
+            <path d="M10 11 Q8 10 7.5 12.5 Q9 12 10 12.5Z" fill="#E5892A"/>
+            <path d="M10 12.5 Q8 12.5 8 14.5 Q9.5 14 10 12.5Z" fill="#CC7020"/>
+            <path d="M8 17 Q4 14 3 11" stroke="#75091D" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+            <path d="M26 17 Q30 14 31 11" stroke="#75091D" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+          </svg>
+        </div>
+        <div>
+          <div id="spl-bot-name">HokieBot — SPL Assistant</div>
+          <div id="spl-bot-sub">System Performance Laboratory · Virginia Tech</div>
+          <div id="spl-online"><div id="spl-dot"></div><span id="spl-online-txt">Online now</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="spl-tabs">
+      <div class="spl-tab active" onclick="splQuick('Tell me about SPL')">About</div>
+      <div class="spl-tab" onclick="splQuick('What are SPL research areas?')">Research</div>
+      <div class="spl-tab" onclick="splQuick('Who are the SPL team members?')">People</div>
+      <div class="spl-tab" onclick="splQuick('What are the latest SPL events?')">Events</div>
+      <div class="spl-tab" onclick="splQuick('How do I contact SPL?')">Contact</div>
+    </div>
+
+    <div id="spl-msgs">
+      <div class="spl-msg bot">
+        <div class="spl-msg-av">
+          <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+            <ellipse cx="9" cy="11" rx="5" ry="5" fill="#9B1030"/>
+            <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="#75091D"/>
+            <ellipse cx="10" cy="5" rx="1.5" ry="1.2" fill="#fff"/>
+            <circle cx="10.5" cy="5" r="0.7" fill="#1a0800"/>
+            <path d="M6 6 Q5 5.5 4.5 7 Q5.5 6.5 6 7Z" fill="#E5892A"/>
+          </svg>
+        </div>
+        <div class="spl-msg-body">
+          <div class="spl-bubble">Welcome to the <strong>System Performance Laboratory</strong> at Virginia Tech. I'm HokieBot — ask me anything about SPL's research, team, events, or how to get involved!</div>
+          <div class="spl-ts">HokieBot · just now</div>
+        </div>
+      </div>
+      <div id="spl-typing" class="spl-msg bot">
+        <div class="spl-msg-av">
+          <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+            <ellipse cx="9" cy="11" rx="5" ry="5" fill="#9B1030"/>
+            <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="#75091D"/>
+          </svg>
+        </div>
+        <div class="spl-msg-body">
+          <div class="spl-bubble" style="background:#fff;border:1px solid #ddd;border-radius:0 10px 10px 10px;display:flex;gap:4px;padding:12px 14px">
+            <div class="spl-typing-dot"></div>
+            <div class="spl-typing-dot"></div>
+            <div class="spl-typing-dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="spl-quick">
+      <div id="spl-quick-title">Explore SPL</div>
+      <div id="spl-quick-grid">
+        <div class="spl-qbtn" onclick="splQuick('What are SPL research areas?')">Research Areas</div>
+        <div class="spl-qbtn" onclick="splQuick('How can I join SPL?')">Join SPL</div>
+        <div class="spl-qbtn" onclick="splQuick('Where can I read SPL publications?')">Publications</div>
+        <div class="spl-qbtn" onclick="splQuick('Tell me about all SPL partners')">Partnerships</div>
+        <div class="spl-qbtn" onclick="splQuick('What are the latest SPL news and events?')">News & Events</div>
+        <div class="spl-qbtn" onclick="splQuick('What is the SPL lab address?')">Visit SPL</div>
+      </div>
+    </div>
+
+    <div id="spl-input-row">
+      <input id="spl-inp" placeholder="Ask HokieBot about SPL…" onkeydown="if(event.key==='Enter')splSend()" />
+      <button id="spl-send" onclick="splSend()">Send</button>
+    </div>
+
+    <div id="spl-footer">
+      <span id="spl-footer-vt">© Virginia Tech · <b>SPL</b></span>
+      <div id="spl-footer-links">
+        <a class="spl-footer-link" href="https://www.spl.ise.vt.edu" target="_blank">Website</a>
+        <a class="spl-footer-link" href="https://www.vt.edu/accessibility.html" target="_blank">Accessibility</a>
+        <a class="spl-footer-link" href="mailto:j.godfrey@vt.edu">Contact</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  // ── Config — update this to your Hugging Face Spaces URL ──────────────────
+  const BACKEND_URL = "https://dbehal-spl-chatbot.hf.space" ;
+
+  // ── State ──────────────────────────────────────────────────────────────────
+  let isOpen = false;
+  let isLoading = false;
+
+  function splToggle() {
+    isOpen = !isOpen;
+    const win = document.getElementById('spl-window');
+    if (isOpen) {
+      win.classList.add('open');
+      document.getElementById('spl-fab-badge').style.display = 'none';
+      document.getElementById('spl-inp').focus();
+    } else {
+      win.classList.remove('open');
+    }
+  }
+
+  function splAddMsg(text, role) {
+    const msgs = document.getElementById('spl-msgs');
+    const typing = document.getElementById('spl-typing');
+
+    const div = document.createElement('div');
+    div.className = `spl-msg ${role}`;
+
+    const avSvg = `<svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+      <ellipse cx="9" cy="11" rx="5" ry="5" fill="#9B1030"/>
+      <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="#75091D"/>
+      <ellipse cx="10" cy="5" rx="1.5" ry="1.2" fill="#fff"/>
+      <circle cx="10.5" cy="5" r="0.7" fill="#1a0800"/>
+      <path d="M6 6 Q5 5.5 4.5 7 Q5.5 6.5 6 7Z" fill="#E5892A"/>
+    </svg>`;
+
+    const now = new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
+    const label = role === 'bot' ? 'HokieBot' : 'You';
+
+    // Convert markdown bold and newlines to HTML
+    const formatted = text
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\n/g, '<br>')
+      .replace(/https?:\/\/[^\s<]+/g, url => `<a href="${url}" target="_blank" style="color:#75091D;font-weight:500">${url}</a>`);
+
+    div.innerHTML = `
+      ${role === 'bot' ? `<div class="spl-msg-av">${avSvg}</div>` : ''}
+      <div class="spl-msg-body">
+        <div class="spl-bubble">${formatted}</div>
+        <div class="spl-ts">${label} · ${now}</div>
+      </div>
+    `;
+
+    msgs.insertBefore(div, typing);
+    msgs.scrollTop = msgs.scrollHeight;
+  }
+
+  async function splSend() {
+    if (isLoading) return;
+    const inp = document.getElementById('spl-inp');
+    const q = inp.value.trim();
+    if (!q) return;
+
+    inp.value = '';
+    splAddMsg(q, 'user');
+
+    isLoading = true;
+    document.getElementById('spl-send').disabled = true;
+    document.getElementById('spl-typing').classList.add('show');
+    document.getElementById('spl-msgs').scrollTop = 99999;
+
+    try {
+      const res = await fetch(`${BACKEND_URL}/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: q }),
+      });
+
+      if (!res.ok) throw new Error('API error');
+      const data = await res.json();
+      document.getElementById('spl-typing').classList.remove('show');
+      splAddMsg(data.answer, 'bot');
+
+    } catch (err) {
+      document.getElementById('spl-typing').classList.remove('show');
+      splAddMsg("I'm having trouble connecting right now. Please visit spl.ise.vt.edu directly or email j.godfrey@vt.edu", 'bot');
+    }
+
+    isLoading = false;
+    document.getElementById('spl-send').disabled = false;
+    inp.focus();
+  }
+
+  function splQuick(question) {
+    document.getElementById('spl-inp').value = question;
+    splSend();
+  }
+</script>
