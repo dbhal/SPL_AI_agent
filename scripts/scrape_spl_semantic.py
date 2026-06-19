@@ -248,15 +248,6 @@ def scrape():
     print(f"\nDeduplicating {len(all_chunks)} chunks...")
     all_chunks = deduplicate_chunks(all_chunks, model)
 
-    # Load and merge manual chunks
-    try:
-        with open("data/manual_chunks.json", encoding="utf-8") as f:
-            manual = json.load(f)
-        all_chunks = all_chunks + manual
-        print(f"Added {len(manual)} manual chunks")
-    except FileNotFoundError:
-        pass
-
     # Save
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_chunks, f, indent=2, ensure_ascii=False)
