@@ -28,13 +28,13 @@ def root():
     return FileResponse("static/index.html")
 
 
-# Allow requests from SPL website and Ensemble
+# Allow requests from SPL website and Ensemble only
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://www.spl.ise.vt.edu",
         "https://spl.ise.vt.edu",
-        "*",  # remove this in production, keep specific origins only
+        # Removed "*" — too broad, exposes Groq quota to anyone
     ],
     allow_methods=["POST", "GET"],
     allow_headers=["*"],
@@ -61,7 +61,6 @@ client = chromadb.PersistentClient(path=CHROMA_DIR)
 existing = [c.name for c in client.list_collections()]
 if COLLECTION not in existing or client.get_collection(COLLECTION).count() == 0:
     print("Building vector store from chunks...")
-    # Load chunks
     with open(CHUNKS_FILE, encoding="utf-8") as f:
         chunks = json.load(f)
     try:
@@ -108,22 +107,56 @@ class ChatResponse(BaseModel):
 # ── RAG functions ─────────────────────────────────────────────────────────────
 
 EXPANSIONS = {
-    "post doc":        ["postdoctoral associates SPL", "postdoc researchers lab"],
-    "how many phd":    ["number of PhD students SPL", "current PhD students count"],
-    "how many post":   ["number of postdoctoral associates SPL", "postdoc count"],
-    "contact":         ["email address faculty", "how to contact SPL"],
-    "address":         ["SPL location Virginia Tech", "lab address Alexandria"],
-    "how are you":     ["SPL assistant introduction", "about SPL chatbot"],
-    "ongoing project": ["active research projects SPL", "current funded research"],
-    "funding":         ["SPL funded research million", "research grants lab"],
-    "join":            ["how to apply SPL", "volunteer opportunities lab"],
-    "partners":        ["SPL partnerships organizations", "collaborations MedStar INFRABEL Azist"],
-    "course":          ["courses offered SPL", "education programs lab"],
-    "publication":     ["SPL journal papers research publications", "papers published"],
-    "location":        ["SPL location Virginia Tech Alexandria", "where is SPL"],
-    "alumni":          ["SPL lab alumni past members", "former students lab"],
-    "event":           ["SPL news events workshops", "upcoming lab events"],
-    "paper":           ["SPL research publications journal", "published papers"],
+    # ── Team & contact ──────────────────────────────────────────────────────
+    "post doc":            ["postdoctoral associates SPL", "postdoc researchers lab"],
+    "how many phd":        ["number of PhD students SPL", "current PhD students count"],
+    "how many post":       ["number of postdoctoral associates SPL", "postdoc count"],
+    "contact":             ["email address faculty", "how to contact SPL"],
+    "address":             ["SPL location Virginia Tech", "lab address Alexandria"],
+    "how are you":         ["SPL assistant introduction", "about SPL chatbot"],
+    "join":                ["how to apply SPL", "volunteer opportunities lab"],
+    "alumni":              ["SPL lab alumni past members", "former students lab"],
+
+    # ── Research & projects ─────────────────────────────────────────────────
+    "ongoing project":     ["active research projects SPL", "current funded research"],
+    "funding":             ["SPL funded research million", "research grants lab"],
+    "publication":         ["SPL journal papers research publications", "papers published"],
+    "paper":               ["SPL research publications journal", "published papers"],
+
+    # ── LEAP-HI (all natural phrasings) ────────────────────────────────────
+    "leap-hi":             ["mental workload situational awareness NSF 2 million", "safe area operation automation"],
+    "leap hi":             ["mental workload situational awareness NSF 2 million", "safe area operation automation"],
+    "leaphi":              ["mental workload situational awareness NSF 2 million", "safe area operation automation"],
+    "leap":                ["LEAP-HI NSF funded SPL research", "safe area operation workload"],
+
+    # ── Core research concepts ──────────────────────────────────────────────
+    "production pressure": ["organizational safety efficiency tradeoff SPL", "do more with less rail safety"],
+    "workload":            ["workload boundary SPL DEA benchmarking", "mental workload rail traffic control"],
+    "safe area":           ["safe area of operation LEAP-HI workload boundary", "performance envelope SPL"],
+    "socio-technical":     ["socio-technical system people technology organization", "LEAP-HI safe area operation"],
+    "automation":          ["automation reliance human error nonlinear", "Positive Train Control PTC learning"],
+
+    # ── Data & methods (all natural phrasings) ─────────────────────────────
+    "data and methods":    ["410269 controller-hour observations DEA LSTM", "SPL research methods data"],
+    "methods":             ["410269 controller-hour observations DEA LSTM", "SPL modeling techniques"],
+    "what data":           ["410269 controller-hour observations DEA LSTM", "SPL data collection methods"],
+    "spl data":            ["410269 controller-hour observations DEA LSTM", "SPL research methods data"],
+
+    # ── Scope / domains ─────────────────────────────────────────────────────
+    "rail":                ["SPL rail transportation Belgian PTC", "domains healthcare critical infrastructure"],
+    "only in rail":        ["SPL domains healthcare critical infrastructure", "not only rail transportation"],
+
+    # ── Partners & outreach ─────────────────────────────────────────────────
+    "partner":             ["SPL partner value efficiency safety tradeoff", "DEA benchmarking operational guidance"],
+    "partners":            ["SPL partnerships organizations", "collaborations MedStar INFRABEL Azist"],
+    "outreach":            ["SPL outreach teen science cafe STEaM", "K-12 systems thinking transportation"],
+    "k-12":                ["SPL outreach K-12 STEaM Tech", "hands-on systems thinking students"],
+    "steam":               ["SPL STEaM Tech outreach K-12", "transportation decision-making students"],
+
+    # ── General ─────────────────────────────────────────────────────────────
+    "course":              ["courses offered SPL", "education programs lab"],
+    "location":            ["SPL location Virginia Tech Alexandria", "where is SPL"],
+    "event":               ["SPL news events workshops", "upcoming lab events"],
 }
 
 
@@ -227,7 +260,7 @@ Rules:
 
 CRITICAL ANSWER RULES for specific topics:
 - If asked about LEAP-HI: answer must mention "mental workload", "situational awareness", "safe area of operation", "NSF funded $2 million"
-- If asked about production pressure: answer must mention "do more with less", "efficiency at expense of safety", "socio-technical"  
+- If asked about production pressure: answer must mention "do more with less", "efficiency at expense of safety", "socio-technical"
 - If asked about SPL data and methods: answer must mention "410,269 controller-hour observations", "DEA", "system dynamics", "LSTM"
 - If asked about automation and learning: answer must mention "Positive Train Control", "PTC", "knowledge retention"
 - If asked about workload boundary: answer must mention "Data Envelopment Analysis", "performance environment heterogeneity"
@@ -257,10 +290,8 @@ def chat(req: ChatRequest):
     if len(req.question) > 500:
         raise HTTPException(status_code=400, detail="Question too long")
 
-    # Retrieve relevant chunks
     chunks = retrieve(req.question)
 
-    # Build prompt and call LLM
     prompt = build_prompt(req.question, chunks)
     completion = groq_client.chat.completions.create(
         model=GROQ_MODEL,
