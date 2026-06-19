@@ -3773,76 +3773,78 @@
     "chunk_index": 212,
     "word_count": 75
   },
+  [
   {
-    "text": "What is SPL and what research problems does it focus on? SPL studies how people, automation, and organizations interact inside safety-critical, high-consequence systems that must work reliably in real time such as rail traffic control. A core theme is turning dynamic safety concepts into measurable computable models that help operators and leaders understand when performance is stable and when it is drifting toward unsafe conditions.",
+    "text": "What is SPL and what research problems does it focus on? SPL studies how people automation and organizations interact inside safety-critical high-consequence systems that must work reliably in real time such as rail traffic control. A core theme is turning dynamic safety concepts into measurable computable models that help operators and leaders understand when performance is stable and when it is drifting toward unsafe conditions.",
     "source_url": "https://www.spl.ise.vt.edu/about.html",
-    "chunk_index": 300,
+    "chunk_index": 400,
     "word_count": 72
   },
   {
-    "text": "What is the LEAP-HI project? LEAP-HI is a $2 million NSF-funded research effort to understand decision-making and safety in automated socio-technical infrastructure systems and to build a computable safe area of operation for these systems. The project targets how mental workload and situational awareness change with automation, how teams detect and learn from errors and near misses, how trust and cognitive bias affect delegation to automation, and how workload marginal safety and economics boundaries define safe operating space.",
+    "text": "What is the LEAP-HI project? LEAP-HI Leading Engineering for Americas Prosperity Health and Infrastructure is a $2 million NSF-funded research effort to understand decision-making and safety in automated socio-technical infrastructure systems and to build a computable safe area of operation for these systems. The project explicitly targets how mental workload and situational awareness change with automation how teams detect and learn from errors and near misses how trust and cognitive bias affect delegation to automation and how workload marginal safety and economics boundaries define safe operating space.",
     "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
-    "chunk_index": 301,
-    "word_count": 88
+    "chunk_index": 401,
+    "word_count": 95
   },
   {
-    "text": "What is a safe area of operation in SPL research? A safe area of operation is a map of operating conditions where a system can run effectively without pushing people or technology beyond limits. LEAP-HI frames this safe region using interacting boundaries especially workload and other performance limits so decision makers can evaluate tradeoffs and avoid drifting into high-risk zones.",
+    "text": "What is a safe area of operation? A safe area of operation is a map of operating conditions where a system can run effectively without pushing people or technology beyond limits. LEAP-HI frames this safe region using interacting boundaries especially workload and other performance limits so decision makers can evaluate tradeoffs and avoid drifting into high-risk zones.",
     "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
-    "chunk_index": 302,
-    "word_count": 60
+    "chunk_index": 402,
+    "word_count": 58
   },
   {
     "text": "What is a workload boundary and why does it matter? In safety-critical control rooms there is a practical upper limit to how much work the system and the humans in it can handle before performance degrades. SPL research operationalizes this idea by estimating the workload boundary in rail traffic control centers using Data Envelopment Analysis DEA and by accounting for differences in operating contexts called performance environment heterogeneity.",
     "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
-    "chunk_index": 303,
-    "word_count": 75
+    "chunk_index": 403,
+    "word_count": 74
   },
   {
-    "text": "How does SPL estimate workload boundaries in real operations? In the Belgian rail INFRABEL case study SPL approach identifies organizational technical and socioeconomic factors shaping the operating environment, groups comparable work situations using a two-stage clustering approach, and computes efficiency and workload boundary benchmarks within and across groups using meta and in-cluster scores with validation from the operating partner. Ignoring context differences can overestimate targets which can push people toward unsafe workload levels. Reference: https://www.sciencedirect.com/science/article/pii/S0377221719303297",
+    "text": "How does SPL estimate workload boundaries in real operations? In the Belgian rail INFRABEL case study SPL approach identifies organizational technical and socioeconomic factors shaping the operating environment groups comparable work situations using a two-stage clustering approach and computes efficiency and workload boundary benchmarks within and across groups using meta and in-cluster scores with validation from the operating partner. A key finding is that ignoring context differences can overestimate targets which can push people toward unsafe workload levels. Published at https://www.sciencedirect.com/science/article/pii/S0377221719303297",
     "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
-    "chunk_index": 304,
+    "chunk_index": 404,
     "word_count": 90
   },
   {
-    "text": "What does SPL research say about workload automation reliance and human error? Using a large real-world dataset from rail traffic control centers SPL finds that errors increase with workload and the relationship between automation reliance and errors is non-linear inverted U-shaped. More automation is not automatically safer — performance depends on how much automation is used and under what workload conditions. Reference: https://www.sciencedirect.com/science/article/pii/S0925753524003655",
+    "text": "What does SPL research say about workload automation reliance and human error? Using a large real-world dataset from rail traffic control centers SPL research finds errors increase with workload and the relationship between automation reliance and errors is non-linear inverted U-shaped. More automation is not automatically safer — performance depends on how much automation is used and under what workload conditions. Published at https://www.sciencedirect.com/science/article/pii/S0925753524003655",
     "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
-    "chunk_index": 305,
+    "chunk_index": 405,
+    "word_count": 76
+  },
+  {
+    "text": "What is production pressure and why is SPL studying it? Production pressure is the organizational push to do more with less which can quietly shift tradeoffs toward efficiency at the expense of safety especially in fast-changing socio-technical environments. SPL systematic review notes production pressure is widely recognized as a contributor to accidents but empirical work often lacks consistent definitions and measures motivating better monitoring approaches. Published at https://www.sciencedirect.com/science/article/pii/S0925753522003848",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 406,
     "word_count": 78
   },
   {
-    "text": "What is production pressure and why is SPL studying it? Production pressure is the organizational push to do more with less which can quietly shift tradeoffs toward efficiency at the expense of safety especially in fast-changing socio-technical environments. SPL systematic review notes production pressure is widely recognized as a contributor to accidents but empirical work often lacks consistent definitions and measures motivating better monitoring approaches. Reference: https://www.sciencedirect.com/science/article/pii/S0925753522003848",
-    "source_url": "https://www.spl.ise.vt.edu/research.html",
-    "chunk_index": 306,
-    "word_count": 80
-  },
-  {
-    "text": "Does automation help organizations learn from failure over time? SPL research argues automation algorithms can influence phases of learning beyond knowledge creation including knowledge application and retention. In a study of US passenger railroads adopting Positive Train Control PTC the research predicts faster learning from failures and longer retention of that learning and the analysis reports support for these hypotheses.",
+    "text": "Does automation help organizations learn from failure over time? Research in the LEAP-HI ecosystem argues automation algorithms can influence phases of learning beyond knowledge creation including knowledge application and retention. In a study of US passenger railroads adopting Positive Train Control PTC the hypotheses predict faster learning from failures and longer retention of that learning and the analysis reports support for these hypotheses.",
     "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
-    "chunk_index": 307,
+    "chunk_index": 407,
     "word_count": 65
   },
   {
-    "text": "What kinds of data and methods does SPL use in research? SPL combines qualitative and quantitative data such as interviews on-site observations across shifts and system-event logs. Methods include large-scale operational microdata with 410269 controller-hour observations, count models to study error patterns, system dynamics to capture feedback loops and fatigue effects, and DEA-based benchmarking enhanced with forecasting approaches like LSTM to support performance monitoring and decision-making.",
+    "text": "What kinds of data and methods does SPL use in research? SPL combines qualitative and quantitative data such as interviews on-site observations across shifts and system-event logs. Across projects SPL pairs these data with rigorous modeling using large-scale operational microdata with 410269 controller-hour observations count models to study error patterns system dynamics to capture feedback loops and fatigue threshold effects and DEA-based benchmarking sometimes enhanced with forecasting approaches like LSTM to support performance monitoring and decision-making.",
     "source_url": "https://www.spl.ise.vt.edu/research.html",
-    "chunk_index": 308,
-    "word_count": 75
+    "chunk_index": 408,
+    "word_count": 85
   },
   {
-    "text": "What value does SPL research create for partner organizations? The practical value for partner organizations is improved operational performance in both safety and efficiency. SPL work supports decision-making in real operations by clarifying when workload and automation configurations keep performance stable versus when they increase error risk and by translating those insights into actionable guidance for staffing scheduling tool and interface design and escalation practices. SPL uses DEA-based benchmarking to help partners quantify efficiency and safety tradeoffs set realistic performance targets and monitor organizational pressures that can erode safety margins while chasing productivity.",
+    "text": "What value does SPL research create for partner organizations? The practical value for partner organizations is improved operational performance in both safety and efficiency. SPL work supports decision-making in real operations by clarifying when workload and automation configurations keep performance stable versus when they increase error risk and by translating those insights into actionable guidance for staffing scheduling tool and interface design and escalation practices. SPL uses DEA-based benchmarking to help partners quantify efficiency and safety tradeoffs set realistic performance targets across different operating contexts and monitor organizational pressures that can quietly erode safety margins while chasing productivity.",
     "source_url": "https://www.spl.ise.vt.edu/partnership.html",
-    "chunk_index": 309,
+    "chunk_index": 409,
     "word_count": 100
   },
   {
-    "text": "Does SPL offer outreach activities for K-12 students? Yes. SPL is developing hands-on outreach experiences called STEaM Tech that introduce students to systems thinking decision-making and human-automation interaction through interactive real-world transportation challenges. Visit https://www.spl.ise.vt.edu/outreach.html for more information.",
+    "text": "Does SPL offer outreach activities for K-12 students? Yes. SPL is developing hands-on outreach experiences called STEaM Tech that introduce K-12 students to systems thinking decision-making and human-automation interaction through interactive real-world transportation challenges. Visit https://www.spl.ise.vt.edu/outreach.html for more information.",
     "source_url": "https://www.spl.ise.vt.edu/outreach.html",
-    "chunk_index": 310,
-    "word_count": 45
+    "chunk_index": 410,
+    "word_count": 47
   },
   {
     "text": "Does SPL work only in rail and transportation? No. Rail and transportation are key application areas but SPL approaches are designed for any socio-technical system where people technology and organizations interact especially when safety reliability and performance matter. That includes domains like healthcare other critical infrastructure operations and similarly complex high-stakes environments.",
     "source_url": "https://www.spl.ise.vt.edu/research.html",
-    "chunk_index": 311,
-    "word_count": 58
+    "chunk_index": 411,
+    "word_count": 57
   }
+]
 ]
