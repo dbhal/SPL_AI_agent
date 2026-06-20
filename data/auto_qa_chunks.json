@@ -1,0 +1,3662 @@
+[
+  {
+    "text": "What is the mission of the System Performance Lab (SPL)? The mission of the lab is to support ISE academic programs and project sponsors with ongoing research and professional services that advance understanding and knowledge of System Performance and contribute to the enabling technology available for design, test, operation, and management of high-performance complex systems.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 0,
+    "word_count": 45
+  },
+  {
+    "text": "What kind of research does the System Performance Lab (SPL) conduct? The research conducted by the SPL advances understanding and knowledge of System Performance.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 1,
+    "word_count": 13
+  },
+  {
+    "text": "What kind of services does the System Performance Lab (SPL) provide? The SPL provides ongoing research and professional services.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 2,
+    "word_count": 8
+  },
+  {
+    "text": "What type of systems does the System Performance Lab (SPL) focus on? The SPL focuses on high-performance complex systems.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 3,
+    "word_count": 7
+  },
+  {
+    "text": "What academic programs does the System Performance Lab (SPL) support? The SPL supports ISE academic programs.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 4,
+    "word_count": 6
+  },
+  {
+    "text": "What is the goal of the SPL? The goal is to provide a quality of service to sponsors, students, and faculty that result in the contribution of knowledge formation, technology advancement, and economic development.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 5,
+    "word_count": 27
+  },
+  {
+    "text": "Who benefits from the SPL's quality of service? Sponsors, students, and faculty benefit from the SPL's quality of service.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 6,
+    "word_count": 11
+  },
+  {
+    "text": "What kind of development does the SPL aim to contribute to? The SPL aims to contribute to knowledge formation, technology advancement, and economic development.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 7,
+    "word_count": 13
+  },
+  {
+    "text": "Where does the SPL's impact extend beyond? The SPL's impact extends beyond the Commonwealth of Virginia.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 8,
+    "word_count": 9
+  },
+  {
+    "text": "What research activities are conducted by the SPL? The SPL conducts research in Enterprise Performance Measurement (Metrics and Improvement), Data Envelopment Analysis, Fuzzy Sets and Logic, System Dynamics Modeling, Design of Quality Management Systems, Engineering Administration, Systems Engineering Management and Systems Science, Influential Observation Identification, Process Definition, Performance Analysis and Re-engineering, Infrastructure Systems (Resilience and Sustainability), and Evaluation and Assessment of R&D Enterprises.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 9,
+    "word_count": 55
+  },
+  {
+    "text": "What are some notable achievements of the SPL? The SPL has received a $2M NSF-funded grant, published over 80 peer-reviewed publications, and graduated 7 PhD students between 2020 and 2025.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 10,
+    "word_count": 22
+  },
+  {
+    "text": "What kind of partnerships does the SPL have? The SPL fosters global and national research collaborations and creates partnerships to tackle complex issues.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 11,
+    "word_count": 15
+  },
+  {
+    "text": "What is the SPL's involvement in recent events? The SPL has participated in the 2026 UVA Postdoctoral Research Symposium, Teen Science Caf at Virginia Tech, and visited the Virginia Railway Express (VRE) Headquarters.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 12,
+    "word_count": 25
+  },
+  {
+    "text": "Who is a notable member of the SPL? Konstantinos P. is a member of the SPL.",
+    "source_url": "https://www.spl.ise.vt.edu/",
+    "chunk_index": 13,
+    "word_count": 8
+  },
+  {
+    "text": "What does SPL stand for? The text does not explicitly state what SPL stands for, but it is likely an abbreviation for the name of the research group.",
+    "source_url": "https://www.spl.ise.vt.edu/about.html",
+    "chunk_index": 14,
+    "word_count": 23
+  },
+  {
+    "text": "Where is the SPL research group located? The SPL research group is located in the Grado Department of Industrial and Systems Engineering at Virginia Tech.",
+    "source_url": "https://www.spl.ise.vt.edu/about.html",
+    "chunk_index": 15,
+    "word_count": 18
+  },
+  {
+    "text": "What type of research does the SPL group conduct? The SPL group studies how people, technology, and organizations interact to optimize the performance of complex systems.",
+    "source_url": "https://www.spl.ise.vt.edu/about.html",
+    "chunk_index": 16,
+    "word_count": 17
+  },
+  {
+    "text": "What methods do you use to study technology-intensive systems? We use a combination of quantitative and qualitative methods.",
+    "source_url": "https://www.spl.ise.vt.edu/about.html",
+    "chunk_index": 17,
+    "word_count": 9
+  },
+  {
+    "text": "What fields of study inform your research? Industrial and systems engineering, computer science, and organizational studies.",
+    "source_url": "https://www.spl.ise.vt.edu/about.html",
+    "chunk_index": 18,
+    "word_count": 9
+  },
+  {
+    "text": "What types of systems do you study? Transportation systems and healthcare systems.",
+    "source_url": "https://www.spl.ise.vt.edu/about.html",
+    "chunk_index": 19,
+    "word_count": 5
+  },
+  {
+    "text": "Who are the directors of SPL? Dr. Konstantinos Triantis and Dr. Joseph Godfrey are the directors of SPL.",
+    "source_url": "https://www.spl.ise.vt.edu/about/people.html",
+    "chunk_index": 20,
+    "word_count": 12
+  },
+  {
+    "text": "What are some research fields of the postdoctoral associates at SPL? The postdoctoral associates at SPL research in Business Analytics, Machine Learning, Decision Support, Socio-Technical Systems, Socio-technical systems, System Dynamics, Sustainability Transitions, Performance Measurement & Efficiency, Resilience & Social Vulnerability, Hurricane Evacuations & Disaster Response, Knowledge Graphs, Transportation, Railway Systems, Efficiency Analysis, Performance Improvement, Societal Systems Engineering, Social Capital & Trust Networks, National Development Performance, Cross-Country Efficiency Analysis, and Resilience.",
+    "source_url": "https://www.spl.ise.vt.edu/about/people.html",
+    "chunk_index": 21,
+    "word_count": 59
+  },
+  {
+    "text": "What are the research fields of Maria Tomai? Maria Tomai researches in Socio-technical systems, System Dynamics, and Sustainability Transitions.",
+    "source_url": "https://www.spl.ise.vt.edu/about/people.html",
+    "chunk_index": 22,
+    "word_count": 11
+  },
+  {
+    "text": "What is the email address of Dr. Triantis? Dr. Triantis's email address is triantis@vt.edu.",
+    "source_url": "https://www.spl.ise.vt.edu/about/people.html",
+    "chunk_index": 23,
+    "word_count": 6
+  },
+  {
+    "text": "What are the research fields of Juan Carlos Franco R.? Juan Carlos Franco R. researches in Societal Systems Engineering, Social Capital & Trust Networks, National Development Performance, and Cross-Country Efficiency Analysis.",
+    "source_url": "https://www.spl.ise.vt.edu/about/people.html",
+    "chunk_index": 24,
+    "word_count": 21
+  },
+  {
+    "text": "What is the title of Glen Lyddane's doctoral dissertation? Measuring Performance in Complex Adaptive Systems: An Agent-Based Approach to Managerial and Technological Change",
+    "source_url": "https://www.spl.ise.vt.edu/about/lab-alumni.html",
+    "chunk_index": 25,
+    "word_count": 14
+  },
+  {
+    "text": "What is the focus of Ning-Yuan (Georgia) Liu's research? Enhancing Safety in Critical Monitoring Systems: Investigating the Roles of Human Error, Fatigue, and Organizational Learning in Socio-Technical Environments",
+    "source_url": "https://www.spl.ise.vt.edu/about/lab-alumni.html",
+    "chunk_index": 26,
+    "word_count": 19
+  },
+  {
+    "text": "What is the name of the lab where Taylan G. Topcu completed his research? stselab.ise at Virginia Tech",
+    "source_url": "https://www.spl.ise.vt.edu/about/lab-alumni.html",
+    "chunk_index": 27,
+    "word_count": 4
+  },
+  {
+    "text": "What is the title of Mohammed Hassan Ba-Aoum's doctoral dissertation? Advancing Emergency Department Efficiency, Infectious Disease Management at Mass Gatherings, and Self-Efficacy Through Data Science and Dynamic Modeling",
+    "source_url": "https://www.spl.ise.vt.edu/about/lab-alumni.html",
+    "chunk_index": 28,
+    "word_count": 18
+  },
+  {
+    "text": "How can I contact Wilmer Alvarado? LinkedIn",
+    "source_url": "https://www.spl.ise.vt.edu/about/lab-alumni.html",
+    "chunk_index": 29,
+    "word_count": 1
+  },
+  {
+    "text": "What is the name of the researcher who received a National Science Foundation grant? Kostas Triantis",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 30,
+    "word_count": 2
+  },
+  {
+    "text": "What is the amount of the National Science Foundation grant received by Kostas Triantis? $2 million",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 31,
+    "word_count": 2
+  },
+  {
+    "text": "What is the focus of Kostas Triantis' research project? Human-Automation Interaction of Socio-Technical Infrastructure Systems",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 32,
+    "word_count": 6
+  },
+  {
+    "text": "What is the purpose of Kostas Triantis' research project? To explore how cognitive biases influence trust in automation and decisions to delegate tasks to automated technologies",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 33,
+    "word_count": 17
+  },
+  {
+    "text": "How many years is Kostas Triantis' National Science Foundation grant for? Four years",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 34,
+    "word_count": 2
+  },
+  {
+    "text": "What kind of problems do organizations face today? Today's challenges arise from dynamic interactions among organizational structures, evolving procedures, and shifting outcomes.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 35,
+    "word_count": 14
+  },
+  {
+    "text": "Are all organizational problems simple puzzles? No, not all organizational problems are simple puzzles with fixed structures and predictable processes.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 36,
+    "word_count": 14
+  },
+  {
+    "text": "What makes organizational problems complex? Organizational problems are complex due to dynamic interactions among organizational structures, evolving procedures, and shifting outcomes.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 37,
+    "word_count": 16
+  },
+  {
+    "text": "What kind of research is being conducted by SPL? Our research offers actionable guidance for navigating complex challenges and shaping adaptive policies in an era of rapid digital transformation.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 38,
+    "word_count": 20
+  },
+  {
+    "text": "Who is SPL partnering with to develop a holistic framework? We are partnering with Human Factors specialists from Clemson University.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 39,
+    "word_count": 10
+  },
+  {
+    "text": "What kind of experiments have the Human Factors specialists conducted? They have conducted rigorous eye tracking and mental workload experiments.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 40,
+    "word_count": 10
+  },
+  {
+    "text": "What is the goal of the holistic framework being developed? The framework maps out work system elements, their interrelated processes, and the emergence of distributed situational awareness.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 41,
+    "word_count": 17
+  },
+  {
+    "text": "What does the model developed by SPL quantify? The model quantifies the impact of situational awareness on efficiency, safety, and operator workload.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 42,
+    "word_count": 14
+  },
+  {
+    "text": "What is the focus of the research partnership between SPL and Georgetown University and Brigham Young University? The research partnership focuses on investigating how both organizations and individuals learn from automation use in high stakes environments.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 43,
+    "word_count": 19
+  },
+  {
+    "text": "What type of environments are being studied for automation use? High stakes environments are being studied.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 44,
+    "word_count": 6
+  },
+  {
+    "text": "What is the goal of the research partnership? The goal is to investigate how both organizations and individuals learn from automation use.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 45,
+    "word_count": 14
+  },
+  {
+    "text": "What does the research examine? The research examines macro level organizational learning processes alongside micro level user experience and behavior.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 46,
+    "word_count": 15
+  },
+  {
+    "text": "What is being used as a testbed for the research? Infrabel's traffic control centers are being used as a real world testbed.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 47,
+    "word_count": 12
+  },
+  {
+    "text": "What is the railway infrastructure of Belgium controlled by? The railway infrastructure of Belgium is controlled by Infrabel.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 48,
+    "word_count": 9
+  },
+  {
+    "text": "What is the goal of the SPL's research? The goal is to drive safer, more efficient, and more resilient rail operations.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 49,
+    "word_count": 13
+  },
+  {
+    "text": "What approach does SPL use to model the underlying dynamics in rail operations? SPL uses system dynamics modeling.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 50,
+    "word_count": 5
+  },
+  {
+    "text": "What framework does SPL use to analyze safety, economic, and workload boundaries? Rasmussen's framework is used.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 51,
+    "word_count": 4
+  },
+  {
+    "text": "What does SPL aim to uncover through its research? SPL aims to uncover how automation shapes knowledge, decision-making, and practices.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 52,
+    "word_count": 11
+  },
+  {
+    "text": "What methods does SPL use to explore trade-offs between different boundaries? SPL uses causal loop diagrams to explore these trade-offs.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 53,
+    "word_count": 9
+  },
+  {
+    "text": "What are some of the key trade-offs that SPL considers? Some of the key trade-offs include intuition versus automation, team familiarity versus flexibility, generalization versus specialization of roles, and competing goal hierarchies.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 54,
+    "word_count": 22
+  },
+  {
+    "text": "How do competing goal hierarchies affect individual behavior and organizational outcomes? Competing goal hierarchies shape both individual behavior and organizational outcomes.",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 55,
+    "word_count": 10
+  },
+  {
+    "text": "What is the main focus of the research project? The research project focuses on the cognitive understanding of complexity, specifically in the context of engineering students and practitioners.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 56,
+    "word_count": 19
+  },
+  {
+    "text": "What is the central hypothesis of the research project? The central hypothesis is that education in engineering programs and real-world experiences influence an engineer's understanding of complex systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 57,
+    "word_count": 19
+  },
+  {
+    "text": "Who are the principal investigators of the research project? The principal investigator is Triantis, and the co-PIs are Ghaffarzadegan, Hosseinichimeh, Knight, and Grohs.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 58,
+    "word_count": 14
+  },
+  {
+    "text": "Who is funding the research project? The research project is funded by the National Science Foundation.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 59,
+    "word_count": 10
+  },
+  {
+    "text": "What is the goal of studying undergraduate students and professionals with different experiences? The goal is to study how education in engineering programs and real-world experiences influence an engineer's understanding of complex systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 60,
+    "word_count": 20
+  },
+  {
+    "text": "What are the four research questions being investigated in this study? The four research questions are RQ1, RQ2, RQ3, and RQ4.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 61,
+    "word_count": 10
+  },
+  {
+    "text": "How many vignettes will be used to represent complex tasks in this study? Three vignettes will be used, with different levels of structuredness and complexity.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 62,
+    "word_count": 12
+  },
+  {
+    "text": "What is the purpose of studying the relationship between engineering students/professionals' level of education/expertise and their performance on the vignettes? The purpose is to investigate the relationship between education/expertise and performance on the vignettes (RQ1).",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 63,
+    "word_count": 15
+  },
+  {
+    "text": "How do engineering students and professionals differ in their approaches to solving problems? Engineering students and professionals differ in their approaches to solving problems that vary with respect to problem structuredness and complexity (RQ3).",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 64,
+    "word_count": 21
+  },
+  {
+    "text": "What will be studied in relation to engineering students/professionals' perceptions of their own systems thinking competencies? Their performance on the vignettes will be studied in relation to their perceptions of their own systems thinking competencies (RQ2).",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 65,
+    "word_count": 20
+  },
+  {
+    "text": "What does the research focus on? Modeling mental workload and multi level factors that collectively create errors in complex, safety critical systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 66,
+    "word_count": 16
+  },
+  {
+    "text": "Who is the PI for the research? Niyousha Hosseinichimeh",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 67,
+    "word_count": 2
+  },
+  {
+    "text": "What institution is collaborating with the research? Institute for Society, Culture and Environment (ISCE)-VT",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 68,
+    "word_count": 7
+  },
+  {
+    "text": "Who is the Co-PI for the research? K.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 69,
+    "word_count": 1
+  },
+  {
+    "text": "Who are the collaborators of Triantis? The collaborators of Triantis include Andrea K. Wittenborn, Robin L. Dillon-Merrill, Roets Bart, and Peter Madsen.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 70,
+    "word_count": 16
+  },
+  {
+    "text": "What are the affiliations of Andrea K. Wittenborn? Andrea K. Wittenborn is an Associate Professor at Michigan State University, affiliated with Psychiatry and Behavioral Medicine and Human Development and Family Studies.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 71,
+    "word_count": 23
+  },
+  {
+    "text": "What is the affiliation of Peter Madsen? Peter Madsen is affiliated with the School of Business at Brigham Young University.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 72,
+    "word_count": 13
+  },
+  {
+    "text": "What is the affiliation of Roets Bart? Roets Bart is the Chief Engineer at INFRABEL Belgian Railway Company.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 73,
+    "word_count": 11
+  },
+  {
+    "text": "What is the affiliation of Robin L. Dillon-Merrill? Robin L. Dillon-Merrill is a Professor at Georgetown University's McDonough School of Business.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 74,
+    "word_count": 13
+  },
+  {
+    "text": "What is the significance of human errors in safety critical systems? Human errors in safety critical systems have led to many catastrophic events around the globe.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 75,
+    "word_count": 15
+  },
+  {
+    "text": "What is an example of a catastrophic event caused by human error? The 2010 Halle train collision in Belgium that killed 19 people and injured 171 passengers.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 76,
+    "word_count": 15
+  },
+  {
+    "text": "How many people were killed in the 2010 Halle train collision? 19 people were killed in the 2010 Halle train collision.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 77,
+    "word_count": 10
+  },
+  {
+    "text": "What factors contribute to human errors? Mental workload, stress, fatigue, mental health, and organizational factors contribute to human errors.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 78,
+    "word_count": 13
+  },
+  {
+    "text": "What is the purpose of this research? This research aims to investigate dynamic hypotheses about the relationships among the factors that contribute to human errors and to map them.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 79,
+    "word_count": 22
+  },
+  {
+    "text": "What are the dynamic hypotheses this research aims to investigate? The research aims to investigate dynamic hypotheses about the relationships among mental workload, stress, fatigue, mental health, and organizational factors.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 80,
+    "word_count": 20
+  },
+  {
+    "text": "What data will be used to calibrate the system dynamics simulation model? Data provided by the INFRABEL (Belgian Railway Company)",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 81,
+    "word_count": 8
+  },
+  {
+    "text": "What will be done to the system dynamics simulation model after it's built? It will go through many structural and behavioral tests.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 82,
+    "word_count": 9
+  },
+  {
+    "text": "What will the system dynamics simulation model be used for after it's tested? It will be used to run what if analyses and explore interventions.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 83,
+    "word_count": 12
+  },
+  {
+    "text": "What is the main goal of the research mentioned on the SPL website? The research aims to suggest implications of specific interventions that can reduce human errors and stress in the workplace.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 84,
+    "word_count": 19
+  },
+  {
+    "text": "What type of research is being conducted under the National Science Foundation's Infrastructure Management and Extreme Event Program? Collaborative Research: Multi-Perspective Evacuation Performance Measurement",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 85,
+    "word_count": 6
+  },
+  {
+    "text": "What are the consequences of performing well in an evacuation? The consequences of performing well in an evacuation are many.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 86,
+    "word_count": 10
+  },
+  {
+    "text": "Who is the PI for the Collaborative Research: Multi-Perspective Evacuation Performance Measurement? Triantis",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 87,
+    "word_count": 1
+  },
+  {
+    "text": "Who is the co-PI for the Collaborative Research: Multi-Perspective Evacuation Performance Measurement? Dr. Murray Tuite",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 88,
+    "word_count": 3
+  },
+  {
+    "text": "What are the goals of utilizing scarce resources? They range from utilizing scarce resources, to saving lives and protecting property, to securing politically viable decisions when a disaster occurs.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 89,
+    "word_count": 21
+  },
+  {
+    "text": "What are some examples of the goals of evacuation? They range from utilizing scarce resources, to saving lives and protecting property, to securing politically viable decisions when a disaster occurs.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 90,
+    "word_count": 21
+  },
+  {
+    "text": "Why is there limited consensus on what constitutes a successful evacuation? There is limited consensus among various stakeholder groups as to what constitutes a successful evacuation.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 91,
+    "word_count": 15
+  },
+  {
+    "text": "What changes have been made to evacuation plans since Hurricane Katrina? Some evacuation issues have been considered and plans adjusted to one degree or another.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 92,
+    "word_count": 14
+  },
+  {
+    "text": "What type of solutions have been implemented to address evacuation issues? Most changes have been reactive responses to particular problems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 93,
+    "word_count": 9
+  },
+  {
+    "text": "Do the implemented solutions ensure that new shortcomings will not be identified in the next event? No, these solutions are stop gaps that do little to ensure that new shortcomings will not be identified in the next event.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 94,
+    "word_count": 22
+  },
+  {
+    "text": "What is considered a good evacuation? A good evacuation is not explicitly defined in the provided text, but it is mentioned as a concept that changes during an evacuation.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 95,
+    "word_count": 23
+  },
+  {
+    "text": "Who decides what a good evacuation means? According to the text, it is not specified who decides what a good evacuation means.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 96,
+    "word_count": 15
+  },
+  {
+    "text": "How does the concept of a good evacuation change during an evacuation? The text mentions that the concept of a good evacuation changes during an evacuation, but it does not provide further details.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 97,
+    "word_count": 21
+  },
+  {
+    "text": "What approaches are being used to explore the concept of a good evacuation? The proposal is using sociological, engineering, and performance measurement approaches to explore the concept of a good evacuation.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 98,
+    "word_count": 18
+  },
+  {
+    "text": "What is the goal of this proposal? The goal of this proposal is to explore some of the issues related to evacuation performance measurement and improvement.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 99,
+    "word_count": 19
+  },
+  {
+    "text": "What is the main goal of the Convergence HTF project? The main goal is to enhance small and mid-level farm viability.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 100,
+    "word_count": 11
+  },
+  {
+    "text": "Who is the PI (Principal Investigator) of the Research Collaboration Network (RCN)? The PI is Srinivasan.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 101,
+    "word_count": 4
+  },
+  {
+    "text": "What type of disciplines are being converged in the Convergence HTF project? Various engineering, socio behavioral, and humanistic disciplines.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 102,
+    "word_count": 7
+  },
+  {
+    "text": "What is the purpose of linking systems-based research in technology, human factors, and sustainable development with education and practice? To enhance small and mid-level farm viability.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 103,
+    "word_count": 7
+  },
+  {
+    "text": "Who is a member of the steering committee for the Convergence HTF project? Triantis.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 104,
+    "word_count": 1
+  },
+  {
+    "text": "What types of technology are expected to impact farming? Assistive technology, precision agriculture, agricultural robots, and sensor development for land and resource monitoring.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 105,
+    "word_count": 14
+  },
+  {
+    "text": "How will these technologies affect farming? They are expected to significantly impact the day-to-day operational ease and costs of farming.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 106,
+    "word_count": 14
+  },
+  {
+    "text": "What kind of monitoring will be done with sensor development? Land and resource monitoring.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 107,
+    "word_count": 4
+  },
+  {
+    "text": "What disciplines need to converge with technological innovation research? Various engineering, socio-behavioral, and humanistic disciplines such as human factors, health and safety, systems engineering and an integrated approach to sustainability in food and farming systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 108,
+    "word_count": 26
+  },
+  {
+    "text": "How can we maximize the impact and acceptance of technology in farming? Through a community participatory framework, extension, outreach, education, and farmer capacity-building efforts.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 109,
+    "word_count": 12
+  },
+  {
+    "text": "What kind of research is needed to achieve revolutionary advances in the future? Technological innovation research that converges with various other engineering, socio-behavioral, and humanistic disciplines.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 110,
+    "word_count": 13
+  },
+  {
+    "text": "What is the objective of the workshop? The objective of this workshop is to investigate and define theoretical foundations in systems engineering with respect to a fundamental thrust area among many.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 111,
+    "word_count": 24
+  },
+  {
+    "text": "Who is the PI for the workshop? The PI for the workshop is Triantis.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 112,
+    "word_count": 7
+  },
+  {
+    "text": "What program is the workshop a part of? The workshop is a part of the System Science Program at the National Science Foundation.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 113,
+    "word_count": 15
+  },
+  {
+    "text": "What is the title of the workshop? The title of the workshop is The Investigation of the Theoretical Foundations of Systems Engineering.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 114,
+    "word_count": 15
+  },
+  {
+    "text": "What is the funding source for the workshop? The funding source for the workshop is the National Science Foundation.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 115,
+    "word_count": 11
+  },
+  {
+    "text": "What will the workshop participants do to achieve the objective? The workshop participants will follow an approach that will address theoretical gaps in the literature, define an axiomatic framework, suggest what can be borrowed from other disciplines, investigate synergies among thrust areas and link the theoretical foundations to societal needs.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 116,
+    "word_count": 40
+  },
+  {
+    "text": "What kind of gaps in the literature will the workshop participants address? Theoretical gaps in the literature.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 117,
+    "word_count": 5
+  },
+  {
+    "text": "What will the workshop participants borrow from other disciplines? What can be borrowed from other disciplines.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 118,
+    "word_count": 7
+  },
+  {
+    "text": "What will the workshop participants do with the theoretical foundations? Link the theoretical foundations to societal needs.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 119,
+    "word_count": 7
+  },
+  {
+    "text": "What will the workshop participants investigate among the thrust areas? Synergies among thrust areas.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 120,
+    "word_count": 4
+  },
+  {
+    "text": "What can be done with the approach followed in this workshop if it is successful? It can be used and augmented to address additional thrust areas in the future.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 121,
+    "word_count": 14
+  },
+  {
+    "text": "What will be created if the approach is successful? Rigorous theoretical frameworks that can subsequently be tested with solid empirical fieldwork.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 122,
+    "word_count": 12
+  },
+  {
+    "text": "What will happen to the theoretical frameworks created? They will be tested with solid empirical fieldwork.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 123,
+    "word_count": 8
+  },
+  {
+    "text": "What is the topic of the research project? Climate Change and Urban Growth",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 124,
+    "word_count": 5
+  },
+  {
+    "text": "What is the focus of the research project's water management system? Sustainable and Resilient",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 125,
+    "word_count": 3
+  },
+  {
+    "text": "Where is the research project located? Greater Washington, DC Metropolitan Area",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 126,
+    "word_count": 5
+  },
+  {
+    "text": "Who is a co-principal investigator of the research project? Drs.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 127,
+    "word_count": 1
+  },
+  {
+    "text": "What is the role of the person mentioned as Drs.? Co-principal investigator",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 128,
+    "word_count": 2
+  },
+  {
+    "text": "Who are the co-principal investigators for the proposed study? Triantis (ISE), Murray-Tuite (CEE), Wolf (CPAP) and Wernstedt (School of Public and International Affairs)",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 129,
+    "word_count": 14
+  },
+  {
+    "text": "Who is the principal investigator for the proposed study? Dr. Moglen (CEE)",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 130,
+    "word_count": 3
+  },
+  {
+    "text": "What is the focus of the proposed study? A range of technical alternatives and institutional approaches for addressing future water challenges",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 131,
+    "word_count": 13
+  },
+  {
+    "text": "What institution is hosting the ICTAS Grand Challenge? Virginia Tech",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 132,
+    "word_count": 2
+  },
+  {
+    "text": "What is the name of the research initiative? ICTAS Grand Challenge",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 133,
+    "word_count": 3
+  },
+  {
+    "text": "What types of professionals can use the SPL portfolio of tools? Engineers, scientists, managers, and decision-makers can use the SPL portfolio of tools.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 134,
+    "word_count": 12
+  },
+  {
+    "text": "Will the SPL portfolio solve water problems using a single approach? No, the SPL portfolio will address water problems from different angles and across many scales.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 135,
+    "word_count": 15
+  },
+  {
+    "text": "What is the purpose of the SPL portfolio? The SPL portfolio serves as a broad portfolio of tools for addressing water problems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 136,
+    "word_count": 14
+  },
+  {
+    "text": "What kind of solutions will be developed through this approach? Robust and resilient solutions",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 137,
+    "word_count": 4
+  },
+  {
+    "text": "Who is the co-principal investigator for the proposal for Efficiency and Work Flow Analyses? Triantis, along with Drs.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 138,
+    "word_count": 4
+  },
+  {
+    "text": "What is the proposal for? Efficiency and Work Flow Analyses",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 139,
+    "word_count": 5
+  },
+  {
+    "text": "What is transforming the market in which MCT is competing? Economic and technological forces, including the increasing strength of digital media, the declining position of traditional news delivery systems, and the growth of complex search, editing, delivery and data mining technologies.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 140,
+    "word_count": 31
+  },
+  {
+    "text": "What is happening to traditional news delivery systems? Their position is declining.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 141,
+    "word_count": 4
+  },
+  {
+    "text": "What is growing in the market? Complex search, editing, delivery and data mining technologies.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 142,
+    "word_count": 8
+  },
+  {
+    "text": "What is changing for news agencies? Both the economics and the functionality of news agencies are changing.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 143,
+    "word_count": 11
+  },
+  {
+    "text": "What does MCT need to be agile in to benefit from technological innovations? MCT needs to be agile in reshaping its business processes.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 144,
+    "word_count": 10
+  },
+  {
+    "text": "What is the focus of this project? The focus of this project is to help MCT understand its product/service processes, identify effective intervention strategies, and propose suitable change concepts.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 145,
+    "word_count": 22
+  },
+  {
+    "text": "Why is MCT reshaping its business processes? MCT is reshaping its business processes to be best positioned to benefit from technological innovations and to take advantage of new opportunities for increased productivity without compromising established sources of revenue.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 146,
+    "word_count": 31
+  },
+  {
+    "text": "What is the purpose of the research on road maintenance efficiency? The purpose of this research is to develop and implement a comprehensive framework that can measure the overall efficiency of road maintenance operations.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 147,
+    "word_count": 23
+  },
+  {
+    "text": "What challenges does the research aim to address in measuring road maintenance efficiency? The research aims to address the challenge of measuring the relative performance of road maintenance operations given multiple inputs and outputs that are incommensurate and affected by multiple uncontrollable factors.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 148,
+    "word_count": 30
+  },
+  {
+    "text": "What methods will be used in the research to measure road maintenance efficiency? Current performance measurement paradigms and Data Envelopment Analysis (DEA) will be used and expanded in this research.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 149,
+    "word_count": 17
+  },
+  {
+    "text": "What societal goals will be considered in the research? Important societal goals such as safety will be considered in the research.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 150,
+    "word_count": 12
+  },
+  {
+    "text": "What is the name of the funding organization for this research? The National Science Foundation is the funding organization for this research.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 151,
+    "word_count": 11
+  },
+  {
+    "text": "What is the topic of the research project 'Traffic Congestion: Actions and Reactions'? The topic of the research project is traffic congestion.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 152,
+    "word_count": 9
+  },
+  {
+    "text": "Who is the principal investigator of the research project 'Traffic Congestion: Actions and Reactions'? The principal investigator is Triantis.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 153,
+    "word_count": 5
+  },
+  {
+    "text": "Who else is involved in the research project 'Traffic Congestion: Actions and Reactions'? Dr. is also involved in the research project.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 154,
+    "word_count": 8
+  },
+  {
+    "text": "Who submitted a proposal with the National Science Foundation? Teodorovic submitted a proposal jointly with Louisiana State University and the University of Mississippi.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 155,
+    "word_count": 14
+  },
+  {
+    "text": "What type of research is being considered in the proposal? The proposal considers an interdisciplinary research on the causes and ramifications of change altering our spatial and social world.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 156,
+    "word_count": 19
+  },
+  {
+    "text": "What is the goal of the proposed research? The goal is to design social institutions to ameliorate traffic congestion.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 157,
+    "word_count": 11
+  },
+  {
+    "text": "Who are the other institutions involved in the proposal? The proposal was submitted jointly with Louisiana State University (Dr. Sarangi) and the University of Mississippi (Dr. Summary).",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 158,
+    "word_count": 18
+  },
+  {
+    "text": "What is the focus of the proposed research? The focus is on understanding the causes and ramifications of change in our spatial and social world.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 159,
+    "word_count": 17
+  },
+  {
+    "text": "What is the title of the research project? The Effect of New Technologies on Ship Systems: A System Dynamics Cost Modeling Approach",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 160,
+    "word_count": 14
+  },
+  {
+    "text": "Who is the principal investigator of the research project? Triantis",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 161,
+    "word_count": 1
+  },
+  {
+    "text": "What is the funding source for the research project? Office of Naval Research",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 162,
+    "word_count": 4
+  },
+  {
+    "text": "What type of cost models will be developed in the research project? System dynamics based cost models",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 163,
+    "word_count": 5
+  },
+  {
+    "text": "What concepts will complement the cost models in the research project? Efficiency optimization concepts and structures",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 164,
+    "word_count": 5
+  },
+  {
+    "text": "Who is the principal investigator for the research project on chapter performance indicators? Triantis",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 165,
+    "word_count": 1
+  },
+  {
+    "text": "What is the research project awarded to define? quality, outcome, and efficiency indicators of chapter performance",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 166,
+    "word_count": 8
+  },
+  {
+    "text": "Which company will be a subcontractor to Virginia Tech in this research project? Newport News Shipbuilding",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 167,
+    "word_count": 3
+  },
+  {
+    "text": "Who is the principal investigator for the instrument development and data collection? Triantis",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 168,
+    "word_count": 1
+  },
+  {
+    "text": "What is the name of the company where cost data was accumulated from? Northrop Grumman Newport News Shipbuilding",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 169,
+    "word_count": 5
+  },
+  {
+    "text": "What was the purpose of the research project? The purpose of the research project was to develop Total Quality Management (TQM) assessment and design guidelines to be used by the Navy to award contracts based on TQM criteria.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 170,
+    "word_count": 30
+  },
+  {
+    "text": "Who was the principal investigator of the research project? The principal investigator was Triantis.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 171,
+    "word_count": 5
+  },
+  {
+    "text": "Where was the research project based? The research project was based in Naval Warfare Assessment Center Corona, California, and Naval Sea Systems Command Crystal City, VA.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 172,
+    "word_count": 20
+  },
+  {
+    "text": "What type of facilities was the research project focused on? The research project was focused on shipboard electronic hardware production facilities.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 173,
+    "word_count": 11
+  },
+  {
+    "text": "What type of research project was this? This was an evaluation and macro level design specifications research project.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 174,
+    "word_count": 11
+  },
+  {
+    "text": "What is the name of the NSF project? LEAP-HI: Safety and Learning from Errors and Near Misses in the Human-Automation Interaction of Socio-Technical Infrastructure Systems",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 175,
+    "word_count": 17
+  },
+  {
+    "text": "How much funding did Kostas Triantis receive for the NSF project? $2 million",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 176,
+    "word_count": 2
+  },
+  {
+    "text": "What is the duration of the NSF project? four years",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 177,
+    "word_count": 2
+  },
+  {
+    "text": "What is the focus of the NSF project? how cognitive biases influence trust in automation and decisions to delegate tasks to automated technologies",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 178,
+    "word_count": 15
+  },
+  {
+    "text": "Who is the professor leading the NSF project? Kostas Triantis",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 179,
+    "word_count": 2
+  },
+  {
+    "text": "What is the role of a control center in a railway operation? A control center serves as a hub of the newest rail technology, ensuring the smooth operation of train services, providing passengers with information, and resolving safety incidents.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 180,
+    "word_count": 27
+  },
+  {
+    "text": "What is the interface between human operators and technology in a control center? The interface between human operators and technology is at the heart of every control center.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 181,
+    "word_count": 15
+  },
+  {
+    "text": "What are control centers also known as in the rail network? Control centers are also known as the 'nerve centers' of the rail network.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 182,
+    "word_count": 13
+  },
+  {
+    "text": "What do people often believe about technology in the railway industry? Technology alone improves efficiency, quality, safety, and cost.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 183,
+    "word_count": 8
+  },
+  {
+    "text": "How did train drivers perform their jobs safely in the early years of the railway industry? Train drivers relied heavily on their own perceptions and judgment to perform their jobs safely.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 184,
+    "word_count": 15
+  },
+  {
+    "text": "What potential issues can technology introduce in the railway industry? Technology may also introduce errors and adverse events.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 185,
+    "word_count": 8
+  },
+  {
+    "text": "What methods were used by train drivers in the past? Those methods were augmented with technology designed to work with a variety of modern driver systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 186,
+    "word_count": 16
+  },
+  {
+    "text": "What kind of technologies do modern train drivers encounter in the cab? More automated technologies within the cab than ever before.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 187,
+    "word_count": 9
+  },
+  {
+    "text": "Have train driver systems changed over time? Yes, they have been augmented with technology designed to work with a variety of modern driver systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 188,
+    "word_count": 17
+  },
+  {
+    "text": "What is the goal of the research project led by Kostas Triantis? The goal is to find out the impacts of technology and how decisions are best made between human operators and increasingly autonomous technologies to carry out safety-critical tasks.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 189,
+    "word_count": 28
+  },
+  {
+    "text": "Who is leading the research project? Kostas Triantis, a professor in the Grado Department of Industrial and Systems Engineering in the College of Engineering.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 190,
+    "word_count": 18
+  },
+  {
+    "text": "What organization is funding the research project? The research project is funded by the National Science Foundation (NSF).",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 191,
+    "word_count": 11
+  },
+  {
+    "text": "What type of tasks are being studied in the research project? Safety-critical tasks.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 192,
+    "word_count": 2
+  },
+  {
+    "text": "What disciplines will researchers from multiple universities collaborate in for this project? decision theory, organizational theory, systems engineering and human factors engineering",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 193,
+    "word_count": 10
+  },
+  {
+    "text": "Which organizations will collaborate with researchers from multiple universities in Europe? INFRABEL, Pro Rail, Network Rail, European Agency for Railways",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 194,
+    "word_count": 9
+  },
+  {
+    "text": "Will researchers from the U.S. be collaborating in this project? yes",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 195,
+    "word_count": 1
+  },
+  {
+    "text": "What type of project is this? not specified",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 196,
+    "word_count": 2
+  },
+  {
+    "text": "Who is involved in the research mentioned on the SPL website? The research involves infrastructure providers (Union Pacific) and federal research centers (VOLPE Center).",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 197,
+    "word_count": 13
+  },
+  {
+    "text": "What are the main goals of the research? The research aims to improve safety levels, staff wellbeing, and the smart use of automation in control rooms.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 198,
+    "word_count": 18
+  },
+  {
+    "text": "What role will automation play in the future according to Bart Roets? Automation will play an even more important role than it does today in the future.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 199,
+    "word_count": 15
+  },
+  {
+    "text": "Who made the statement about the research? The statement was made by Bart Roets, principal engineer at Infrabel.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 200,
+    "word_count": 11
+  },
+  {
+    "text": "Who will be working together to develop new control room datasets and metrics? Researchers, data engineers, and other project collaborators.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 201,
+    "word_count": 7
+  },
+  {
+    "text": "What can be expected to emerge from the interactions between researchers, data engineers, and other project collaborators? New and innovative types of control room datasets and metrics.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 202,
+    "word_count": 10
+  },
+  {
+    "text": "Who received a Ph.D.? Roets",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 203,
+    "word_count": 1
+  },
+  {
+    "text": "What is the role of the person from Ghent University? He serves as the intermediary between the research group and INFRABEL.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 204,
+    "word_count": 11
+  },
+  {
+    "text": "What does the person from Ghent University do for INFRABEL? He represents INFRABEL at the bi-weekly research meetings.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 205,
+    "word_count": 8
+  },
+  {
+    "text": "What is the person from Ghent University involved in? He serves on Ph.D.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 206,
+    "word_count": 4
+  },
+  {
+    "text": "What are some responsibilities of a research committee member at SPL? As a committee member, they contribute to various research journal papers and act as an intermediary between INFRABEL and other European infrastructure providers.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 207,
+    "word_count": 23
+  },
+  {
+    "text": "What role does a research committee member play in SPL's research team? They contribute to various research journal papers that the research team works on.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 208,
+    "word_count": 13
+  },
+  {
+    "text": "What is the role of a research committee member in relation to European infrastructure providers? They act as an intermediary between INFRABEL and other European infrastructure providers, such as ProRail and Network Rail.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 209,
+    "word_count": 18
+  },
+  {
+    "text": "Who does a research committee member work with? They work with INFRABEL and other European infrastructure providers, including ProRail, Network Rail, and others.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 210,
+    "word_count": 15
+  },
+  {
+    "text": "What kind of papers do research committee members contribute to? They contribute to various research journal papers.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 211,
+    "word_count": 7
+  },
+  {
+    "text": "What is the name of the researcher mentioned in the text? Triantis",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 212,
+    "word_count": 1
+  },
+  {
+    "text": "What is the name of the NSF grant program that funded this research? Leading Engineering for America's Prosperity, Health, and Infrastructure (LEAP-HI)",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 213,
+    "word_count": 9
+  },
+  {
+    "text": "What is the amount of the NSF grant? $2 million",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 214,
+    "word_count": 2
+  },
+  {
+    "text": "How long is the NSF grant for? four years",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 215,
+    "word_count": 2
+  },
+  {
+    "text": "What will the research team be exploring? how cognitive biases influence trust in automation and decisions to delegate tasks to automated technologies",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 216,
+    "word_count": 15
+  },
+  {
+    "text": "What drives safe aviation in the airline industry? Air traffic flow management and collaborative decision-making drive safe aviation.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 217,
+    "word_count": 10
+  },
+  {
+    "text": "What happens when pilots use automated systems? Their monitoring workload becomes larger, which then increases the probability of making an error.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 218,
+    "word_count": 14
+  },
+  {
+    "text": "When should pilots intervene and use systems manually? When circumstances dictate, pilots and operators should make decisions as to when to intervene and use systems manually.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 219,
+    "word_count": 18
+  },
+  {
+    "text": "What happened to the Boeing Max jet? It was involved in two fatal accidents in 2018 and 2019.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 220,
+    "word_count": 11
+  },
+  {
+    "text": "Why did the pilots crash the plane? They were not trained to handle the new automated system, known as MCAS.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 221,
+    "word_count": 13
+  },
+  {
+    "text": "What happened when the pilots tried to override the MCAS system? They were unable to override the system because they were not trained on the new technology.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 222,
+    "word_count": 16
+  },
+  {
+    "text": "What was the result of the pilots being unable to handle the MCAS system? It resulted in a crash and loss of life.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 223,
+    "word_count": 9
+  },
+  {
+    "text": "Why do controllers turn off automated systems during peak times? Regulating the transportation network becomes too complicated.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 224,
+    "word_count": 7
+  },
+  {
+    "text": "What happens to automated systems during peak times? Controllers often turn them off.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 225,
+    "word_count": 5
+  },
+  {
+    "text": "Who are the people that controllers turn off automated systems for? Engineers, operators, and managers.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 226,
+    "word_count": 4
+  },
+  {
+    "text": "How do different controllers respond to scenarios? They respond in a variety of ways.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 227,
+    "word_count": 7
+  },
+  {
+    "text": "Do younger controllers use automated systems differently than their senior colleagues? Yes, they tend to use the automated systems more than their senior colleagues.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 228,
+    "word_count": 13
+  },
+  {
+    "text": "Are younger controllers more or less likely to use automated systems? They are more likely to use automated systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 229,
+    "word_count": 8
+  },
+  {
+    "text": "Why do transportation agencies want to use technology more? To achieve cost efficiency.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 230,
+    "word_count": 4
+  },
+  {
+    "text": "What factors do transportation agencies consider when making decisions about technology? Economic feasibility, safety, and workload demands placed on operators.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 231,
+    "word_count": 9
+  },
+  {
+    "text": "What is the main goal of transportation agencies in using technology? To achieve cost efficiency.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 232,
+    "word_count": 4
+  },
+  {
+    "text": "What kind of situations require managing human-technology interaction? Similar situations abound in the health care sector where managing human-technology interaction is critical.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 233,
+    "word_count": 14
+  },
+  {
+    "text": "Why is situation awareness important in operating rooms? Doctors, nurses, and other stakeholders need situation awareness to effectively manage automated systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 234,
+    "word_count": 13
+  },
+  {
+    "text": "What can happen if automated systems are poorly designed? Poorly designed automated systems may cause more incidents instead of preventing them, especially when automation reduces the human role to being primarily supervisory.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 235,
+    "word_count": 23
+  },
+  {
+    "text": "What is the LEAP-HI grant? The LEAP-HI grant is a precursor to the current project.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 236,
+    "word_count": 10
+  },
+  {
+    "text": "Who is collaborating with Triantis on this project? MEDSTAR in Northern Virginia and Carilion in Roanoke are collaborating with Triantis on this project.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 237,
+    "word_count": 15
+  },
+  {
+    "text": "What type of grant is Triantis trying to secure? Triantis is trying to secure a seed grant.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 238,
+    "word_count": 8
+  },
+  {
+    "text": "Where is MEDSTAR located? MEDSTAR is located in Northern Virginia.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 239,
+    "word_count": 6
+  },
+  {
+    "text": "Where is Carilion located? Carilion is located in Roanoke.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 240,
+    "word_count": 5
+  },
+  {
+    "text": "How long has the researcher been working to find a more holistic approach to societal problems? For the past four decades since Triantis' dissertation.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 241,
+    "word_count": 8
+  },
+  {
+    "text": "What has been the focus of the researcher's work? Our focus has been more and more multidisciplinary.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 242,
+    "word_count": 8
+  },
+  {
+    "text": "What is the researcher trying to achieve by combining different disciplines? A more holistic approach to societal problems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 243,
+    "word_count": 7
+  },
+  {
+    "text": "What challenges does SPL face in its work? The integration of social networks and their behaviors with technological change is a challenge SPL faces.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 244,
+    "word_count": 16
+  },
+  {
+    "text": "What kind of problems is SPL trying to address? SPL is trying to address complex societal problems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 245,
+    "word_count": 8
+  },
+  {
+    "text": "What is SPL evaluating the impacts of? SPL is evaluating the impacts of technological investments.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 246,
+    "word_count": 8
+  },
+  {
+    "text": "What theoretical paradigms and modeling approaches is SPL considering? SPL is considering specific theoretical paradigms and different modeling approaches to address complex societal problems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 247,
+    "word_count": 15
+  },
+  {
+    "text": "What is SPL trying to see? SPL is trying to see the relevance of specific theoretical paradigms and different modeling approaches to address complex societal problems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 248,
+    "word_count": 20
+  },
+  {
+    "text": "What is multidisciplinary research? It involves doing research that combines different approaches from various disciplines.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 249,
+    "word_count": 11
+  },
+  {
+    "text": "How do different disciplines approach research? Different approaches pertain to different disciplines.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 250,
+    "word_count": 6
+  },
+  {
+    "text": "How does theory relate to reality? Some of the theory actually relates to reality.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 251,
+    "word_count": 8
+  },
+  {
+    "text": "What types of students will the project support? Students going into STEM-related fields.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 252,
+    "word_count": 5
+  },
+  {
+    "text": "What will be done with the research findings? The research findings will be integrated into the curricula for undergraduate and graduate students.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 253,
+    "word_count": 14
+  },
+  {
+    "text": "What type of activities will the project support? Outreach activities to stimulate interest in the sociotechnical domain area.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 254,
+    "word_count": 10
+  },
+  {
+    "text": "What types of students will benefit from the integrated research findings? Undergraduate and graduate students.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 255,
+    "word_count": 4
+  },
+  {
+    "text": "What fields of study will be impacted by the project? STEM-related fields.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 256,
+    "word_count": 2
+  },
+  {
+    "text": "What are the LEAP HI related disciplines that the outreach activities aim to stimulate interest in? STEM related fields",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 257,
+    "word_count": 3
+  },
+  {
+    "text": "What is the overall goal of the outreach activities? To reach out to a diverse group of students on the human-automation interface and the modeling of socio-technical systems",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 258,
+    "word_count": 19
+  },
+  {
+    "text": "What types of students are targeted by the outreach activities? Students going into STEM related fields",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 259,
+    "word_count": 6
+  },
+  {
+    "text": "What are the principal elements of the SPL plan? The principal elements include course development and implementation, designing or extending courses based on research results.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 260,
+    "word_count": 16
+  },
+  {
+    "text": "What type of courses is SPL designing or extending? SPL is designing or extending courses based on research results, including a course in Socio-Technical Systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 261,
+    "word_count": 16
+  },
+  {
+    "text": "What course has SPL already designed and is offering? SPL has already designed and is offering a course in Socio-Technical Systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 262,
+    "word_count": 12
+  },
+  {
+    "text": "What is the SPL's approach to recruiting students from underrepresented minorities? The SPL employs practices developed at VT, Georgetown, and BYU to recruit students from underrepresented minorities.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 263,
+    "word_count": 16
+  },
+  {
+    "text": "How does the SPL plan to retain students from underrepresented minorities? The SPL employs practices developed at VT, Georgetown, and BYU to retain students from underrepresented minorities.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 264,
+    "word_count": 16
+  },
+  {
+    "text": "What groups does the SPL aim to recruit and retain? The SPL aims to recruit and retain students from underrepresented minorities including women.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 265,
+    "word_count": 13
+  },
+  {
+    "text": "What institutions did the SPL draw its recruitment and retention practices from? The SPL drew its recruitment and retention practices from VT, Georgetown, and BYU.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 266,
+    "word_count": 13
+  },
+  {
+    "text": "What type of students does the CEED mentoring plan target? African American, Hispanic/Latino, and women",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 267,
+    "word_count": 5
+  },
+  {
+    "text": "What is the purpose of the mentoring plan? Professional development",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 268,
+    "word_count": 2
+  },
+  {
+    "text": "What type of mentoring plans has CEED implemented? Successful mentoring plans",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 269,
+    "word_count": 3
+  },
+  {
+    "text": "What will guide the implementation of the mentoring plan in this project? CEED's successful mentoring plans",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 270,
+    "word_count": 4
+  },
+  {
+    "text": "What is the goal of implementing mentoring plans in this project? Professional development",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 271,
+    "word_count": 2
+  },
+  {
+    "text": "What types of activities will be offered to increase public awareness and student interest in LEAP HI related disciplines and STEM? VT CEED pre-college activities will be offered.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 272,
+    "word_count": 7
+  },
+  {
+    "text": "What topics will be focused on when reaching out to grades 7-12 students? The topics of fatigue and decision-making will be focused on.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 273,
+    "word_count": 10
+  },
+  {
+    "text": "What types of challenges will be presented to students in grades 7-12? Simulator decision-making challenges will be presented to students in grades 7-12.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 274,
+    "word_count": 11
+  },
+  {
+    "text": "What age range will be targeted for outreach programs? Grades 7-12 students will be targeted for outreach programs.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 275,
+    "word_count": 9
+  },
+  {
+    "text": "What is the goal of the outreach programs? The goal is to increase public-at-large awareness and K-12 student interest in LEAP HI related disciplines and STEM.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 276,
+    "word_count": 18
+  },
+  {
+    "text": "How many students will participate in the international research internship? Three students will participate, consisting of a postdoctoral researcher and two graduate students.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 277,
+    "word_count": 13
+  },
+  {
+    "text": "Where will the summer research work be conducted? The summer research work will be conducted at INFRABEL.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 278,
+    "word_count": 9
+  },
+  {
+    "text": "Is this internship program only available during the summer? Yes, the internship program is only mentioned as being available during the summer.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 279,
+    "word_count": 13
+  },
+  {
+    "text": "Who will benefit directly from the research findings? Our collaborators and a core of infrastructure providers.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 280,
+    "word_count": 8
+  },
+  {
+    "text": "Who else will be included in the core of infrastructure providers? US DOT-FTA/FRA, NIOSH, and the International Union of Railways.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 281,
+    "word_count": 9
+  },
+  {
+    "text": "Where will the research findings be presented? Key technology related workshops, conferences, and trade shows.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 282,
+    "word_count": 8
+  },
+  {
+    "text": "Who will benefit from the insights obtained in this work? Infrastructure providers and regulators with authority over infrastructure systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 283,
+    "word_count": 9
+  },
+  {
+    "text": "What kind of input does the framework provide to the engineering community? A critical input, specifically for safety regulators working with automation-driven infrastructure systems.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 284,
+    "word_count": 12
+  },
+  {
+    "text": "Which US government agencies have authority over infrastructure systems? The FRA, FAA, US Coast Guard, and FTA.",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "chunk_index": 285,
+    "word_count": 8
+  },
+  {
+    "text": "What is the name of the publication about automation in safety-critical systems? Automation in Safety-Critical Systems",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 286,
+    "word_count": 4
+  },
+  {
+    "text": "Who are the authors of the publication 'Automation in Safety-Critical Systems'? Hashemian, S. P., Sobrie, L., Mohsenirad, S., Roets, B., & Asmild, M.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 287,
+    "word_count": 12
+  },
+  {
+    "text": "What is the subject of the publication 'Monitoring production pressure in socio-technical systems: The case of Belgian railroads'? Monitoring production pressure in socio-technical systems: The case of Belgian railroads",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 288,
+    "word_count": 11
+  },
+  {
+    "text": "What is the focus of the publication 'Automation in Safety-Critical Systems'? Automation in safety-critical systems",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 289,
+    "word_count": 4
+  },
+  {
+    "text": "What is the case study in the publication 'Monitoring production pressure in socio-technical systems: The case of Belgian railroads'? Belgian railroads",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 290,
+    "word_count": 2
+  },
+  {
+    "text": "What is the name of the journal where the study was published? Safety Science",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 291,
+    "word_count": 2
+  },
+  {
+    "text": "What is the volume number of the journal where the study was published? 198",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 292,
+    "word_count": 1
+  },
+  {
+    "text": "What is the page number of the study in the journal? 107166",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 293,
+    "word_count": 1
+  },
+  {
+    "text": "Who are the authors of the study? G., Triantis, K., Madsen, P., & Roets, B.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 294,
+    "word_count": 8
+  },
+  {
+    "text": "What is the title of the study? The Relationships among Workload, Automation Reliance, and Human Errors in Safety-Critical Monitoring Roles",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 295,
+    "word_count": 13
+  },
+  {
+    "text": "What is the title of the research paper on production pressure and safety? Production pressure and its relationship to safety: A systematic review and future directions.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 296,
+    "word_count": 13
+  },
+  {
+    "text": "What is the name of the journal where the research paper was published? Safety Science",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 297,
+    "word_count": 2
+  },
+  {
+    "text": "What is the volume and article number of the research paper? 159, 106045",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 298,
+    "word_count": 2
+  },
+  {
+    "text": "What is the title of the research paper on machine learning? Machine Learning Ba-Aoum, M., Alrezq, M., Datta, J., & Triantis, K.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 299,
+    "word_count": 11
+  },
+  {
+    "text": "What is the relationship between the two research papers? There is no information provided about the relationship between the two research papers.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 300,
+    "word_count": 13
+  },
+  {
+    "text": "What research was conducted by Sobrie, Verschelde, and Roets? Explainable real-time predictive analytics on employee workload in digital railway control rooms.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 301,
+    "word_count": 12
+  },
+  {
+    "text": "Where was the research on predicting student self-efficacy published? Frontiers in Big Data",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 302,
+    "word_count": 4
+  },
+  {
+    "text": "What is the title of the research on predicting student self-efficacy? Predicting student self-efficacy in Muslim societies using machine learning algorithms",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 303,
+    "word_count": 10
+  },
+  {
+    "text": "What is the reference number of the research on predicting student self-efficacy? 1449572",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 304,
+    "word_count": 1
+  },
+  {
+    "text": "Where is the research on predicting student self-efficacy located in the Frontiers in Big Data journal? Volume 7",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 305,
+    "word_count": 2
+  },
+  {
+    "text": "What is the name of the journal where Mohsenirad and Triantis published their research on testing for heterogeneity in data envelopment analysis? Annals of Operations Research",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 306,
+    "word_count": 4
+  },
+  {
+    "text": "What is the title of the paper by Mohsenirad and Triantis on testing for heterogeneity in data envelopment analysis? Testing for heterogeneity in data envelopment analysis",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 307,
+    "word_count": 7
+  },
+  {
+    "text": "What is the title of the other paper mentioned on the SPL website? Data Envelopment Analysis",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 308,
+    "word_count": 3
+  },
+  {
+    "text": "What is the name of the journal where the paper 'Data Envelopment Analysis' was published? European Journal of Operational Research",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 309,
+    "word_count": 5
+  },
+  {
+    "text": "What are the page numbers for the paper 'Testing for heterogeneity in data envelopment analysis'? 1-22",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 310,
+    "word_count": 1
+  },
+  {
+    "text": "What is the name of the authors mentioned in the paper? The authors are D., Triantis, K., Sklavos, S., and Kanas, A.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 311,
+    "word_count": 11
+  },
+  {
+    "text": "What is the title of the paper? An alternative Bayesian data envelopment analysis approach for correcting bias of efficiency estimators",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 312,
+    "word_count": 13
+  },
+  {
+    "text": "What journal published the paper? Journal of the Operational Research Society",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 313,
+    "word_count": 6
+  },
+  {
+    "text": "What is the volume and issue number of the journal where the paper was published? Volume 74, Issue 4",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 314,
+    "word_count": 4
+  },
+  {
+    "text": "What are the pages of the paper? Pages 1021-1041",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 315,
+    "word_count": 2
+  },
+  {
+    "text": "What is the topic of the research paper by Rebecca Bian and her co-authors? Disaster & Crisis Management",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 316,
+    "word_count": 4
+  },
+  {
+    "text": "What is the title of the research paper by Rebecca Bian and her co-authors? Sequentially modeling household accommodation, destination, and departure time choices",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 317,
+    "word_count": 9
+  },
+  {
+    "text": "In which journal was the research paper by Rebecca Bian and her co-authors published? International Journal of Mass Emergencies & Disasters",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 318,
+    "word_count": 7
+  },
+  {
+    "text": "What are the names of the co-authors of the research paper by Rebecca Bian? Murray-Tuite, P., Trainor, J. E., Edara, P., & Triantis, K.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 319,
+    "word_count": 10
+  },
+  {
+    "text": "What is the volume and issue number of the journal where the research paper by Rebecca Bian and her co-authors was published? 41 (2-3)",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 320,
+    "word_count": 2
+  },
+  {
+    "text": "What is the name of the publication where the research on evacuees' intended responses to a phased hurricane evacuation order was published? Applied Sciences",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 321,
+    "word_count": 2
+  },
+  {
+    "text": "Who are the authors of the research on evacuees' intended responses to a phased hurricane evacuation order? Bian, R., Murray-Tuite, P., Trainor, J., Edara, P., & Triantis, K.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 322,
+    "word_count": 11
+  },
+  {
+    "text": "What is the title of the research on evacuees' intended responses to a phased hurricane evacuation order? Modeling evacuees intended responses to a phased hurricane evacuation order",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 323,
+    "word_count": 10
+  },
+  {
+    "text": "What is the volume and issue number of the publication where the research on evacuees' intended responses to a phased hurricane evacuation order was published? 13(8)",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 324,
+    "word_count": 1
+  },
+  {
+    "text": "What is the page number of the publication where the research on evacuees' intended responses to a phased hurricane evacuation order was published? 5194",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 325,
+    "word_count": 1
+  },
+  {
+    "text": "What are mental models and cognitive maps in the context of system dynamics? Mental models and cognitive maps are concepts related to system dynamics.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 326,
+    "word_count": 11
+  },
+  {
+    "text": "What is the title of the paper referenced in the text? The title of the paper is 'Mental models, cognitive maps, and the challenge of quantitative analysis of their network representations'.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 327,
+    "word_count": 20
+  },
+  {
+    "text": "What is the journal where the paper was published? The paper was published in System Dynamics Review.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 328,
+    "word_count": 8
+  },
+  {
+    "text": "What is the volume and issue number of the journal where the paper was published? The paper was published in volume 39, issue 2.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 329,
+    "word_count": 9
+  },
+  {
+    "text": "Who are the authors of the referenced paper? The authors are Davis, K., Ghaffarzadegan, N., Grohs, J., Grote, D., Hosseinichimeh, N., Knight, D., Mahmoudi, H., & Triantis, K.",
+    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
+    "chunk_index": 330,
+    "word_count": 20
+  },
+  {
+    "text": "Who does SPL collaborate with? SPL collaborates with MedStar Health and Carilion Clinic/VT Carilion School of Medicine.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 331,
+    "word_count": 12
+  },
+  {
+    "text": "What is the focus of SPL's collaboration? The focus is on how human-technology interaction impacts safety, efficiency, and operational performance in healthcare systems, with a focus on operating rooms.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 332,
+    "word_count": 22
+  },
+  {
+    "text": "What type of system is SPL exploring? SPL is exploring healthcare systems.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 333,
+    "word_count": 5
+  },
+  {
+    "text": "What fields of study does the SPL effort bridge? engineering, healthcare, and the social sciences",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 334,
+    "word_count": 6
+  },
+  {
+    "text": "What are some of the advanced modeling techniques used in SPL research? AI, system simulation, and efficiency analysis",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 335,
+    "word_count": 6
+  },
+  {
+    "text": "What are some of the organizational factors and cognitive dynamics emphasized in SPL research? mental workload, situational awareness, and trust in automation",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 336,
+    "word_count": 8
+  },
+  {
+    "text": "What are the goals of collecting and analyzing real-world data in SPL research? to inform both healthcare practices and engineering education",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 337,
+    "word_count": 8
+  },
+  {
+    "text": "What kind of environments does SPL research focus on? safety-critical environments",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 338,
+    "word_count": 2
+  },
+  {
+    "text": "What year did SPL start working with INFRABEL under a Non-Disclosure Agreement? 2019",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 339,
+    "word_count": 1
+  },
+  {
+    "text": "What is the purpose of the partnership between SPL and INFRABEL? To support SPL's work on modern socio-technical infrastructure systems",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 340,
+    "word_count": 9
+  },
+  {
+    "text": "What type of systems does SPL work on with INFRABEL? Socio-technical infrastructure systems that operate in dynamic environments with complex interactions",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 341,
+    "word_count": 11
+  },
+  {
+    "text": "What types of data are being gathered from Traffic Control Centers? Event logs, train punctuality records, and high-fidelity simulator data.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 342,
+    "word_count": 9
+  },
+  {
+    "text": "Why are these data sources important? They are critical for developing models and tools that enhance our understanding of human-system interaction, workload, and organizational performance under varying operational conditions.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 343,
+    "word_count": 23
+  },
+  {
+    "text": "What kind of models and tools are being developed? Models and tools that enhance our understanding of human-system interaction, workload, and organizational performance under varying operational conditions.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 344,
+    "word_count": 18
+  },
+  {
+    "text": "What does SPL's research provide to Infrabel? SPL's research provides Infrabel with insights that inform system design, training protocols, and policy decisions.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 345,
+    "word_count": 15
+  },
+  {
+    "text": "What are the goals of the insights provided by SPL's research to Infrabel? The goals are to improve safety, efficiency, and overall system resilience.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 346,
+    "word_count": 11
+  },
+  {
+    "text": "Where can I read more about the NSF-funded project with Infrabel? You can read about it here.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 347,
+    "word_count": 6
+  },
+  {
+    "text": "Who does SPL partner with? SPL partners with Azist, a leading business growth & compliance consulting firm.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 348,
+    "word_count": 12
+  },
+  {
+    "text": "What is the goal of SPL's partnership with Azist? The goal is to create a safe environment where students, academics, innovators and companies come together, develop their best ideas and work.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 349,
+    "word_count": 22
+  },
+  {
+    "text": "What kind of environment does SPL aim to create? A safe environment where students, academics, innovators and companies come together, develop their best ideas and work.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 350,
+    "word_count": 17
+  },
+  {
+    "text": "Who is SPL partnering with to develop an incubator for groundbreaking ideas? Azist Inc.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 351,
+    "word_count": 2
+  },
+  {
+    "text": "What kind of individuals is SPL looking to connect with? Individuals who are passionate about technology, innovation and making a real impact!",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 352,
+    "word_count": 12
+  },
+  {
+    "text": "What is SPL developing in partnership with Azist Inc.? An incubator for groundbreaking ideas",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 353,
+    "word_count": 5
+  },
+  {
+    "text": "What opportunities for collaboration might I be considered for? Potential opportunities for collaboration will be explored based on the information provided in the form.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 354,
+    "word_count": 15
+  },
+  {
+    "text": "How will my insights and expertise be used? Your insights and expertise will play a key role in shaping the initiative.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 355,
+    "word_count": 13
+  },
+  {
+    "text": "What information will be collected from the form? The form will collect information to learn more about you.",
+    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
+    "chunk_index": 356,
+    "word_count": 10
+  },
+  {
+    "text": "What type of systems does the ISE 6024 course focus on? Complex industrial, service, governmental, and healthcare systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 357,
+    "word_count": 7
+  },
+  {
+    "text": "What is the primary focus of the ISE 6024 course? Management systems engineering, with a focus on advanced performance measurement.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 358,
+    "word_count": 10
+  },
+  {
+    "text": "What skills do students develop in the ISE 6024 course? Research skills using a systems thinking paradigm.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 359,
+    "word_count": 7
+  },
+  {
+    "text": "What type of course is ISE 6024? A research-oriented course.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 360,
+    "word_count": 3
+  },
+  {
+    "text": "What is the main topic of study in the ISE 6024 course? Efficiency performance measurement.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 361,
+    "word_count": 3
+  },
+  {
+    "text": "What topics are covered in this course? Economic production theory, data-driven modeling techniques such as data envelopment analysis (DEA), statistical frontier analysis (SFA), and agent-based modeling.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 362,
+    "word_count": 19
+  },
+  {
+    "text": "What skills will I learn in this course? The analytical tools necessary for designing and improving system performance across multiple dimensions, including productivity, quality, and innovation.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 363,
+    "word_count": 18
+  },
+  {
+    "text": "What are the learning objectives of this course? To develop an understanding of performance and efficiency measurement system design, define system-level problems, identify their root causes, and model system structures influencing efficiency performance.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 364,
+    "word_count": 25
+  },
+  {
+    "text": "What types of variables can affect system efficiency? Structural, organizational, and socio-economic variables can affect system efficiency.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 365,
+    "word_count": 9
+  },
+  {
+    "text": "What method is used to assess and improve system performance? Data envelopment analysis (DEA) and other quantitative frameworks are used to assess and improve system performance.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 366,
+    "word_count": 16
+  },
+  {
+    "text": "How are model results used? Model results are interpreted, integrated into decision support systems, and used to facilitate group modeling initiatives for organizational improvement.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 367,
+    "word_count": 19
+  },
+  {
+    "text": "What is the goal of using decision support systems? Decision support systems are integrated to facilitate group modeling initiatives for organizational improvement.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 368,
+    "word_count": 13
+  },
+  {
+    "text": "What type of initiatives are used to improve organizational performance? Group modeling initiatives are used to improve organizational performance.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 369,
+    "word_count": 9
+  },
+  {
+    "text": "What is the focus of the ISE 5984 course? The course focuses on the conceptualization, design, and management of socio-technical systems, with a focus on human-automation interactions in critical infrastructure, healthcare, and information systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 370,
+    "word_count": 25
+  },
+  {
+    "text": "What principles are integrated in the ISE 5984 course? The course integrates principles from systems theory, complexity science, safety science, macro-ergonomics, and policy design.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 371,
+    "word_count": 15
+  },
+  {
+    "text": "What kind of systems are explored in the ISE 5984 course? Socio-technical systems are explored in the course.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 372,
+    "word_count": 7
+  },
+  {
+    "text": "What is the goal of the ISE 5984 course? The course provides a foundational understanding of socio-technical systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 373,
+    "word_count": 9
+  },
+  {
+    "text": "What topics are covered in the ISE 5984 course? The course covers the conceptualization, design, and management of socio-technical systems, as well as human-automation interactions in critical infrastructure, healthcare, and information systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 374,
+    "word_count": 23
+  },
+  {
+    "text": "What type of students is the course ideal for? The course is ideal for students in industrial and systems engineering, as well as other engineering disciplines.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 375,
+    "word_count": 17
+  },
+  {
+    "text": "What are some of the key challenges that students will learn to identify and analyze in this course? Key challenges in socio-technical systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 376,
+    "word_count": 5
+  },
+  {
+    "text": "What kind of learning objectives can students expect to achieve in this course? Identify and analyze key challenges in socio-technical systems. Critically evaluate different conceptual representations of socio-technical systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 377,
+    "word_count": 16
+  },
+  {
+    "text": "What kind of environments will students be prepared to address challenges in after completing this course? Automation-driven socio-technical environments.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 378,
+    "word_count": 3
+  },
+  {
+    "text": "What level of study is this course designed for? Graduate-level study.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 379,
+    "word_count": 2
+  },
+  {
+    "text": "What are the key components of a functional model in SPL? Functional models in SPL define inputs, outputs, outcomes, and contextual factors.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 380,
+    "word_count": 11
+  },
+  {
+    "text": "What types of structural representations can be constructed in SPL? Structural representations of socio-technical systems can be constructed in SPL.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 381,
+    "word_count": 10
+  },
+  {
+    "text": "What are some conceptualization frameworks that can be compared and assessed in SPL? Various conceptualization frameworks, including DSRP, functional, structural, hierarchical, and complex adaptive system approaches, can be compared and assessed in SPL.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 382,
+    "word_count": 20
+  },
+  {
+    "text": "What is the purpose of comparing and assessing conceptualization frameworks in SPL? The purpose of comparing and assessing conceptualization frameworks in SPL is not explicitly stated, but it is implied to be for comparison and assessment purposes.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 383,
+    "word_count": 25
+  },
+  {
+    "text": "What type of research projects are students required to work on in this program? Individual and team research projects that apply theoretical concepts to real-world socio-technical systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 384,
+    "word_count": 13
+  },
+  {
+    "text": "What is the focus of the course ISE 5144? The course presents principles that provide the foundation for the design of process-oriented efficiency measurement systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 385,
+    "word_count": 16
+  },
+  {
+    "text": "What is the purpose of the course ISE 5144? The course provides the foundation for the design of process-oriented efficiency measurement systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 386,
+    "word_count": 13
+  },
+  {
+    "text": "What is the main focus of this course? This course focuses on benchmarking (assessing) current efficiency levels and the planning (designing) for future efficiency improvement interventions.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 387,
+    "word_count": 18
+  },
+  {
+    "text": "What is the link between the course and engineering systems? The course presents the link between the efficiency measurement literature and engineering systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 388,
+    "word_count": 13
+  },
+  {
+    "text": "What is the goal of measurement science in management systems engineering? The goal is to advance measurement science in management systems engineering.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 389,
+    "word_count": 11
+  },
+  {
+    "text": "What is the basis of the key concepts used in SPL? The key concepts are based on an axiomatic framework rooted in microeconomic theory.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 390,
+    "word_count": 13
+  },
+  {
+    "text": "What types of modeling approaches will be covered in SPL? The modeling approaches that will be covered include index numbers, data envelopment analysis (DEA), statistical frontier analysis (SFA), and system dynamics modeling.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 391,
+    "word_count": 22
+  },
+  {
+    "text": "What is the purpose of using index numbers in SPL? The purpose of using index numbers is part of the efficiency and productivity measurement modeling approaches that SPL will cover.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 392,
+    "word_count": 20
+  },
+  {
+    "text": "What is the relationship between DEA and SFA in SPL? Both DEA and SFA are part of the efficiency and productivity measurement modeling approaches that SPL will cover.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 393,
+    "word_count": 18
+  },
+  {
+    "text": "What is the focus of system dynamics modeling in SPL? System dynamics modeling is one of the efficiency and productivity measurement modeling approaches that SPL will cover.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 394,
+    "word_count": 17
+  },
+  {
+    "text": "What will I learn by completing a research project in this course? You will learn the principles behind designing and applying performance measurement systems for process-oriented efficiency and productivity.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 395,
+    "word_count": 17
+  },
+  {
+    "text": "What modeling methods will I gain proficiency in? You will gain proficiency in various modeling methods, including data envelopment analysis (DEA), statistical frontier analysis (SFA), index numbers, and system dynamics.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 396,
+    "word_count": 22
+  },
+  {
+    "text": "What are the main learning objectives of this course? The main learning objectives are to learn the principles behind designing and applying performance measurement systems for process-oriented efficiency and productivity, and to gain proficiency in various modeling methods.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 397,
+    "word_count": 29
+  },
+  {
+    "text": "What are the key steps to assess current efficiency levels? Assess current efficiency levels, identify peers, and define performance targets for improvement.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 398,
+    "word_count": 12
+  },
+  {
+    "text": "How does efficiency relate to other business aspects? Efficiency and productivity relate to cost, revenue, profitability, and organizational policies.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 399,
+    "word_count": 11
+  },
+  {
+    "text": "What skills are required to apply efficiency measurement principles in practice? Develop skills to translate theoretical efficiency measurement principles into practical applications using empirical datasets.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 400,
+    "word_count": 14
+  },
+  {
+    "text": "What factors influence efficiency performance in socio-technical systems? Efficiency performance is influenced by structural, contextual, and behavioral factors within socio-technical systems.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 401,
+    "word_count": 13
+  },
+  {
+    "text": "What tools are used to evaluate system performance in a research project? Efficiency measurement models and analytical tools like R are used to evaluate system performance.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 402,
+    "word_count": 14
+  },
+  {
+    "text": "What is the main focus of the ISE 5124 course? The main focus of the ISE 5124 course is on quality management for technology-centric enterprises.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 403,
+    "word_count": 15
+  },
+  {
+    "text": "What skills will students acquire by the end of the course? By the end of the course, students will be equipped to drive quality improvements in production, service, and managerial processes.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 404,
+    "word_count": 20
+  },
+  {
+    "text": "What are some of the learning objectives of the ISE 5124 course? The learning objectives of the ISE 5124 course include defining quality management problems, specifying quality dimensions and characteristics, formulating models for quality management assessment, and computing quality management capability measures.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 405,
+    "word_count": 30
+  },
+  {
+    "text": "What is the purpose of the translational research project in the course? The translational research project in the course is used to formulate models for quality management assessment using quality standards.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 406,
+    "word_count": 19
+  },
+  {
+    "text": "How does the course help students assess quality? Students learn to assess quality using industry standards and compute quality measures.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 407,
+    "word_count": 12
+  },
+  {
+    "text": "What is the purpose of a translational research project in quality improvement? The purpose of a translational research project is to design quality improvement plans (synthesis outcome) and assess the quality management performance of a production/service system (evaluation outcome).",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 408,
+    "word_count": 27
+  },
+  {
+    "text": "How can quality performance be related to other business metrics? Quality performance can be related to cost, efficiency, and profitability performance of technology-centric enterprises (analysis outcome).",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 409,
+    "word_count": 16
+  },
+  {
+    "text": "What outcomes can be expected from a translational research project? A translational research project can result in synthesis, evaluation, and analysis outcomes, which include designing quality improvement plans, assessing quality management performance, and relating quality performance to other business metrics.",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 410,
+    "word_count": 30
+  },
+  {
+    "text": "When did the SPL host the next Teen Science Caf on Systems and Solutions? March 14, 2026",
+    "source_url": "https://www.spl.ise.vt.edu/news-events.html",
+    "chunk_index": 411,
+    "word_count": 3
+  },
+  {
+    "text": "Who won the 2025 Summer Cunningham Fellowship? Saman Mohsenirad",
+    "source_url": "https://www.spl.ise.vt.edu/news-events.html",
+    "chunk_index": 412,
+    "word_count": 2
+  },
+  {
+    "text": "When did the SPL visit the Virginia Railway Express (VRE) Headquarters? March 03, 2026",
+    "source_url": "https://www.spl.ise.vt.edu/news-events.html",
+    "chunk_index": 413,
+    "word_count": 3
+  },
+  {
+    "text": "What is the name of the scholarship won by Yasmin Mashayekhy Fard? The Bridgette Beato Leadership Legacy Scholarship",
+    "source_url": "https://www.spl.ise.vt.edu/news-events.html",
+    "chunk_index": 414,
+    "word_count": 6
+  },
+  {
+    "text": "When did the SPL host the UVA Postdoctoral Research Symposium in Charlottesville? April 27, 2026",
+    "source_url": "https://www.spl.ise.vt.edu/news-events.html",
+    "chunk_index": 415,
+    "word_count": 3
+  },
+  {
+    "text": "What is the name of the outreach program developed by the System Performance Laboratory? STEaM Tech",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 416,
+    "word_count": 2
+  },
+  {
+    "text": "What is the goal of the STEaM Tech outreach program? Empowering Youth in Decision Science and Human Automation Interactions",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 417,
+    "word_count": 9
+  },
+  {
+    "text": "What subjects does the STEaM Tech outreach program introduce K-12 students to? systems thinking, decision-making, and human automation interaction",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 418,
+    "word_count": 7
+  },
+  {
+    "text": "Where is the System Performance Laboratory located? in the Grado Department of Industrial and Systems Engineering at Virginia Tech",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 419,
+    "word_count": 12
+  },
+  {
+    "text": "What type of challenges does the STEaM Tech outreach program use to teach K-12 students? real-world transportation challenges",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 420,
+    "word_count": 3
+  },
+  {
+    "text": "What types of activities are included in the STEMkits? The STEMkits include model trains, interactive control center activities, drones, and immersive visualization experiences.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 421,
+    "word_count": 14
+  },
+  {
+    "text": "What do students learn by using the STEMkits? Students learn how complex systems work and why human judgment remains essential even in highly automated environments.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 422,
+    "word_count": 17
+  },
+  {
+    "text": "What kind of experiences are part of the STEMkits? The STEMkits include immersive visualization experiences.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 423,
+    "word_count": 6
+  },
+  {
+    "text": "What is the purpose of the student workshop hosted by Virginia Tech? The purpose of the workshop is to focus on decision-making in transportation.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 424,
+    "word_count": 12
+  },
+  {
+    "text": "Why are modern transportation systems important? Modern transportation systems are essential to everyday life.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 425,
+    "word_count": 8
+  },
+  {
+    "text": "What is the Virginia Tech Center for Economic and Community Engagement involved in? The Virginia Tech Center for Economic and Community Engagement is hosting a student workshop focused on decision-making in transportation.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 426,
+    "word_count": 19
+  },
+  {
+    "text": "What is the purpose of this outreach initiative? This outreach initiative helps students build intuition for complex systems and networks, practice team-based problem-solving and decision-making under constraint, and understand trade-offs such as speed vs.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 427,
+    "word_count": 26
+  },
+  {
+    "text": "What kind of skills does this initiative aim to teach students? This initiative aims to teach students to build intuition for complex systems and networks, practice team-based problem-solving and decision-making under constraint, and understand trade-offs.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 428,
+    "word_count": 24
+  },
+  {
+    "text": "What are some examples of complex systems that students will learn about? Students will learn about systems such as metro, airports, and railways.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 429,
+    "word_count": 11
+  },
+  {
+    "text": "What are some of the trade-offs that students will learn about? Students will learn about trade-offs such as speed vs.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 430,
+    "word_count": 9
+  },
+  {
+    "text": "What is the main topic of the SPL project? The main topic of the SPL project is exploring how automation and AI can support people without replacing human responsibility.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 431,
+    "word_count": 20
+  },
+  {
+    "text": "What type of session was held with the SPL team and ISE researchers? A brainstorming session on the project's logo and identity was held.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 432,
+    "word_count": 11
+  },
+  {
+    "text": "Where was the brainstorming session held? The brainstorming session was held in Academic Building 1.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 433,
+    "word_count": 9
+  },
+  {
+    "text": "When was the brainstorming session held? The brainstorming session was held in November 2025.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 434,
+    "word_count": 8
+  },
+  {
+    "text": "What is the purpose of the SPL project's logo and identity brainstorming session? The purpose is to explore and decide on the project's logo and identity.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 435,
+    "word_count": 13
+  },
+  {
+    "text": "How long will the workshop last? The workshop will last approximately 3-4 hours.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 436,
+    "word_count": 7
+  },
+  {
+    "text": "What is the format of the workshop? The workshop is designed as a station-based experience where student groups rotate through a sequence of activities.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 437,
+    "word_count": 17
+  },
+  {
+    "text": "Where will the workshop take place? The workshop will take place in Academic Building 1.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 438,
+    "word_count": 9
+  },
+  {
+    "text": "How long will students spend at each activity? The text does not specify the exact time spent at each activity.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 439,
+    "word_count": 12
+  },
+  {
+    "text": "Will students be in groups during the workshop? Yes, students will be in groups during the workshop.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 440,
+    "word_count": 9
+  },
+  {
+    "text": "What are some examples of stations in the SPL program? Examples of stations include World of Movement, History of Trains, Routing in the Network, Building the Network, Controlling Train Traffic, Maintenance and AI, and Treasure Chest Reflection.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 441,
+    "word_count": 27
+  },
+  {
+    "text": "How is the SPL program funded? The SPL program is supported by a Vibrant Virginia seed grant.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 442,
+    "word_count": 11
+  },
+  {
+    "text": "Who are some community partners that the SPL program is working with? The SPL program is working with Urban Alliance and Chrysalis Development Group to expand access and impact.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 443,
+    "word_count": 17
+  },
+  {
+    "text": "What kind of programming does Chrysalis Development Group offer? Chrysalis Development Group offers hands-on STEAM programming for students from underserved communities.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 444,
+    "word_count": 12
+  },
+  {
+    "text": "What is the SPL program's goal with its outreach activities? The SPL program's outreach activities are designed to support daily life and meet different community needs.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 445,
+    "word_count": 16
+  },
+  {
+    "text": "Who is the PhD candidate mentioned in the text? Yasmin Mashayekhy",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 446,
+    "word_count": 2
+  },
+  {
+    "text": "How can I contact Yasmin Mashayekhy? yas@vt.edu",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 447,
+    "word_count": 1
+  },
+  {
+    "text": "Who else can I contact regarding the Chrysalis Development Group? Maria Tomai (tomai@vt.edu)",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 448,
+    "word_count": 3
+  },
+  {
+    "text": "Where is the meeting taking place? VT AB1",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 449,
+    "word_count": 2
+  },
+  {
+    "text": "What is the Chrysalis Development Group? No specific information is provided, but it is mentioned as the group Yasmin Mashayekhy is meeting with.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 450,
+    "word_count": 17
+  },
+  {
+    "text": "Who is funding the project? The project is funded by Vibrant Virginia.",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 451,
+    "word_count": 7
+  },
+  {
+    "text": "What is the name of the upcoming event at Virginia Tech in March 2026? The Teen Science Caf",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 452,
+    "word_count": 4
+  },
+  {
+    "text": "What is the topic of a guest lecture? Systems Thinking in Engineering",
+    "source_url": "https://www.spl.ise.vt.edu/outreach.html",
+    "chunk_index": 453,
+    "word_count": 4
+  },
+  {
+    "text": "When did Ken Harmon pass away? Thursday, April 2, 2026",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 454,
+    "word_count": 4
+  },
+  {
+    "text": "Where did Ken Harmon pass away? Richmond, VA",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 455,
+    "word_count": 2
+  },
+  {
+    "text": "What was Ken Harmon's role in the ISE System Performance Laboratory (SPL)? Co-founder and co-director",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 456,
+    "word_count": 3
+  },
+  {
+    "text": "When did Ken Harmon start serving as co-founder and co-director of the ISE System Performance Laboratory (SPL)? 1997",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 457,
+    "word_count": 1
+  },
+  {
+    "text": "Where was the ISE System Performance Laboratory (SPL) located? Northern Virginia",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 458,
+    "word_count": 2
+  },
+  {
+    "text": "What was Ken's suggestion for the lab? Ken suggested that the lab be branded.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 459,
+    "word_count": 7
+  },
+  {
+    "text": "Why did Ken think branding was important? Ken thought branding would provide the requisite identity needed to promote the programmatic and research efforts.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 460,
+    "word_count": 16
+  },
+  {
+    "text": "What benefits would branding provide for the lab? Branding would provide the identity needed to promote the programmatic and research efforts.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 461,
+    "word_count": 13
+  },
+  {
+    "text": "What is the name of the university that partnered with SPL for a contract graduate program? Virginia Tech",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 462,
+    "word_count": 2
+  },
+  {
+    "text": "What type of program did SPL develop in partnership with Virginia Tech? The first contract graduate program",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 463,
+    "word_count": 5
+  },
+  {
+    "text": "How long has the contract graduate program been offering on-site courses at the National Reconnaissance Office? Fifteen years",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 464,
+    "word_count": 2
+  },
+  {
+    "text": "What is the name of the division at Virginia Tech that partnered with SPL? The Division of Continuing and Professional Education",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 465,
+    "word_count": 7
+  },
+  {
+    "text": "Who developed the contract graduate program at SPL? Ken",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 466,
+    "word_count": 1
+  },
+  {
+    "text": "Who did the person recruit and supervise to teach courses in the systems engineering and engineering administration graduate programs? Several adjunct faculty members, including Warren Vaneman, Joe Godfrey, John Geraghty, Michael Deegan, and Mario Cardullo.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 467,
+    "word_count": 16
+  },
+  {
+    "text": "What graduate programs did the person recruit and supervise faculty to teach courses in? The systems engineering and engineering administration graduate programs.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 468,
+    "word_count": 8
+  },
+  {
+    "text": "What type of faculty did the person recruit and supervise? Adjunct faculty.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 469,
+    "word_count": 2
+  },
+  {
+    "text": "How many graduate courses did Ken teach? nine",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 470,
+    "word_count": 1
+  },
+  {
+    "text": "How many graduate students did Ken administer the comprehensive final examination for? more than 250",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 471,
+    "word_count": 3
+  },
+  {
+    "text": "What types of students did Ken serve as an advisor to? both graduate and undergraduate students",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 472,
+    "word_count": 5
+  },
+  {
+    "text": "What organizations is Ken a senior member and ongoing contributor to? The International Council on Systems Engineering (INCOSE) and the Institute of Industrial and Systems Engineers.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 473,
+    "word_count": 15
+  },
+  {
+    "text": "What boards did Ken serve on for INCOSE? The INCOSE Corporate Advisory Board and the INCOSE Academic Council.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 474,
+    "word_count": 10
+  },
+  {
+    "text": "What board did Ken serve on for IISE? The IISE Industry Advisory Board.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 475,
+    "word_count": 5
+  },
+  {
+    "text": "What type of groups did Ken support at INCOSE? Research working groups.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 476,
+    "word_count": 3
+  },
+  {
+    "text": "What will Ken be remembered for? Ken will be remembered for his humanity, humility, and empathy.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 477,
+    "word_count": 10
+  },
+  {
+    "text": "What was Ken to the speaker personally? Ken was a dear friend, true partner, collaborator, and brother.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 478,
+    "word_count": 10
+  },
+  {
+    "text": "What did Ken and the speaker work on together? They established the System Performance Laboratory and focused on updating and improving the engineering administration and systems engineering programs.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 479,
+    "word_count": 19
+  },
+  {
+    "text": "What programs did Ken and the speaker work to improve? They worked to improve the engineering administration and systems engineering programs.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 480,
+    "word_count": 11
+  },
+  {
+    "text": "What did Ken and the speaker establish? They established the System Performance Laboratory.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 481,
+    "word_count": 6
+  },
+  {
+    "text": "What was Ken's strength in promoting the capabilities of the academic programs and research lab? Ken was uncanny in being able to approach and convince potential sponsors or contributors of the value of what they were proposing.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 482,
+    "word_count": 22
+  },
+  {
+    "text": "What did the team try to sell and promote? The team tried to sell and promote the capabilities of either their academic programs or of their research lab.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 483,
+    "word_count": 19
+  },
+  {
+    "text": "What was the team's goal when approaching potential sponsors or contributors? The team's goal was to convince potential sponsors or contributors of the value of what they were proposing.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 484,
+    "word_count": 18
+  },
+  {
+    "text": "What was the approach of the organization when trying new ideas? The approach was to try new and innovative ideas and take action when necessary and ask for forgiveness later.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 485,
+    "word_count": 19
+  },
+  {
+    "text": "What was Ken's role in the organization? Ken mentored, inspired and touched many students and many of our colleagues.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 486,
+    "word_count": 12
+  },
+  {
+    "text": "What was the organization's goal? The organization dared to dream of opening new vistas.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 487,
+    "word_count": 9
+  },
+  {
+    "text": "What kind of person was Ken according to John Casali? A true gentleman.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 488,
+    "word_count": 3
+  },
+  {
+    "text": "How did Brian Kleiner feel about Ken's retirement? Brian Kleiner stated that he cannot imagine ISE without Ken.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 489,
+    "word_count": 10
+  },
+  {
+    "text": "What did Nimish Sheth say about Ken? Nimish Sheth described Ken as one of the kindest and genuine souls he has ever known.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 490,
+    "word_count": 16
+  },
+  {
+    "text": "How did Ken interact with his students? He was known to have been under his guidance and mentorship, and had the opportunity to learn from him.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 491,
+    "word_count": 19
+  },
+  {
+    "text": "What recent news did Vivek Caroli share about Ken? Vivek Caroli let Ken's friends know of his unfortunate passing.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 492,
+    "word_count": 10
+  },
+  {
+    "text": "How has Ken affected the people at SPL? It is impossible to describe how Ken has affected all of us.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 493,
+    "word_count": 12
+  },
+  {
+    "text": "What will SPL do to honor Ken's memory? We will always hold him dearly in our hearts.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 494,
+    "word_count": 9
+  },
+  {
+    "text": "What is the impact of Ken's presence at SPL? We all are blessed to have had him in our lives.",
+    "source_url": "https://www.spl.ise.vt.edu/in-memory-of-ken-harmon.html",
+    "chunk_index": 495,
+    "word_count": 11
+  },
+  {
+    "text": "Where was the NAPW 2025 event held? Virginia Tech Research Center, Arlington, VA",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 496,
+    "word_count": 6
+  },
+  {
+    "text": "How many attendees were at the NAPW XII (2025) event? Over 115",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 497,
+    "word_count": 2
+  },
+  {
+    "text": "What was the focus of the four-day NAPW XII (2025) program? Productivity and efficiency analysis",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 498,
+    "word_count": 4
+  },
+  {
+    "text": "What kind of community came together for NAPW XII (2025)? A vibrant and highly diverse community including researchers, policymakers, and industry professionals",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 499,
+    "word_count": 12
+  },
+  {
+    "text": "How many countries were represented at NAPW XII (2025)? More than 40",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 500,
+    "word_count": 3
+  },
+  {
+    "text": "Who were some of the high-profile speakers at the event? The event featured Ron Jarmin (U.S. Census Bureau), Bert Kroese (IMF), and Andrew Johnson (Amazon) as high-profile speakers.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 501,
+    "word_count": 18
+  },
+  {
+    "text": "What topics were addressed by the speakers? The speakers addressed timely topics on AI, economic activity, and productivity analytics.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 502,
+    "word_count": 12
+  },
+  {
+    "text": "What type of platform was the event? The event offered a rich platform for exchange among academic, industry, and governmental voices.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 503,
+    "word_count": 14
+  },
+  {
+    "text": "What were the main themes of the program? The main themes included agricultural productivity with a focus on environmental externalities and sustainable practices, cutting-edge advancements in Data Envelopment Analysis (DEA) and Stochastic Frontier Analysis (SFA), and the integration of AI and machine learning into productivity research.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 504,
+    "word_count": 38
+  },
+  {
+    "text": "How long did the program last? The program unfolded into four days.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 505,
+    "word_count": 6
+  },
+  {
+    "text": "What kind of sectors and methodologies were explored? The program offered a wide range of sectors and methodologies.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 506,
+    "word_count": 10
+  },
+  {
+    "text": "What types of sectors does the program cover? The program covers sector-specific applications in banking, energy, transportation, health, and public institutions.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 507,
+    "word_count": 13
+  },
+  {
+    "text": "What are some innovative topics the program explores? The program delves into innovative topics such as socio-technical system resilience, court efficiency, and structural productivity in developing economies.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 508,
+    "word_count": 19
+  },
+  {
+    "text": "What kind of economies does the program focus on? The program focuses on developing economies.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 509,
+    "word_count": 6
+  },
+  {
+    "text": "What topics are covered in the conference sessions? The conference sessions cover theoretical models, empirical applications, and policy-relevant insights.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 510,
+    "word_count": 11
+  },
+  {
+    "text": "What is the purpose of the Lifetime Achievement Award session? The Lifetime Achievement Award session is in honor of Leopold Simar, with presentations highlighting his legacy and contributions to the field.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 511,
+    "word_count": 21
+  },
+  {
+    "text": "Who received the Lifetime Achievement Award? Leopold Simar received the Lifetime Achievement Award.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 512,
+    "word_count": 7
+  },
+  {
+    "text": "Who presented at the Lifetime Achievement Award session? The session featured presentations by Paul Wilson, Cinzia Daraio, Camilla Mastromarco, and Valentin Zelenyuk.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 513,
+    "word_count": 14
+  },
+  {
+    "text": "What is the focus of the conference in terms of perspectives? The conference highlights both global and local perspectives on productivity.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 514,
+    "word_count": 10
+  },
+  {
+    "text": "What was NAPW 2025? NAPW 2025 was a celebration of years of collective effort and ongoing dedication to the field of productivity and performance analysis.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 515,
+    "word_count": 21
+  },
+  {
+    "text": "What did attendees of NAPW 2025 leave with? Attendees left with new ideas and insights, as well as a renewed sense of connection across continents, disciplines, and generations.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 516,
+    "word_count": 20
+  },
+  {
+    "text": "Where did the NAPW 2025 community gather? The community gathered in Arlington this June.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 517,
+    "word_count": 7
+  },
+  {
+    "text": "Who was the Head of the local organizing committee for the event? Prof Konstantinos (Kostas) Triantis",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 518,
+    "word_count": 4
+  },
+  {
+    "text": "Where was the first productivity workshop held? The School of Engineering and Applied Sciences at Columbia University",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 519,
+    "word_count": 10
+  },
+  {
+    "text": "Who held the first productivity workshop? Professor Ali Dogramaci of the Department of Industrial and Management Engineering",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 520,
+    "word_count": 11
+  },
+  {
+    "text": "What fields did the research community of the SPL reach out to initially? engineering, economics, and management",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 521,
+    "word_count": 4
+  },
+  {
+    "text": "What was the precursor to the Journal of Productivity Analysis? a number of volumes published by Kluwer on studies of Productivity Analysis",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 522,
+    "word_count": 12
+  },
+  {
+    "text": "What is the main focus of the research community of the SPL? measuring and managing productivity and efficiency growth",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 523,
+    "word_count": 7
+  },
+  {
+    "text": "Why is this research thrust important? This research thrust is important historically and today because of three primary issues: the ever-changing technological landscape; the continuous evolving environmental conditions; and the evolving societal challenges.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 524,
+    "word_count": 27
+  },
+  {
+    "text": "What kind of issues do the papers of this workshop address? The papers of this workshop address in a variety of contexts all of these issues.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 525,
+    "word_count": 15
+  },
+  {
+    "text": "What are the three primary issues that make this research thrust important? The three primary issues are: the ever-changing technological landscape; the continuous evolving environmental conditions; and the evolving societal challenges.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 526,
+    "word_count": 19
+  },
+  {
+    "text": "Why is the technological landscape changing? There is no information in the text about why the technological landscape is changing.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 527,
+    "word_count": 14
+  },
+  {
+    "text": "What kind of contexts do the papers of this workshop address? The papers address these issues in a variety of contexts.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/napw-2025.html",
+    "chunk_index": 528,
+    "word_count": 10
+  },
+  {
+    "text": "What project was the SPL team selected for a Vibrant Virginia seed award? The Future of Next: Empowering Youth in Decision Science and Human-Automation Interactions Through 'STEMkits'",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 529,
+    "word_count": 14
+  },
+  {
+    "text": "When was the SPL team selected for the Vibrant Virginia seed award? May 2025",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 530,
+    "word_count": 2
+  },
+  {
+    "text": "How much was the Vibrant Virginia seed award for the SPL team's project? $10,000",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 531,
+    "word_count": 1
+  },
+  {
+    "text": "What is the purpose of the SPL team's project? Empowering Youth in Decision Science and Human-Automation Interactions Through 'STEMkits'",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 532,
+    "word_count": 10
+  },
+  {
+    "text": "What are 'STEMkits'? They are part of the SPL team's project to empower youth in decision science and human-automation interactions",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 533,
+    "word_count": 17
+  },
+  {
+    "text": "What is the Vibrant Virginia initiative? The Vibrant Virginia initiative engages Virginia Tech in bridging divides for broader prosperity and more vibrant communities in every part of the state.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 534,
+    "word_count": 23
+  },
+  {
+    "text": "Who guides the Vibrant Virginia initiative? The University's Council on Vibrant Virginia guides the Vibrant Virginia initiative.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 535,
+    "word_count": 11
+  },
+  {
+    "text": "What is the goal of the Vibrant Virginia initiative? The goal of the Vibrant Virginia initiative is to bridge divides for broader prosperity and more vibrant communities in every part of the state.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 536,
+    "word_count": 24
+  },
+  {
+    "text": "Who will the awarded project focus on? K 12 students, middle school and high school students",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 537,
+    "word_count": 9
+  },
+  {
+    "text": "Where will the awarded project take place? Communities in Northern Virginia",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 538,
+    "word_count": 4
+  },
+  {
+    "text": "What is the role of the Westover Village Civic Association in the project? A key partnership with a strong interest in expanding educational opportunities and youth engagement in science, technology, and public infrastructure awareness",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 539,
+    "word_count": 21
+  },
+  {
+    "text": "What type of educational opportunities will the project expand? Educational opportunities in science, technology, and public infrastructure awareness",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 540,
+    "word_count": 9
+  },
+  {
+    "text": "What is the SPL team brainstorming about in November 2025? The SPL team is brainstorming about the project's logo and identity.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 541,
+    "word_count": 11
+  },
+  {
+    "text": "What type of events will be co-created by the SPL project? The events will be directly relevant to the neighborhood's interests in transportation, infrastructure, and civic well-being.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 542,
+    "word_count": 16
+  },
+  {
+    "text": "What research infrastructure will be used for immersive learning experiences? Virginia Tech's advanced research infrastructure, including the drone lab and the Immersive Visualization Lab.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 543,
+    "word_count": 14
+  },
+  {
+    "text": "Who are the SPL project partners? The SPL project partners with different sections/departments in ICAB1, including the Innovation Campus K-12 team, the Thinkabit Lab, and the System Performance Lab in ICAB1.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 544,
+    "word_count": 25
+  },
+  {
+    "text": "Where will the SPL project be located? The SPL project will be located in Academic Building 1.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 545,
+    "word_count": 10
+  },
+  {
+    "text": "What will participants be doing during the workshops? Participants will experiment, learn and understand their roles as decision makers and designers of the world to come through hands-on exploration and guided experimentation.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 546,
+    "word_count": 24
+  },
+  {
+    "text": "What is the purpose of the prototype sample? The prototype sample is to guide the design of the train models used in the workshops.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 547,
+    "word_count": 16
+  },
+  {
+    "text": "What will participants learn from the workshops? Participants will learn and understand their roles as decision makers and designers of the world to come.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 548,
+    "word_count": 17
+  },
+  {
+    "text": "How can humans and machines collaborate to prevent accidents or mistakes? Students will start thinking like engineers, scientists, and designers as they tackle critical questions such as this one.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 549,
+    "word_count": 18
+  },
+  {
+    "text": "What are some of the critical questions that students will be tackling? Students will be tackling critical questions such as how humans and machines can collaborate to prevent accidents or mistakes, what happens when we depend too much on technology, and can technology actually help us make better decisions?",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 550,
+    "word_count": 37
+  },
+  {
+    "text": "Can technology actually help us make better decisions? According to the SPL, yes, technology can actually help us make better decisions.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 551,
+    "word_count": 13
+  },
+  {
+    "text": "What happens when we depend too much on technology? This is another critical question that students will be tackling.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 552,
+    "word_count": 10
+  },
+  {
+    "text": "What will students gain from exploring these questions? Students will gain a deeper understanding of the strengths and limitations of both humans and machines.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 553,
+    "word_count": 16
+  },
+  {
+    "text": "What type of activities will be included in the project? The project will include interactive workshops and activities.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 554,
+    "word_count": 8
+  },
+  {
+    "text": "What kind of problems will students learn to solve? Students will learn to solve real problems.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 555,
+    "word_count": 7
+  },
+  {
+    "text": "How will people and technology work together? People and technology will work together to solve real problems.",
+    "source_url": "https://www.spl.ise.vt.edu/news-events/the-future-of-next--empowering-youth-in-decision-science-and-hum.html",
+    "chunk_index": 556,
+    "word_count": 10
+  },
+  {
+    "text": "Who is the Triantis John Lawrence Professor? Konstantinos P. Triantis",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 557,
+    "word_count": 3
+  },
+  {
+    "text": "Where is Konstantinos P. Triantis located? 5730 Academic Building One, 3625 Potomac Ave., Alexandria, VA 22305",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 558,
+    "word_count": 10
+  },
+  {
+    "text": "How can I contact Konstantinos P. Triantis? Email: triantis@vt.edu, Phone: 703-538-8446",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 559,
+    "word_count": 4
+  },
+  {
+    "text": "What is Konstantinos P. Triantis' field of expertise? ResearchGate and Google Scholar indicate that Konstantinos P. Triantis is a researcher with numerous publications and presentations.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 560,
+    "word_count": 17
+  },
+  {
+    "text": "How many papers and reports has Konstantinos P. Triantis authored? Over 140 papers and reports.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 561,
+    "word_count": 5
+  },
+  {
+    "text": "What are the research areas of the SPL team? The research areas include Management Systems Engineering, Data Envelopment Analysis, Critical Infrastructure Systems, Productivity measurement and analysis, Engineering economics, Operations research, Dynamic Performance Measurement and Evaluation (DPEM), Complex Adaptive Systems, Analysis of Productive Efficiency (CAPEM), Complex Adaptive Performance Evaluation for Collaborative Design (C2D), and Evacuation Planning.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 562,
+    "word_count": 46
+  },
+  {
+    "text": "What is the educational background of the team member? The team member has a Ph.D. in Industrial Engineering and Operations Research from Columbia University, an M. Phil. in Industrial Engineering and Operations Research from Columbia University, an M.S. in Industrial and Management Engineering from Columbia University, and a B.S. in Industrial and Management Engineering from Columbia University.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 563,
+    "word_count": 48
+  },
+  {
+    "text": "What are the editorial roles of the team member? The team member is a Senior Editor of the Data Envelopment Analysis Journal, and an Associate Editor of the Journal of Productivity Analysis and the Journal of Service Science.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 564,
+    "word_count": 29
+  },
+  {
+    "text": "What are some of the courses taught by the team member? The team member has taught courses such as Management of Quality and Reliability, Productivity and Performance Measurement and Improvement, Advanced Performance Measurement for Engineered Systems, and Economic Evaluation of Industrial Projects.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 565,
+    "word_count": 31
+  },
+  {
+    "text": "What are the team member's major responsibilities? The team member is the Director of the ISE Ph.D. program and has previously been the Director of the Systems Engineering Program and the Director of the ISE program in Virginia Tech's northern Virginia campus.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 566,
+    "word_count": 35
+  },
+  {
+    "text": "What is the role of the co-director of the System Performance Lab (SPL)? The co-director of SPL is also the Lead of the Management Team for the Resilient Infrastructure Processes and Systems (RIPS) Solicitation (NSF 13-424).",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 567,
+    "word_count": 23
+  },
+  {
+    "text": "What is the amount of funded research projects the co-director of SPL has participated in? The co-director of SPL has participated as a PI or co-PI in more than $6.6 million in funded research projects.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 568,
+    "word_count": 20
+  },
+  {
+    "text": "What is the name of the solicitation the co-director of SPL leads the management team for? The solicitation is called the Resilient Infrastructure Processes and Systems (RIPS) Solicitation (NSF 13-424).",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 569,
+    "word_count": 14
+  },
+  {
+    "text": "What is the name of the lab the co-director of SPL works in? The co-director of SPL works in the System Performance Lab (SPL).",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 570,
+    "word_count": 11
+  },
+  {
+    "text": "What are some of the major sponsors of SPL? Major sponsors include NSF, NASA, ONR, DOE, DOD, American Red Cross, and USPS among others.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 571,
+    "word_count": 15
+  },
+  {
+    "text": "Has the SPL team reviewed any proposals? Yes, the SPL team has reviewed proposals for NSF.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 572,
+    "word_count": 9
+  },
+  {
+    "text": "Has the SPL team published any research? Yes, the SPL team has published research in various journals, including IIE Transactions, IEEE Transactions on Engineering Management, Fuzzy Sets and Systems, and others.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 573,
+    "word_count": 24
+  },
+  {
+    "text": "What journals has the SPL team reviewed for? The SPL team has reviewed for IIE Transactions, IEEE Transactions on Engineering Management, Fuzzy Sets and Systems, Journal of Productivity Analysis, International Journal of Production Economics, European Journal of Operations Research, Operations Research, Omega, Management Science, Computers and Industrial Engineering, Journal of the Operational Research Society, Journal of Transportation Engineering, Annals of Operations Research, Journal of Engineering and Technology Management, Transportation Research Parts C and E.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 574,
+    "word_count": 66
+  },
+  {
+    "text": "What is the Ph.D. program in ISE that was established? The Ph.D. program in ISE in the National Capital Region (NCR)",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 575,
+    "word_count": 11
+  },
+  {
+    "text": "What position was the person serving in for a number of years? The director of the Systems Engineering Program",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 576,
+    "word_count": 7
+  },
+  {
+    "text": "What is the name of the faculty association the person was president of? The Northern Virginia faculty association",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 577,
+    "word_count": 5
+  },
+  {
+    "text": "What is the name of the college of engineering the person chaired? The NCR College of Engineering",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 578,
+    "word_count": 5
+  },
+  {
+    "text": "Where is the Ph.D. program in ISE located? The National Capital Region (NCR)",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 579,
+    "word_count": 5
+  },
+  {
+    "text": "What is the role of a session chair? A session chair is responsible for numerous sessions at national/international conferences.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 580,
+    "word_count": 11
+  },
+  {
+    "text": "What types of papers or presentations were given at the Engineering Advisory Board Meeting? Significant Invited State-of-the-Art or Review Papers and/or Presentations were given.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 581,
+    "word_count": 10
+  },
+  {
+    "text": "What was the topic of the paper by Triantis, K. and Rastegar, S.? The topic of the paper was Resilient Interdependent Infrastructures Processes and Systems.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 582,
+    "word_count": 12
+  },
+  {
+    "text": "Who hosted the Engineering Advisory Board Meeting? The Engineering Advisory Board Meeting was hosted by the Engineering Directorate, National Science Foundation.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 583,
+    "word_count": 14
+  },
+  {
+    "text": "When did the Engineering Advisory Board Meeting take place? The Engineering Advisory Board Meeting took place in April 2014.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 584,
+    "word_count": 10
+  },
+  {
+    "text": "Where was the Performance Measurement and Engineering Systems workshop held in 2014? University of Malaya, Malaysia",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 585,
+    "word_count": 4
+  },
+  {
+    "text": "What was the title of the presentation given by Triantis, K. at the 2013 DEA Workshop on Productivity Regulation and Transportation? Network Representations of Efficiency Analysis for Engineering Systems: Examples, Issues and Research Opportunities",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 586,
+    "word_count": 13
+  },
+  {
+    "text": "Where was the 2013 DEA Workshop on Productivity Regulation and Transportation held? Jerusalem, Israel",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 587,
+    "word_count": 2
+  },
+  {
+    "text": "What year was the 2013 DEA Workshop on Productivity Regulation and Transportation held? 2013",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 588,
+    "word_count": 1
+  },
+  {
+    "text": "In what year was the Performance Measurement and Engineering Systems workshop held? 2014",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 589,
+    "word_count": 1
+  },
+  {
+    "text": "What is the importance of evaluation and assessment in determining value in federal investments? The importance of evaluation and assessment in determining value in federal investments is highlighted by K. Triantis in his work for NSF in 2013.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 590,
+    "word_count": 24
+  },
+  {
+    "text": "What is the title of K. Triantis' work for NSF in 2013? The Importance of Evaluation and Assessment in Determining Value in Federal Investments",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 591,
+    "word_count": 12
+  },
+  {
+    "text": "What event did K. Triantis participate in as an invited panelist in 2013? Research in Infrastructure Systems, Infrastructure and Community Resilience: Natural and Human-Caused disasters",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 592,
+    "word_count": 12
+  },
+  {
+    "text": "Where was K. Triantis an invited panelist in 2013? University of Maryland",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 593,
+    "word_count": 3
+  },
+  {
+    "text": "When did K. Triantis participate in the event at the University of Maryland? April 11, 2013",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 594,
+    "word_count": 3
+  },
+  {
+    "text": "What is Performance Measurement and Engineering Systems? Performance Measurement and Engineering Systems is a topic of research, as discussed in a seminar by Triantis K. in 2013.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 595,
+    "word_count": 20
+  },
+  {
+    "text": "What is the Assessment and Evaluation of Core Engineering Research Programs? The Assessment and Evaluation of Core Engineering Research Programs is a study conducted by Medina-Borja, A., Triantis, K., and S. Griswold in 2013, focusing on Civil Infrastructure Systems.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 596,
+    "word_count": 28
+  },
+  {
+    "text": "What is the Infrastructure Systems: Fundamental Research? Infrastructure Systems: Fundamental Research is a topic of research, as discussed by Griswold, S. in 2013, in the Office of Science and Technology, Subcommittee on Infrastructures.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 597,
+    "word_count": 26
+  },
+  {
+    "text": "What is the Civil Infrastructure Systems Program? The Civil Infrastructure Systems Program is a program at the National Science Foundation, with a Committee of Visitors led by Triantis, K. in 2012.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 598,
+    "word_count": 24
+  },
+  {
+    "text": "What is the role of the National Science Foundation in Civil Infrastructure Systems? The National Science Foundation has a Committee of Visitors for the Civil Infrastructure Systems Program, led by Triantis, K. in 2012.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 599,
+    "word_count": 21
+  },
+  {
+    "text": "What is the name of the speaker who gave a keynote address at the International Conference on Intelligent Transportation Systems in 2011? Triantis, K.",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 600,
+    "word_count": 2
+  },
+  {
+    "text": "In what year did Triantis give a keynote address at the ISTTT 2011 conference in Berkeley, California? 2011",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 601,
+    "word_count": 1
+  },
+  {
+    "text": "Where did the NSF Sponsored Workshop on Complexity in Infrastructure Systems take place in 2012? Martha Vineyard",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 602,
+    "word_count": 2
+  },
+  {
+    "text": "What was the title of the keynote address given by Triantis at the International Conference on Intelligent Transportation Systems in 2011? The Integration of Social and Behavioral Sciences in Civil Infrastructure Systems: An Illustration from Performance Measurement",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 603,
+    "word_count": 16
+  },
+  {
+    "text": "In what year did Triantis give a keynote address at the International Conference on Intelligent Transportation Systems? 2011",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 604,
+    "word_count": 1
+  },
+  {
+    "text": "Who was named the John L. Lawrence Professor of Industrial Engineering and Operations Research in December 2013? Kostas Triantis",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 605,
+    "word_count": 2
+  },
+  {
+    "text": "What event was set for Aug. 29-30 in Switzerland in July 2013? The Fourth Conference on Community Resiliency",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 606,
+    "word_count": 6
+  },
+  {
+    "text": "Who was named the Ralph H. professor? Kostas Triantis",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 607,
+    "word_count": 2
+  },
+  {
+    "text": "When was Kostas Triantis named the John L. Lawrence Professor of Industrial Engineering and Operations Research? December 2013",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 608,
+    "word_count": 2
+  },
+  {
+    "text": "What is the name of the conference set for Aug. 29-30 in Switzerland? The Fourth Conference on Community Resiliency",
+    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
+    "chunk_index": 609,
+    "word_count": 6
+  }
+]
