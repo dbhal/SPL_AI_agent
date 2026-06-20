@@ -1,41 +1,37 @@
 """
 Converts auto-generated Q&A pairs into chunks
 that get added to the vector store.
-Each Q&A becomes a chunk so the bot can find
-answers to indirect or vague questions.
+
+IMPORTANT — file responsibilities:
+  curated_chunks.json  — hand-written, permanent, NEVER touched by this script
+  auto_qa_chunks.json  — auto-generated from QA, rebuilt fresh every workflow run
+  manual_chunks.json   — DO NOT USE (kept for legacy compat only)
 """
 import json
+
 
 def convert():
     with open("data/auto_qa_dataset.json", encoding="utf-8") as f:
         qa_pairs = json.load(f)
 
-    # Load existing manual chunks
-    try:
-        with open("data/manual_chunks.json", encoding="utf-8") as f:
-            manual = json.load(f)
-    except:
-        manual = []
-
-    # Convert each Q&A into a chunk
+    # Convert each Q&A into a chunk — fresh every time, no accumulation
     new_chunks = []
     for i, pair in enumerate(qa_pairs):
         chunk = {
             "text": f"{pair['question']} {pair['answer']}",
             "source_url": pair.get("source_url", "https://www.spl.ise.vt.edu"),
-            "chunk_index": len(manual) + i,
-            "word_count": len(pair['answer'].split()),
+            "chunk_index": i,
+            "word_count": len(pair["answer"].split()),
         }
         new_chunks.append(chunk)
 
-    # Merge with existing manual chunks
-    all_chunks = manual + new_chunks
+    # Write to its OWN file — never touches curated_chunks.json
+    with open("data/auto_qa_chunks.json", "w", encoding="utf-8") as f:
+        json.dump(new_chunks, f, indent=2, ensure_ascii=False)
 
-    with open("data/manual_chunks.json", "w", encoding="utf-8") as f:
-        json.dump(all_chunks, f, indent=2, ensure_ascii=False)
+    print(f"✅ Written {len(new_chunks)} auto QA chunks to data/auto_qa_chunks.json")
+    print(f"   (curated_chunks.json is untouched)")
 
-    print(f"✅ Added {len(new_chunks)} Q&A chunks to manual_chunks.json")
-    print(f"   Total manual chunks: {len(all_chunks)}")
 
 if __name__ == "__main__":
     convert()

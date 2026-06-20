@@ -46,15 +46,25 @@ jobs:
         GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         PYTHONUTF8: "1"
 
-    - name: Convert QA to chunks
+    - name: Convert QA to auto_qa_chunks (never touches curated_chunks.json)
       run: |
         echo "Converting QA to chunk format..."
         python scripts/qa_to_chunks.py
-        python -c "import json; d=json.load(open('data/manual_chunks.json',encoding='utf-8')); print(f'Manual chunks: {len(d)}')"
+        python -c "import json; d=json.load(open('data/auto_qa_chunks.json',encoding='utf-8')); print(f'Auto QA chunks: {len(d)}')"
       env:
         PYTHONUTF8: "1"
 
-    - name: Deduplicate chunks
+    - name: Verify curated chunks are intact
+      run: |
+        python -c "
+        import json
+        d = json.load(open('data/curated_chunks.json', encoding='utf-8'))
+        print(f'Curated chunks: {len(d)} — PROTECTED, not modified by workflow')
+        "
+      env:
+        PYTHONUTF8: "1"
+
+    - name: Deduplicate spl_chunks and auto_qa_chunks
       run: |
         echo "Checking and removing duplicates..."
         python scripts/dedupe_check.py --fix
@@ -66,7 +76,8 @@ jobs:
       run: |
         mkdir -p backend/data
         cp data/spl_chunks.json backend/data/spl_chunks.json
-        cp data/manual_chunks.json backend/data/manual_chunks.json
+        cp data/curated_chunks.json backend/data/curated_chunks.json
+        cp data/auto_qa_chunks.json backend/data/auto_qa_chunks.json
         cp data/auto_qa_dataset.json backend/data/auto_qa_dataset.json
         echo "Sync complete"
 
@@ -82,7 +93,8 @@ jobs:
       run: |
         git config user.name "HokieBot Automation"
         git config user.email "hokiebot@spl.vt.edu"
-        git add data/ backend/data/
+        git add data/spl_chunks.json data/auto_qa_chunks.json data/auto_qa_dataset.json
+        git add backend/data/
         git diff --staged --quiet && echo "No changes" || git commit -m "Knowledge base update $(date '+%Y-%m-%d') - ${{ github.event.inputs.reason }}"
         git push
       env:

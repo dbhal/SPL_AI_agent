@@ -7,6 +7,11 @@ Connects RAG pipeline to the widget via REST API.
 Endpoints:
   POST /chat     — send a question, get an answer
   GET  /health   — health check
+
+Chunk sources (all three loaded at startup):
+  spl_chunks.json      — scraped website chunks (rebuilt every workflow run)
+  curated_chunks.json  — hand-written permanent chunks (NEVER auto-overwritten)
+  auto_qa_chunks.json  — auto-generated QA chunks (rebuilt every workflow run)
 """
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -41,14 +46,15 @@ app.add_middleware(
 )
 
 # ── Config ────────────────────────────────────────────────────────────────────
-CHROMA_DIR  = "data/chroma_db"
-CHUNKS_FILE = "data/spl_chunks.json"
-MANUAL_FILE = "data/manual_chunks.json"
-COLLECTION  = "spl_knowledge"
-EMBED_MODEL = "all-MiniLM-L6-v2"
+CHROMA_DIR   = "data/chroma_db"
+CHUNKS_FILE  = "data/spl_chunks.json"       # scraped website chunks
+CURATED_FILE = "data/curated_chunks.json"   # hand-written permanent chunks
+AUTO_QA_FILE = "data/auto_qa_chunks.json"   # auto-generated QA chunks
+COLLECTION   = "spl_knowledge"
+EMBED_MODEL  = "all-MiniLM-L6-v2"
 RERANK_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
-TOP_K       = 7
-GROQ_MODEL  = "llama-3.1-8b-instant"
+TOP_K        = 7
+GROQ_MODEL   = "llama-3.1-8b-instant"
 
 # ── Load everything at startup ────────────────────────────────────────────────
 print("Loading embedding model...")
@@ -61,14 +67,31 @@ client = chromadb.PersistentClient(path=CHROMA_DIR)
 existing = [c.name for c in client.list_collections()]
 if COLLECTION not in existing or client.get_collection(COLLECTION).count() == 0:
     print("Building vector store from chunks...")
+
+    # 1. Scraped website chunks (always present)
     with open(CHUNKS_FILE, encoding="utf-8") as f:
         chunks = json.load(f)
+    print(f"  Scraped chunks: {len(chunks)}")
+
+    # 2. Curated hand-written chunks (permanent, never auto-overwritten)
     try:
-        with open(MANUAL_FILE, encoding="utf-8") as f:
-            manual = json.load(f)
-        chunks = chunks + manual
+        with open(CURATED_FILE, encoding="utf-8") as f:
+            curated = json.load(f)
+        chunks = chunks + curated
+        print(f"  Curated chunks: {len(curated)}")
     except FileNotFoundError:
-        pass
+        print("  No curated_chunks.json found — skipping")
+
+    # 3. Auto-generated QA chunks (rebuilt every workflow run)
+    try:
+        with open(AUTO_QA_FILE, encoding="utf-8") as f:
+            auto_qa = json.load(f)
+        chunks = chunks + auto_qa
+        print(f"  Auto QA chunks: {len(auto_qa)}")
+    except FileNotFoundError:
+        print("  No auto_qa_chunks.json found — skipping")
+
+    print(f"  Total chunks to index: {len(chunks)}")
 
     if COLLECTION in existing:
         client.delete_collection(COLLECTION)
@@ -82,6 +105,7 @@ if COLLECTION not in existing or client.get_collection(COLLECTION).count() == 0:
         metas = [{"source_url": c["source_url"], "chunk_index": c["chunk_index"]} for c in batch]
         embeddings = embed_model.encode(texts, show_progress_bar=False).tolist()
         col.add(documents=texts, embeddings=embeddings, ids=ids, metadatas=metas)
+
     print(f"Vector store built: {col.count()} vectors")
     collection = col
 else:
@@ -279,7 +303,10 @@ CRITICAL ANSWER RULES for specific topics:
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "vectors": collection.count()}
+    return {
+        "status": "ok",
+        "vectors": collection.count()
+    }
 
 
 @app.post("/chat", response_model=ChatResponse)
