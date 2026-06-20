@@ -1,501 +1,595 @@
 <!--
-  SPL HokieBot Widget
-  ====================
-  Paste this ONE script tag anywhere in your Ensemble page HTML:
-
-  <script src="https://YOUR-HF-SPACE.hf.space/widget.js"></script>
-
-  Or embed the full widget HTML directly in Ensemble's custom HTML block.
-
-  Update BACKEND_URL below to your Hugging Face Spaces URL.
+  SPL HokieBot Widget — v3
+  Matches reference: open bot text, pill user bubbles, large font,
+  3D shadow depth, resize toggle, avatar per message.
 -->
-
 <style>
-  #spl-widget-wrap * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+  #spw * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, "Segoe UI", system-ui, sans-serif; }
 
-  /* Floating button */
-  #spl-fab {
-    position: fixed;
-    bottom: 28px;
-    right: 28px;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background: #75091D;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 16px rgba(117,9,29,0.4);
-    z-index: 9999;
-    transition: transform .15s;
+  /* ── FAB ── */
+  #spw-fab {
+    position: fixed; bottom: 24px; right: 24px;
+    width: 58px; height: 58px; border-radius: 50%;
+    background: linear-gradient(145deg, #8a0f22, #75091D);
+    border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 6px 20px rgba(117,9,29,0.5), 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 9999; transition: transform .15s, box-shadow .15s;
   }
-  #spl-fab:hover { transform: scale(1.07); }
-  #spl-fab-badge {
-    position: absolute;
-    top: -3px; right: -3px;
-    width: 20px; height: 20px;
-    background: #E5A823;
-    border-radius: 50%;
-    border: 2px solid #75091D;
-    font-size: 11px;
-    font-weight: 700;
-    color: #3a2000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #spw-fab:hover { transform: scale(1.07); box-shadow: 0 8px 28px rgba(117,9,29,0.6), 0 3px 8px rgba(0,0,0,0.25); }
+  #spw-badge {
+    position: absolute; top: -2px; right: -2px;
+    width: 18px; height: 18px; border-radius: 50%;
+    background: #E5A823; border: 2px solid #fff;
+    font-size: 10px; font-weight: 700; color: #3a2000;
+    display: flex; align-items: center; justify-content: center;
   }
 
-  /* Chat window */
-  #spl-window {
-    position: fixed;
-    bottom: 104px;
-    right: 28px;
-    width: 360px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  /* ── Window ── */
+  #spw-win {
+    position: fixed; bottom: 96px; right: 24px;
+    width: 380px;
+    border-radius: 18px;
     overflow: hidden;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    box-shadow:
+      0 24px 64px rgba(0,0,0,0.18),
+      0 8px 24px rgba(0,0,0,0.12),
+      0 2px 6px rgba(0,0,0,0.08),
+      inset 0 1px 0 rgba(255,255,255,0.6);
     z-index: 9998;
-    display: none;
-    flex-direction: column;
-    max-height: 580px;
+    display: none; flex-direction: column;
     background: #fff;
+    border: 1px solid rgba(0,0,0,0.07);
+    transition: height .2s ease, width .2s ease;
+    box-sizing: border-box;
   }
-  #spl-window.open { display: flex; }
+  #spw-win.open { display: flex; }
+  /* Compact mode — shrinks to just header */
+  #spw-win.compact #spw-body { display: none; }
+  #spw-win.compact #spw-tabs { display: none; }
 
-  /* Header */
-  #spl-header { background: #75091D; }
-  #spl-header-top {
-    padding: 8px 14px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+  /* ── Header ── */
+  #spw-header {
+    background: linear-gradient(135deg, #75091D 0%, #5a0716 100%);
+    padding: 14px 16px 12px;
+    flex-shrink: 0;
   }
-  #spl-vt-text { font-size: 11px; color: rgba(255,255,255,0.7); letter-spacing: .5px; flex: 1; }
-  #spl-close {
-    width: 24px; height: 24px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.15);
-    border: none;
-    color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #spw-header-row1 {
+    display: flex; align-items: center;
+    justify-content: space-between; margin-bottom: 11px;
   }
-  #spl-header-bot {
-    padding: 12px 14px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  #spw-vt { display: flex; align-items: center; gap: 7px; }
+  #spw-vt span { font-size: 10px; font-weight: 600; color: rgba(255,255,255,0.55); letter-spacing: 1.1px; text-transform: uppercase; }
+  #spw-hdr-btns { display: flex; gap: 6px; }
+  .spw-hbtn {
+    width: 26px; height: 26px; border-radius: 50%;
+    background: rgba(255,255,255,0.12);
+    border: none; color: #fff; font-size: 13px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background .15s;
   }
-  #spl-avatar {
-    width: 46px; height: 46px;
-    border-radius: 50%;
+  .spw-hbtn:hover { background: rgba(255,255,255,0.22); }
+  #spw-header-row2 { display: flex; align-items: center; gap: 12px; }
+  #spw-av-hdr {
+    width: 44px; height: 44px; border-radius: 50%;
     background: rgba(255,255,255,0.1);
-    border: 1.5px solid rgba(255,255,255,0.25);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+    border: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
   }
-  #spl-bot-name { font-size: 14px; font-weight: 600; color: #fff; }
-  #spl-bot-sub { font-size: 11px; color: rgba(255,255,255,0.65); margin-top: 2px; }
-  #spl-online { display: flex; align-items: center; gap: 4px; margin-top: 4px; }
-  #spl-dot { width: 7px; height: 7px; border-radius: 50%; background: #6fcf6f; }
-  #spl-online-txt { font-size: 10px; color: rgba(255,255,255,0.6); }
+  #spw-bot-name { font-size: 15px; font-weight: 700; color: #fff; letter-spacing: -.1px; }
+  #spw-bot-sub { font-size: 11px; color: rgba(255,255,255,0.58); margin-top: 2px; }
+  #spw-status { display: flex; align-items: center; gap: 5px; margin-top: 5px; }
+  #spw-dot { width: 7px; height: 7px; border-radius: 50%; background: #4caf50; box-shadow: 0 0 0 2px rgba(76,175,80,0.3); }
+  #spw-status span { font-size: 10px; color: rgba(255,255,255,0.5); }
 
-  /* Tab bar */
-  #spl-tabs {
-    background: #5a0716;
-    display: flex;
-    border-bottom: 2px solid #E5A823;
+  /* ── Tabs ── */
+  #spw-tabs {
+    background: #4d0613;
+    display: flex; flex-shrink: 0;
+    border-bottom: 2px solid rgba(229,168,35,0.5);
   }
-  .spl-tab {
+  .spw-tab {
+    flex: 1; padding: 8px 2px; text-align: center;
+    font-size: 10px; color: rgba(255,255,255,0.5); cursor: pointer;
+    letter-spacing: .3px; border-right: 1px solid rgba(255,255,255,0.06);
+    transition: all .15s;
+  }
+  .spw-tab:last-child { border-right: none; }
+  .spw-tab.active { color: #E5A823; font-weight: 700; }
+  .spw-tab:hover { color: #fff; background: rgba(255,255,255,0.04); }
+
+  /* ── Body (messages + quick + input) ── */
+  #spw-body { display: flex; flex-direction: column; flex: 1; min-height: 0; }
+
+  /* ── Messages ── */
+  #spw-msgs {
+    background: #fff;
+    padding: 20px 16px 12px 16px;
+    display: flex; flex-direction: column; gap: 20px;
+    overflow-y: auto; overflow-x: hidden;
     flex: 1;
-    padding: 7px 4px;
-    text-align: center;
-    font-size: 10px;
-    color: rgba(255,255,255,0.65);
-    cursor: pointer;
-    letter-spacing: .3px;
-    border-right: 1px solid rgba(255,255,255,0.1);
+    min-height: 220px; max-height: 320px;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd transparent;
   }
-  .spl-tab:last-child { border-right: none; }
-  .spl-tab.active { color: #E5A823; font-weight: 600; background: rgba(229,168,35,0.1); }
-  .spl-tab:hover { color: #fff; }
+  #spw-msgs::-webkit-scrollbar { width: 4px; }
+  #spw-msgs::-webkit-scrollbar-track { background: transparent; }
+  #spw-msgs::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
 
-  /* Messages */
-  #spl-msgs {
-    background: #f9f7f4;
-    padding: 14px;
+  /* ── Bot message — open text, NO bubble ── */
+  .spw-bot {
+    display: flex; align-items: flex-start; gap: 12px;
+  }
+  .spw-av {
+    width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
+    background: linear-gradient(145deg, #8a0f22, #75091D);
+    box-shadow: 0 3px 10px rgba(117,9,29,0.35), 0 1px 3px rgba(0,0,0,0.15);
+    display: flex; align-items: center; justify-content: center;
+    margin-top: 2px;
+  }
+  .spw-bot-inner { flex: 1; min-width: 0; }
+  .spw-bot-name-lbl {
+    font-size: 13px; font-weight: 800; color: #75091D;
+    margin-bottom: 6px; letter-spacing: .2px;
+  }
+  /* Open prose — no box, no border */
+  .spw-bot-text {
+    font-size: 16px; font-weight: 500; line-height: 1.75; color: #111;
+  }
+  .spw-bot-text p { margin: 0 0 11px; }
+  .spw-bot-text p:last-child { margin-bottom: 0; }
+  .spw-bot-text strong { font-weight: 800; color: #000; }
+  .spw-bot-text ul { margin: 8px 0 11px; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+  .spw-bot-text ol { margin: 8px 0 11px; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+  .spw-bot-text li { font-size: 16px; font-weight: 500; line-height: 1.68; color: #111; }
+  .spw-bot-text li::marker { color: #75091D; font-weight: 700; }
+  .spw-bot-text a { color: #75091D; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+  .spw-bot-text a:hover { color: #5a0716; }
+  .spw-bot-text code { background: #f3f3f3; border-radius: 4px; padding: 1px 5px; font-size: 14px; font-weight: 600; }
+  /* Thumbs feedback row */
+  .spw-feedback {
+    display: flex; gap: 10px; margin-top: 8px;
+  }
+  .spw-thumb {
+    background: none; border: none; cursor: pointer;
+    color: #ccc; font-size: 14px; padding: 0;
+    transition: color .15s; line-height: 1;
+  }
+  .spw-thumb:hover { color: #75091D; }
+  .spw-ts { font-size: 10px; color: #ccc; margin-top: 5px; }
+
+  /* ── User message — pill bubble right ── */
+  .spw-user {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 50px;
+  }
+  .spw-user-inner {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    overflow-y: auto;
-    flex: 1;
-    min-height: 180px;
-    max-height: 280px;
+    align-items: flex-end;
+    max-width: 75%;
+    min-width: 0;
   }
-  .spl-msg { display: flex; gap: 8px; }
-  .spl-msg.user { flex-direction: row-reverse; }
-  .spl-msg-av {
-    width: 28px; height: 28px;
-    border-radius: 50%;
-    background: #75091D;
+  .spw-user-bubble {
+    background: linear-gradient(135deg, #c0001a, #75091D);
+    color: #fff;
+    border-radius: 18px 18px 4px 18px;
+    padding: 11px 16px !important;
+    font-size: 16px; font-weight: 600; line-height: 1.55;
+    box-shadow: 0 2px 10px rgba(117,9,29,0.35);
+    word-break: break-word;
+  }
+  .spw-user-ts { font-size: 11px; font-weight: 500; color: #bbb; margin-top: 4px; }
+
+  /* ── Typing dots ── */
+  #spw-typing { display: none; }
+  #spw-typing.show { display: flex; }
+  .spw-dots { display: flex; gap: 5px; align-items: center; padding: 6px 0; }
+  .spw-dot-anim {
+    width: 7px; height: 7px; border-radius: 50%; background: #ccc;
+    animation: spwblink 1.3s infinite;
+  }
+  .spw-dot-anim:nth-child(2) { animation-delay: .2s; }
+  .spw-dot-anim:nth-child(3) { animation-delay: .4s; }
+  @keyframes spwblink { 0%,80%,100%{opacity:.2;transform:scale(1)} 40%{opacity:1;transform:scale(1.2)} }
+
+  /* ── Quick chips ── */
+  #spw-quick {
+    background: #fff; border-top: 1px solid #f0f0f0;
+    padding: 10px 14px; flex-shrink: 0;
+  }
+  #spw-quick-lbl { font-size: 10px; font-weight: 700; color: #bbb; letter-spacing: .8px; text-transform: uppercase; margin-bottom: 8px; }
+  #spw-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .spw-chip {
+    background: #fff; border: 1.5px solid #e8e8e8;
+    border-radius: 20px; padding: 5px 13px;
+    font-size: 13px; color: #444; cursor: pointer; font-weight: 600;
+    transition: all .15s; white-space: nowrap;
+  }
+  .spw-chip:hover { background: #75091D; color: #fff; border-color: #75091D; box-shadow: 0 2px 8px rgba(117,9,29,0.25); }
+
+  /* ── Input bar — reference style with icon buttons inside ── */
+  #spw-input-bar {
+    padding: 10px 14px 14px; background: #fff;
+    border-top: 1px solid #f0f0f0; flex-shrink: 0;
+  }
+  #spw-inp-wrap {
+    display: flex; align-items: center;
+    border: 1.5px solid #d8d8d8;
+    border-radius: 28px;
+    padding: 4px 6px 4px 16px;
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
+    transition: border-color .15s, box-shadow .15s;
+  }
+  #spw-inp-wrap:focus-within {
+    border-color: #75091D;
+    box-shadow: 0 2px 16px rgba(117,9,29,0.12), 0 1px 4px rgba(0,0,0,0.06);
+  }
+  #spw-inp {
+    flex: 1; border: none; outline: none;
+    font-size: 16px; color: #1a1a1a; background: transparent;
+    font-family: inherit; padding: 6px 0;
+  }
+  #spw-inp::placeholder { color: #bbb; }
+  #spw-inp-btns { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
+  .spw-inp-icon {
+    width: 34px; height: 34px; border-radius: 50%;
+    background: #f5f5f5; border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    color: #888; font-size: 14px; transition: all .15s;
+  }
+  .spw-inp-icon:hover { background: #e8e8e8; color: #555; }
+  #spw-send-btn {
+    width: 34px; height: 34px; border-radius: 50%;
+    background: #75091D; border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 8px rgba(117,9,29,0.35);
+    transition: all .15s;
+  }
+  #spw-send-btn:hover { background: #5a0716; transform: scale(1.05); box-shadow: 0 3px 12px rgba(117,9,29,0.45); }
+  #spw-send-btn:disabled { background: #ddd; box-shadow: none; cursor: not-allowed; transform: none; }
+
+  /* ── Footer ── */
+  #spw-footer {
+    background: #1a1a1a; padding: 7px 14px;
+    display: flex; align-items: center; justify-content: space-between;
     flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
-  .spl-msg-body { display: flex; flex-direction: column; gap: 3px; max-width: 82%; }
-  .spl-bubble { padding: 9px 13px; font-size: 13px; line-height: 1.55; }
-  .spl-msg.bot .spl-bubble {
-    background: #fff;
-    color: #1a1a1a;
-    border-radius: 0 10px 10px 10px;
-    border: 1px solid #ddd;
-  }
-  .spl-msg.user .spl-bubble {
-    background: #75091D;
-    color: #fff;
-    border-radius: 10px 0 10px 10px;
-  }
-  .spl-ts { font-size: 10px; color: #888; padding: 0 4px; }
-  .spl-msg.user .spl-ts { text-align: right; }
-  .spl-bubble a { color: #75091D; font-weight: 500; }
-  .spl-msg.user .spl-bubble a { color: #ffd0b0; }
+  #spw-footer-l { font-size: 10px; color: rgba(255,255,255,0.35); }
+  #spw-footer-l b { color: #E5A823; }
+  #spw-footer-r { display: flex; gap: 10px; }
+  .spw-flink { font-size: 10px; color: rgba(255,255,255,0.3); text-decoration: none; transition: color .15s; }
+  .spw-flink:hover { color: #E5A823; }
 
-  /* Typing indicator */
-  #spl-typing { display: none; align-items: center; gap: 5px; padding: 8px 0; }
-  #spl-typing.show { display: flex; }
-  .spl-typing-dot {
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    background: #999;
-    animation: spl-blink 1.2s infinite;
-  }
-  .spl-typing-dot:nth-child(2) { animation-delay: .2s; }
-  .spl-typing-dot:nth-child(3) { animation-delay: .4s; }
-  @keyframes spl-blink { 0%,80%,100%{opacity:.2} 40%{opacity:1} }
+  /* ── Resize size states ── */
+  #spw-win.size-sm { width: 320px; }
+  #spw-win.size-sm #spw-msgs { max-height: 240px; }
+  #spw-win.size-md { width: 380px; }
+  #spw-win.size-md #spw-msgs { max-height: 320px; }
+  #spw-win.size-lg { width: 460px; }
+  #spw-win.size-lg #spw-msgs { max-height: 420px; }
+  #spw-win.size-lg .spw-bot-text,
+  #spw-win.size-lg .spw-user-bubble,
+  #spw-win.size-lg .spw-bot-text li,
+  #spw-win.size-lg #spw-inp { font-size: 17px; }
 
-  /* Quick links */
-  #spl-quick {
-    background: #fff;
-    border-top: 1px solid #ddd;
-    padding: 10px 12px;
-  }
-  #spl-quick-title { font-size: 10px; color: #666; letter-spacing: .5px; text-transform: uppercase; margin-bottom: 7px; }
-  #spl-quick-grid { display: flex; flex-wrap: wrap; gap: 5px; }
-  .spl-qbtn {
-    background: #f4f0ec;
-    border: 1px solid #d0c8c0;
-    border-radius: 2px;
-    padding: 5px 10px;
-    font-size: 11px;
-    color: #75091D;
-    cursor: pointer;
-    font-weight: 500;
-  }
-  .spl-qbtn:hover { background: #75091D; color: #fff; border-color: #75091D; }
-
-  /* Input row */
-  #spl-input-row {
-    padding: 10px 12px;
-    display: flex;
-    gap: 8px;
-    background: #fff;
-    border-top: 1px solid #ddd;
-  }
-  #spl-inp {
-    flex: 1;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    padding: 8px 12px;
-    font-size: 13px;
-    background: #fff;
-    color: #1a1a1a;
-    outline: none;
-  }
-  #spl-inp:focus { border-color: #75091D; box-shadow: 0 0 0 2px rgba(117,9,29,0.1); }
-  #spl-send {
-    background: #75091D;
-    border: none;
-    color: #fff;
-    border-radius: 2px;
-    padding: 8px 14px;
-    font-size: 12px;
-    cursor: pointer;
-    font-weight: 600;
-    letter-spacing: .3px;
-  }
-  #spl-send:hover { background: #5a0716; }
-  #spl-send:disabled { background: #ccc; cursor: not-allowed; }
-
-  /* Footer */
-  #spl-footer {
-    background: #1a1a1a;
-    padding: 7px 14px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  #spl-footer-vt { font-size: 10px; color: rgba(255,255,255,0.5); }
-  #spl-footer-vt b { color: #E5A823; }
-  #spl-footer-links { display: flex; gap: 10px; }
-  .spl-footer-link { font-size: 10px; color: rgba(255,255,255,0.4); cursor: pointer; text-decoration: none; }
-  .spl-footer-link:hover { color: #E5A823; }
-
-  @media (max-width: 400px) {
-    #spl-window { width: calc(100vw - 24px); right: 12px; bottom: 90px; }
-    #spl-fab { right: 16px; bottom: 16px; }
+  @media (max-width: 500px) {
+    #spw-win { width: calc(100vw - 20px) !important; right: 10px; bottom: 86px; }
+    #spw-fab { right: 12px; bottom: 12px; }
   }
 </style>
 
-<div id="spl-widget-wrap">
+<div id="spw">
 
-  <!-- Floating button -->
-  <button id="spl-fab" aria-label="Open SPL chatbot" onclick="splToggle()">
-    <svg width="38" height="38" viewBox="0 0 38 38" fill="none">
-      <ellipse cx="19" cy="23" rx="9" ry="10" fill="#75091D"/>
-      <ellipse cx="19" cy="25" rx="5.5" ry="6.5" fill="#8a0f22"/>
+  <!-- FAB -->
+  <button id="spw-fab" aria-label="Open HokieBot" onclick="spwToggle()">
+    <svg width="34" height="34" viewBox="0 0 38 38" fill="none">
+      <ellipse cx="19" cy="23" rx="9" ry="10" fill="rgba(255,255,255,0.15)"/>
+      <ellipse cx="19" cy="25" rx="5.5" ry="6.5" fill="rgba(255,255,255,0.08)"/>
       <ellipse cx="27" cy="21" rx="4.5" ry="7" fill="#fff" transform="rotate(18,27,21)"/>
       <ellipse cx="28.5" cy="19" rx="3.5" ry="5.5" fill="#eee" transform="rotate(32,28.5,19)"/>
-      <ellipse cx="17" cy="12" rx="7.5" ry="6.5" fill="#75091D"/>
+      <ellipse cx="17" cy="12" rx="7.5" ry="6.5" fill="rgba(255,255,255,0.2)"/>
       <ellipse cx="20" cy="10.5" rx="2.8" ry="2.2" fill="#fff"/>
       <circle cx="21" cy="10.5" r="1.4" fill="#1a0800"/>
       <circle cx="21.5" cy="10" r="0.5" fill="#fff"/>
-      <path d="M17 9 Q20 7.5 23 9" stroke="#4a0010" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+      <path d="M17 9 Q20 7.5 23 9" stroke="rgba(255,255,255,0.4)" stroke-width="1.1" fill="none" stroke-linecap="round"/>
       <path d="M11 12 Q8.5 11 8 14 Q10 13 11 13.5Z" fill="#E5892A"/>
-      <path d="M11 13.5 Q8.5 13.5 8.5 16 Q10.5 15 11 13.5Z" fill="#CC7020"/>
-      <g transform="translate(5,14) rotate(-25)">
-        <rect x="0" y="0" width="2.2" height="8" rx="1.1" fill="#aaa"/>
-        <path d="M-1.5 0 Q1.1 -2.5 3.7 0 Q2.2 1.2 1.1 1.2 Q0 1.2 -1.5 0Z" fill="#999"/>
-        <path d="M-1.5 0 Q1.1 2.2 3.7 0 Q2.2 -1.2 1.1 -1.2 Q0 -1.2 -1.5 0Z" fill="#bbb"/>
-      </g>
-      <path d="M27 20 Q32 17 33 13" stroke="#75091D" stroke-width="3.5" stroke-linecap="round" fill="none"/>
-      <g transform="translate(31,9)">
-        <circle cx="0" cy="0" r="3" fill="none" stroke="#aaa" stroke-width="1.6"/>
-        <circle cx="0" cy="0" r="1" fill="#aaa"/>
-        <line x1="0" y1="-3" x2="0" y2="-4.5" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
-        <line x1="0" y1="3" x2="0" y2="4.5" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
-        <line x1="-3" y1="0" x2="-4.5" y2="0" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
-        <line x1="3" y1="0" x2="4.5" y2="0" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
-        <line x1="-2.1" y1="-2.1" x2="-3.2" y2="-3.2" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
-        <line x1="2.1" y1="2.1" x2="3.2" y2="3.2" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
-        <line x1="2.1" y1="-2.1" x2="3.2" y2="-3.2" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
-        <line x1="-2.1" y1="2.1" x2="-3.2" y2="3.2" stroke="#aaa" stroke-width="1.3" stroke-linecap="round"/>
-      </g>
-      <line x1="16" y1="32" x2="14" y2="37" stroke="#E5892A" stroke-width="1.8" stroke-linecap="round"/>
-      <line x1="20" y1="32" x2="22" y2="37" stroke="#E5892A" stroke-width="1.8" stroke-linecap="round"/>
-      <path d="M11 37 Q14 36 16 37 Q14 38 11 37Z" fill="#E5892A"/>
-      <path d="M19 37 Q22 36 25 37 Q22 38 19 37Z" fill="#E5892A"/>
     </svg>
-    <div id="spl-fab-badge">1</div>
+    <div id="spw-badge">1</div>
   </button>
 
   <!-- Chat window -->
-  <div id="spl-window" role="dialog" aria-label="SPL HokieBot chat">
+  <div id="spw-win" class="size-md" role="dialog" aria-label="HokieBot SPL Assistant">
 
-    <div id="spl-header">
-      <div id="spl-header-top">
-        <svg width="20" height="14" viewBox="0 0 140 100"><text x="0" y="80" font-size="90" font-family="Arial" font-weight="900" fill="white">VT</text></svg>
-        <span id="spl-vt-text">VIRGINIA TECH®</span>
-        <button id="spl-close" onclick="splToggle()" aria-label="Close chat">✕</button>
+    <!-- Header -->
+    <div id="spw-header">
+      <div id="spw-header-row1">
+        <div id="spw-vt">
+          <svg width="22" height="15" viewBox="0 0 140 100"><text x="0" y="80" font-size="90" font-family="Arial" font-weight="900" fill="white">VT</text></svg>
+          <span>Virginia Tech</span>
+        </div>
+        <div id="spw-hdr-btns">
+          <!-- Resize cycle button -->
+          <button class="spw-hbtn" onclick="spwResize()" aria-label="Resize" title="Resize chat">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <polyline points="9 21 3 21 3 15"></polyline>
+              <line x1="21" y1="3" x2="14" y2="10"></line>
+              <line x1="3" y1="21" x2="10" y2="14"></line>
+            </svg>
+          </button>
+          <!-- Minimize button -->
+          <button class="spw-hbtn" onclick="spwMinimize()" aria-label="Minimize" title="Minimize">
+            <svg width="12" height="3" viewBox="0 0 12 3"><rect x="0" y="1" width="12" height="2" rx="1" fill="currentColor"/></svg>
+          </button>
+          <!-- Close button -->
+          <button class="spw-hbtn" onclick="spwToggle()" aria-label="Close">✕</button>
+        </div>
       </div>
-      <div id="spl-header-bot">
-        <div id="spl-avatar">
-          <svg width="34" height="34" viewBox="0 0 36 36" fill="none">
-            <ellipse cx="18" cy="22" rx="8" ry="9" fill="#9B1030"/>
-            <ellipse cx="18" cy="24" rx="4.5" ry="5.5" fill="#7a0e22"/>
+      <div id="spw-header-row2">
+        <div id="spw-av-hdr">
+          <svg width="30" height="30" viewBox="0 0 36 36" fill="none">
+            <ellipse cx="18" cy="22" rx="8" ry="9" fill="rgba(255,255,255,0.2)"/>
             <ellipse cx="25" cy="20" rx="4" ry="6" fill="#fff" transform="rotate(18,25,20)"/>
             <ellipse cx="26" cy="18" rx="3" ry="5" fill="#eee" transform="rotate(32,26,18)"/>
-            <ellipse cx="16" cy="11" rx="6.5" ry="5.5" fill="#75091D"/>
+            <ellipse cx="16" cy="11" rx="6.5" ry="5.5" fill="rgba(255,255,255,0.15)"/>
             <ellipse cx="18.5" cy="9.5" rx="2.4" ry="1.9" fill="#fff"/>
             <circle cx="19.5" cy="9.5" r="1.2" fill="#1a0800"/>
-            <path d="M15 8.5 Q18 7 21 8.5" stroke="#4a0010" stroke-width="1" fill="none" stroke-linecap="round"/>
+            <path d="M15 8.5 Q18 7 21 8.5" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none" stroke-linecap="round"/>
             <path d="M10 11 Q8 10 7.5 12.5 Q9 12 10 12.5Z" fill="#E5892A"/>
-            <path d="M10 12.5 Q8 12.5 8 14.5 Q9.5 14 10 12.5Z" fill="#CC7020"/>
-            <path d="M8 17 Q4 14 3 11" stroke="#75091D" stroke-width="2.8" stroke-linecap="round" fill="none"/>
-            <path d="M26 17 Q30 14 31 11" stroke="#75091D" stroke-width="2.8" stroke-linecap="round" fill="none"/>
           </svg>
         </div>
         <div>
-          <div id="spl-bot-name">HokieBot — SPL Assistant</div>
-          <div id="spl-bot-sub">System Performance Laboratory · Virginia Tech</div>
-          <div id="spl-online"><div id="spl-dot"></div><span id="spl-online-txt">Online now</span></div>
+          <div id="spw-bot-name">HokieBot</div>
+          <div id="spw-bot-sub">System Performance Laboratory · Virginia Tech</div>
+          <div id="spw-status"><div id="spw-dot"></div><span>Online</span></div>
         </div>
       </div>
     </div>
 
-    <div id="spl-tabs">
-      <div class="spl-tab active" onclick="splQuick('Tell me about SPL')">About</div>
-      <div class="spl-tab" onclick="splQuick('What are SPL research areas?')">Research</div>
-      <div class="spl-tab" onclick="splQuick('Who are the SPL team members?')">People</div>
-      <div class="spl-tab" onclick="splQuick('What are the latest SPL events?')">Events</div>
-      <div class="spl-tab" onclick="splQuick('How do I contact SPL?')">Contact</div>
+    <!-- Tabs -->
+    <div id="spw-tabs">
+      <div class="spw-tab active" onclick="spwQuick('Tell me about SPL')">About</div>
+      <div class="spw-tab" onclick="spwQuick('What are SPL research areas?')">Research</div>
+      <div class="spw-tab" onclick="spwQuick('Who are the SPL team members?')">People</div>
+      <div class="spw-tab" onclick="spwQuick('What are the latest SPL events?')">Events</div>
+      <div class="spw-tab" onclick="spwQuick('How do I contact SPL?')">Contact</div>
     </div>
 
-    <div id="spl-msgs">
-      <div class="spl-msg bot">
-        <div class="spl-msg-av">
-          <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
-            <ellipse cx="9" cy="11" rx="5" ry="5" fill="#9B1030"/>
-            <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="#75091D"/>
-            <ellipse cx="10" cy="5" rx="1.5" ry="1.2" fill="#fff"/>
-            <circle cx="10.5" cy="5" r="0.7" fill="#1a0800"/>
-            <path d="M6 6 Q5 5.5 4.5 7 Q5.5 6.5 6 7Z" fill="#E5892A"/>
-          </svg>
+    <!-- Body -->
+    <div id="spw-body">
+
+      <!-- Messages -->
+      <div id="spw-msgs">
+
+        <!-- Welcome -->
+        <div class="spw-bot">
+          <div class="spw-av">
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+              <ellipse cx="9" cy="11" rx="5" ry="5" fill="rgba(255,255,255,0.2)"/>
+              <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="rgba(255,255,255,0.15)"/>
+              <ellipse cx="10" cy="5" rx="1.5" ry="1.2" fill="#fff"/>
+              <circle cx="10.5" cy="5" r="0.7" fill="#1a0800"/>
+            </svg>
+          </div>
+          <div class="spw-bot-inner">
+            <div class="spw-bot-name-lbl">HokieBot</div>
+            <div class="spw-bot-text">
+              <p>Welcome to the <strong>System Performance Laboratory</strong> at Virginia Tech. I'm HokieBot — ask me anything about SPL's research, team, events, or how to get involved!</p>
+            </div>
+            <div class="spw-ts">just now</div>
+          </div>
         </div>
-        <div class="spl-msg-body">
-          <div class="spl-bubble">Welcome to the <strong>System Performance Laboratory</strong> at Virginia Tech. I'm HokieBot — ask me anything about SPL's research, team, events, or how to get involved!</div>
-          <div class="spl-ts">HokieBot · just now</div>
+
+        <!-- Typing indicator -->
+        <div id="spw-typing" class="spw-bot">
+          <div class="spw-av">
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+              <ellipse cx="9" cy="11" rx="5" ry="5" fill="rgba(255,255,255,0.2)"/>
+              <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="rgba(255,255,255,0.15)"/>
+            </svg>
+          </div>
+          <div class="spw-bot-inner">
+            <div class="spw-bot-name-lbl">HokieBot</div>
+            <div class="spw-dots">
+              <div class="spw-dot-anim"></div>
+              <div class="spw-dot-anim"></div>
+              <div class="spw-dot-anim"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick chips -->
+      <div id="spw-quick">
+        <div id="spw-quick-lbl">Quick questions</div>
+        <div id="spw-chips">
+          <div class="spw-chip" onclick="spwQuick('What are SPL research areas?')">Research areas</div>
+          <div class="spw-chip" onclick="spwQuick('How can I join SPL?')">Join SPL</div>
+          <div class="spw-chip" onclick="spwQuick('Tell me about all SPL partners')">Partners</div>
+          <div class="spw-chip" onclick="spwQuick('What are the latest SPL news and events?')">News & events</div>
+          <div class="spw-chip" onclick="spwQuick('What is the SPL lab address?')">Visit SPL</div>
+          <div class="spw-chip" onclick="spwQuick('Where can I read SPL publications?')">Publications</div>
         </div>
       </div>
-      <div id="spl-typing" class="spl-msg bot">
-        <div class="spl-msg-av">
-          <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
-            <ellipse cx="9" cy="11" rx="5" ry="5" fill="#9B1030"/>
-            <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="#75091D"/>
-          </svg>
-        </div>
-        <div class="spl-msg-body">
-          <div class="spl-bubble" style="background:#fff;border:1px solid #ddd;border-radius:0 10px 10px 10px;display:flex;gap:4px;padding:12px 14px">
-            <div class="spl-typing-dot"></div>
-            <div class="spl-typing-dot"></div>
-            <div class="spl-typing-dot"></div>
+
+      <!-- Input bar -->
+      <div id="spw-input-bar">
+        <div id="spw-inp-wrap">
+          <input id="spw-inp" placeholder="Type message…"
+                 onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();spwSend()}" />
+          <div id="spw-inp-btns">
+            <button class="spw-inp-icon" title="Clear" onclick="document.getElementById('spw-inp').value=''">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <button id="spw-send-btn" onclick="spwSend()" aria-label="Send">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="spl-quick">
-      <div id="spl-quick-title">Explore SPL</div>
-      <div id="spl-quick-grid">
-        <div class="spl-qbtn" onclick="splQuick('What are SPL research areas?')">Research Areas</div>
-        <div class="spl-qbtn" onclick="splQuick('How can I join SPL?')">Join SPL</div>
-        <div class="spl-qbtn" onclick="splQuick('Where can I read SPL publications?')">Publications</div>
-        <div class="spl-qbtn" onclick="splQuick('Tell me about all SPL partners')">Partnerships</div>
-        <div class="spl-qbtn" onclick="splQuick('What are the latest SPL news and events?')">News & Events</div>
-        <div class="spl-qbtn" onclick="splQuick('What is the SPL lab address?')">Visit SPL</div>
+      <!-- Footer -->
+      <div id="spw-footer">
+        <span id="spw-footer-l">© Virginia Tech · <b>SPL</b></span>
+        <div id="spw-footer-r">
+          <a class="spw-flink" href="https://www.spl.ise.vt.edu" target="_blank">Website</a>
+          <a class="spw-flink" href="https://www.vt.edu/accessibility.html" target="_blank">Accessibility</a>
+          <a class="spw-flink" href="mailto:j.godfrey@vt.edu">Contact</a>
+        </div>
       </div>
-    </div>
 
-    <div id="spl-input-row">
-      <input id="spl-inp" placeholder="Ask HokieBot about SPL…" onkeydown="if(event.key==='Enter')splSend()" />
-      <button id="spl-send" onclick="splSend()">Send</button>
     </div>
-
-    <div id="spl-footer">
-      <span id="spl-footer-vt">© Virginia Tech · <b>SPL</b></span>
-      <div id="spl-footer-links">
-        <a class="spl-footer-link" href="https://www.spl.ise.vt.edu" target="_blank">Website</a>
-        <a class="spl-footer-link" href="https://www.vt.edu/accessibility.html" target="_blank">Accessibility</a>
-        <a class="spl-footer-link" href="mailto:j.godfrey@vt.edu">Contact</a>
-      </div>
-    </div>
-
   </div>
 </div>
 
 <script>
-  // ── Config — update this to your Hugging Face Spaces URL ──────────────────
-  const BACKEND_URL = "https://dbehal-spl-chatbot.hf.space" ;
+const BACKEND_URL = "https://dbehal-spl-chatbot.hf.space";
+let isOpen = false, isLoading = false;
+const SIZES = ['size-sm', 'size-md', 'size-lg'];
+let sizeIdx = 1;
 
-  // ── State ──────────────────────────────────────────────────────────────────
-  let isOpen = false;
-  let isLoading = false;
-
-  function splToggle() {
-    isOpen = !isOpen;
-    const win = document.getElementById('spl-window');
-    if (isOpen) {
-      win.classList.add('open');
-      document.getElementById('spl-fab-badge').style.display = 'none';
-      document.getElementById('spl-inp').focus();
-    } else {
-      win.classList.remove('open');
-    }
+function spwToggle() {
+  isOpen = !isOpen;
+  const win = document.getElementById('spw-win');
+  if (isOpen) {
+    win.classList.add('open');
+    document.getElementById('spw-badge').style.display = 'none';
+    document.getElementById('spw-inp').focus();
+  } else {
+    win.classList.remove('open');
   }
+}
 
-  function splAddMsg(text, role) {
-    const msgs = document.getElementById('spl-msgs');
-    const typing = document.getElementById('spl-typing');
+function spwMinimize() {
+  const win = document.getElementById('spw-win');
+  win.classList.toggle('compact');
+}
 
-    const div = document.createElement('div');
-    div.className = `spl-msg ${role}`;
+function spwResize() {
+  const win = document.getElementById('spw-win');
+  win.classList.remove(SIZES[sizeIdx]);
+  sizeIdx = (sizeIdx + 1) % SIZES.length;
+  win.classList.add(SIZES[sizeIdx]);
+}
 
-    const avSvg = `<svg width="16" height="16" viewBox="0 0 18 18" fill="none">
-      <ellipse cx="9" cy="11" rx="5" ry="5" fill="#9B1030"/>
-      <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="#75091D"/>
-      <ellipse cx="10" cy="5" rx="1.5" ry="1.2" fill="#fff"/>
-      <circle cx="10.5" cy="5" r="0.7" fill="#1a0800"/>
-      <path d="M6 6 Q5 5.5 4.5 7 Q5.5 6.5 6 7Z" fill="#E5892A"/>
-    </svg>`;
+// Markdown → HTML
+function spwRender(text) {
+  // Strip -- separators the LLM sometimes adds
+  text = text.replace(/\s*--\s*/g, ' ').replace(/^--\s*/gm, '').trim();
+  const lines = text.split('\n');
+  let html = '', inUl = false, inOl = false;
+  for (let line of lines) {
+    line = line
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')
+      .replace(/`([^`]+)`/g,'<code>$1</code>')
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,'<a href="$2" target="_blank">$1</a>')
+      .replace(/(?<![">])(https?:\/\/[^\s<&]+)/g,'<a href="$1" target="_blank">$1</a>');
 
-    const now = new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
-    const label = role === 'bot' ? 'HokieBot' : 'You';
+    if (/^[\s]*[-*•]\s+/.test(line)) {
+      if (inOl) { html += '</ol>'; inOl = false; }
+      if (!inUl) { html += '<ul>'; inUl = true; }
+      html += '<li>' + line.replace(/^[\s]*[-*•]\s+/,'') + '</li>';
+      continue;
+    }
+    if (/^[\s]*\d+\.\s+/.test(line)) {
+      if (inUl) { html += '</ul>'; inUl = false; }
+      if (!inOl) { html += '<ol>'; inOl = true; }
+      html += '<li>' + line.replace(/^[\s]*\d+\.\s+/,'') + '</li>';
+      continue;
+    }
+    if (inUl) { html += '</ul>'; inUl = false; }
+    if (inOl) { html += '</ol>'; inOl = false; }
+    if (line.trim() === '') continue;
+    html += '<p>' + line + '</p>';
+  }
+  if (inUl) html += '</ul>';
+  if (inOl) html += '</ol>';
+  return html;
+}
 
-    // Convert markdown bold and newlines to HTML
-    const formatted = text
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\n/g, '<br>')
-      .replace(/https?:\/\/[^\s<]+/g, url => `<a href="${url}" target="_blank" style="color:#75091D;font-weight:500">${url}</a>`);
+function spwAddMsg(text, role) {
+  const msgs = document.getElementById('spw-msgs');
+  const typing = document.getElementById('spw-typing');
+  const now = new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
+  const div = document.createElement('div');
 
+  if (role === 'bot') {
+    div.className = 'spw-bot';
     div.innerHTML = `
-      ${role === 'bot' ? `<div class="spl-msg-av">${avSvg}</div>` : ''}
-      <div class="spl-msg-body">
-        <div class="spl-bubble">${formatted}</div>
-        <div class="spl-ts">${label} · ${now}</div>
+      <div class="spw-av">
+        <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+          <ellipse cx="9" cy="11" rx="5" ry="5" fill="rgba(255,255,255,0.2)"/>
+          <ellipse cx="8" cy="6" rx="4" ry="3.5" fill="rgba(255,255,255,0.15)"/>
+          <ellipse cx="10" cy="5" rx="1.5" ry="1.2" fill="#fff"/>
+          <circle cx="10.5" cy="5" r="0.7" fill="#1a0800"/>
+        </svg>
       </div>
-    `;
-
-    msgs.insertBefore(div, typing);
-    msgs.scrollTop = msgs.scrollHeight;
+      <div class="spw-bot-inner">
+        <div class="spw-bot-name-lbl">HokieBot</div>
+        <div class="spw-bot-text">${spwRender(text)}</div>
+        <div class="spw-feedback">
+          <button class="spw-thumb" title="Helpful" onclick="this.style.color='#75091D'">👍</button>
+          <button class="spw-thumb" title="Not helpful" onclick="this.style.color='#75091D'">👎</button>
+        </div>
+        <div class="spw-ts">${now}</div>
+      </div>`;
+  } else {
+    div.className = 'spw-user';
+    const safe = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    div.innerHTML = `
+      <div class="spw-user-inner">
+        <div class="spw-user-bubble">${safe}</div>
+        <div class="spw-user-ts">You · ${now}</div>
+      </div>`;
   }
 
-  async function splSend() {
-    if (isLoading) return;
-    const inp = document.getElementById('spl-inp');
-    const q = inp.value.trim();
-    if (!q) return;
+  msgs.insertBefore(div, typing);
+  msgs.scrollTop = msgs.scrollHeight;
+}
 
-    inp.value = '';
-    splAddMsg(q, 'user');
-
-    isLoading = true;
-    document.getElementById('spl-send').disabled = true;
-    document.getElementById('spl-typing').classList.add('show');
-    document.getElementById('spl-msgs').scrollTop = 99999;
-
-    try {
-      const res = await fetch(`${BACKEND_URL}/chat`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: q }),
-      });
-
-      if (!res.ok) throw new Error('API error');
-      const data = await res.json();
-      document.getElementById('spl-typing').classList.remove('show');
-      splAddMsg(data.answer, 'bot');
-
-    } catch (err) {
-      document.getElementById('spl-typing').classList.remove('show');
-      splAddMsg("I'm having trouble connecting right now. Please visit spl.ise.vt.edu directly or email j.godfrey@vt.edu", 'bot');
-    }
-
-    isLoading = false;
-    document.getElementById('spl-send').disabled = false;
-    inp.focus();
+async function spwSend() {
+  if (isLoading) return;
+  const inp = document.getElementById('spw-inp');
+  const q = inp.value.trim();
+  if (!q) return;
+  inp.value = '';
+  spwAddMsg(q, 'user');
+  isLoading = true;
+  document.getElementById('spw-send-btn').disabled = true;
+  document.getElementById('spw-typing').classList.add('show');
+  document.getElementById('spw-msgs').scrollTop = 99999;
+  try {
+    const res = await fetch(`${BACKEND_URL}/chat`, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({question: q}),
+    });
+    if (!res.ok) throw new Error();
+    const data = await res.json();
+    document.getElementById('spw-typing').classList.remove('show');
+    spwAddMsg(data.answer, 'bot');
+  } catch {
+    document.getElementById('spw-typing').classList.remove('show');
+    spwAddMsg("I'm having trouble connecting right now. Please visit spl.ise.vt.edu or email j.godfrey@vt.edu", 'bot');
   }
+  isLoading = false;
+  document.getElementById('spw-send-btn').disabled = false;
+  inp.focus();
+}
 
-  function splQuick(question) {
-    document.getElementById('spl-inp').value = question;
-    splSend();
-  }
+function spwQuick(q) {
+  document.getElementById('spw-inp').value = q;
+  spwSend();
+}
 </script>
