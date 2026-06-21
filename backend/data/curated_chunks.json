@@ -2442,7 +2442,7 @@
     "word_count": 5
   },
   {
-    "text": "What is STEaM Tech? STEaM Tech is a hands-on outreach program that introduces K-12 students to systems thinking, decision-making, and human automation interaction.",
+    "text": "What is STEaM Tech? STEaM Tech is a hands-on outreach program that introduces K-12 students to systems thinking, decision-making, and human automation interaction.\nMore info: https://www.spl.ise.vt.edu/outreach.html",
     "source_url": "https://www.spl.ise.vt.edu/outreach.html",
     "chunk_index": 419,
     "word_count": 19
@@ -3702,7 +3702,7 @@
     "word_count": 75
   },
   {
-    "text": "EXACT_ANSWER: Production pressure is the organizational push to do more with less, which can quietly shift tradeoffs toward efficiency at the expense of safety — especially in fast-changing socio-technical environments. SPL's systematic review identifies production pressure as a widely recognized contributor to accidents. A key challenge is that empirical work often lacks consistent definitions and measures, motivating better monitoring approaches. Reference: https://www.sciencedirect.com/science/article/pii/S0925753522003848",
+    "text": "Production pressure is the organizational push to do more with less, which can quietly shift tradeoffs toward efficiency at the expense of safety — especially in fast-changing socio-technical environments. SPL's systematic review identifies production pressure as a widely recognized contributor to accidents. A key challenge is that empirical work often lacks consistent definitions and measures, motivating better monitoring approaches. Reference: https://www.sciencedirect.com/science/article/pii/S0925753522003848",
     "source_url": "https://www.spl.ise.vt.edu/research.html",
     "chunk_index": 616,
     "word_count": 82
@@ -3714,57 +3714,81 @@
     "word_count": 66
   },
   {
-    "text": "EXACT_ANSWER: LEAP-HI is a $2 million NSF-funded research project to understand decision-making and safety in automated socio-technical infrastructure systems and to build a computable safe area of operation. It targets how mental workload and situational awareness change with automation, how teams detect and learn from errors and near misses, how trust and cognitive bias affect delegation to automation, and how workload, marginal safety, and economic boundaries define safe operating space.",
+    "text": "LEAP-HI is a $2 million NSF-funded research project to understand decision-making and safety in automated socio-technical infrastructure systems and to build a computable safe area of operation. It targets how mental workload and situational awareness change with automation, how teams detect and learn from errors and near misses, how trust and cognitive bias affect delegation to automation, and how workload, marginal safety, and economic boundaries define safe operating space.",
     "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
     "chunk_index": 618,
     "word_count": 80
   },
   {
-    "text": "EXACT_ANSWER: The safe area of operation is a map of operating conditions where a system can run effectively without pushing people or technology beyond limits. LEAP-HI frames this safe region using interacting boundaries — especially workload and other performance limits — so decision makers can evaluate tradeoffs and avoid drifting into high-risk zones.",
+    "text": "The safe area of operation is a map of operating conditions where a system can run effectively without pushing people or technology beyond limits. LEAP-HI frames this safe region using interacting boundaries — especially workload and other performance limits — so decision makers can evaluate tradeoffs and avoid drifting into high-risk zones.",
     "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
     "chunk_index": 619,
     "word_count": 56
   },
   {
-    "text": "EXACT_ANSWER: The workload boundary defines the practical upper limit to how much work a safety-critical system and its human operators can handle before performance degrades. SPL research operationalizes this by estimating workload boundaries in rail traffic control centers using Data Envelopment Analysis (DEA) and by accounting for differences in operating contexts — called performance environment heterogeneity. Ignoring context differences can overestimate targets and inadvertently push people toward unsafe workload levels. Reference: https://www.sciencedirect.com/science/article/pii/S0377221719303297",
+    "text": "The workload boundary defines the practical upper limit to how much work a safety-critical system and its human operators can handle before performance degrades. SPL research operationalizes this by estimating workload boundaries in rail traffic control centers using Data Envelopment Analysis (DEA) and by accounting for differences in operating contexts — called performance environment heterogeneity. Ignoring context differences can overestimate targets and inadvertently push people toward unsafe workload levels. Reference: https://www.sciencedirect.com/science/article/pii/S0377221719303297",
     "source_url": "https://www.spl.ise.vt.edu/research.html",
     "chunk_index": 620,
     "word_count": 88
   },
   {
-    "text": "EXACT_ANSWER: SPL uses large-scale operational microdata — including 410,269 controller-hour observations from real rail traffic control centers — combined with count models to study error patterns, system dynamics to capture feedback loops and fatigue and threshold effects, and DEA-based benchmarking enhanced with LSTM forecasting to support performance monitoring and decision-making. SPL also gathers qualitative data through interviews and on-site observations across shifts.",
+    "text": "SPL uses large-scale operational microdata — including 410,269 controller-hour observations from real rail traffic control centers — combined with count models to study error patterns, system dynamics to capture feedback loops and fatigue and threshold effects, and DEA-based benchmarking enhanced with LSTM forecasting to support performance monitoring and decision-making. SPL also gathers qualitative data through interviews and on-site observations across shifts.",
     "source_url": "https://www.spl.ise.vt.edu/research.html",
     "chunk_index": 621,
     "word_count": 72
   },
   {
-    "text": "EXACT_ANSWER: SPL research on automation and human error finds that errors increase with workload, and the relationship between automation reliance and errors is non-linear — an inverted U-shape. More automation is not automatically safer; performance depends on how much automation is used and under what workload conditions. Reference: https://www.sciencedirect.com/science/article/pii/S0925753524003655",
+    "text": "SPL research on automation and human error finds that errors increase with workload, and the relationship between automation reliance and errors is non-linear — an inverted U-shape. More automation is not automatically safer; performance depends on how much automation is used and under what workload conditions. Reference: https://www.sciencedirect.com/science/article/pii/S0925753524003655",
     "source_url": "https://www.spl.ise.vt.edu/research.html",
     "chunk_index": 622,
     "word_count": 60
   },
   {
-    "text": "EXACT_ANSWER: Automation algorithms can influence phases of organizational learning beyond knowledge creation — including knowledge application and retention. In a study of U.S. passenger railroads adopting Positive Train Control (PTC), SPL research found support for hypotheses predicting faster learning from failures and longer retention of that learning.",
+    "text": "Automation algorithms can influence phases of organizational learning beyond knowledge creation — including knowledge application and retention. In a study of U.S. passenger railroads adopting Positive Train Control (PTC), SPL research found support for hypotheses predicting faster learning from failures and longer retention of that learning.",
     "source_url": "https://www.spl.ise.vt.edu/research.html",
     "chunk_index": 623,
     "word_count": 54
   },
   {
-    "text": "EXACT_ANSWER: SPL does not work only in rail and transportation. While rail and transportation are key application areas, SPL's approaches are designed for any socio-technical system where people, technology, and organizations interact — especially where safety, reliability, and performance matter. This includes healthcare, other critical infrastructure operations, and similarly complex high-stakes environments.",
+    "text": "SPL does not work only in rail and transportation. While rail and transportation are key application areas, SPL's approaches are designed for any socio-technical system where people, technology, and organizations interact — especially where safety, reliability, and performance matter. This includes healthcare, other critical infrastructure operations, and similarly complex high-stakes environments.",
     "source_url": "https://www.spl.ise.vt.edu/about.html",
     "chunk_index": 624,
     "word_count": 60
   },
   {
-    "text": "SPL is developing hands-on K-12 outreach experiences including STEaM Tech (https://www.spl.ise.vt.edu/outreach.html) that introduce students to systems thinking, decision-making, and human-automation interaction through interactive real-world transportation challenges.",
+    "text": "SPL is developing hands-on K-12 outreach experiences including STEaM Tech (https://www.spl.ise.vt.edu/outreach.html) that introduce students to systems thinking, decision-making, and human-automation interaction through interactive real-world transportation challenges.\nMore info: https://www.spl.ise.vt.edu/outreach.html",
     "source_url": "https://www.spl.ise.vt.edu/outreach.html",
     "chunk_index": 625,
     "word_count": 40
   },
   {
-    "text": "EXACT_ANSWER: For partner organizations, SPL research delivers improved operational performance — both safety and efficiency. SPL work clarifies when workload and automation configurations keep performance stable versus when they increase error risk, and translates those insights into actionable guidance for staffing, scheduling, tool and interface design, and escalation and coordination practices. SPL also uses DEA-based benchmarking to help partners quantify efficiency-safety tradeoffs, set realistic performance targets across different operating contexts, and monitor organizational pressures that can quietly erode safety margins while chasing productivity.",
+    "text": "For partner organizations, SPL research delivers improved operational performance — both safety and efficiency. SPL work clarifies when workload and automation configurations keep performance stable versus when they increase error risk, and translates those insights into actionable guidance for staffing, scheduling, tool and interface design, and escalation and coordination practices. SPL also uses DEA-based benchmarking to help partners quantify efficiency-safety tradeoffs, set realistic performance targets across different operating contexts, and monitor organizational pressures that can quietly erode safety margins while chasing productivity.",
     "source_url": "https://www.spl.ise.vt.edu/partnership.html",
     "chunk_index": 626,
     "word_count": 96
+  },
+  {
+    "text": "EXACT_ANSWER: SPL News and Events — all items with dates:\n\nUPCOMING EVENTS (after June 20, 2026):\n- None scheduled at this time.\n\nRECENT PAST EVENTS:\n- One day at the 2026 UVA Postdoctoral Research Symposium in Charlottesville | Date: April 27, 2026\n- Guest Lecture: Systems Thinking in Engineering | Date: April 14, 2026\n- Teen Science Cafe (March 2026) at Virginia Tech | Date: April 06, 2026\n- SPL hosts Teen Science Cafe on Systems and Solutions | Date: March 14, 2026\n- SPL Visits Virginia Railway Express (VRE) Headquarters | Date: March 03, 2026\n- The Future of Next: Empowering Youth in Decision Science and Human-Automation Interactions Through STEMkits | Date: February 23, 2026\n- Yasmin Mashayekhy Fard: Winner of the Bridgette Beato Leadership Legacy Scholarship | Date: February 01, 2026\n- Glen Edward Lyddane PhD Defense | Date: January 23, 2026\n- Wilmer Alvarado PhD Defense | Date: January 12, 2026\n- Saman Mohsenirad PhD Defense | Date: January 12, 2026\n\nFor full list visit: https://www.spl.ise.vt.edu/news-events.html",
+    "source_url": "https://www.spl.ise.vt.edu/news-events.html",
+    "chunk_index": 627,
+    "word_count": 130
+  },
+  {
+    "text": "EXACT_ANSWER: SPL faculty offer the following graduate courses:\n\n- ISE 6024: Advanced Performance Measurement for Socio-Technical Systems — explores advanced topics in management systems engineering, focusing on complex industrial, service, governmental, and healthcare systems. Key topics include economic production theory, DEA, statistical frontier analysis (SFA), and agent-based modeling.\n- ISE 5984: Socio Technical Systems: Principles, Conceptualization, and Design — integrates principles from systems theory, complexity science, safety science, macro-ergonomics, and policy design. Focuses on human-automation interactions in critical infrastructure, healthcare, and information systems.\n- ISE 5144: Management and Measurement of Efficiency and Productivity — covers benchmarking, index numbers, data envelopment analysis (DEA), statistical frontier analysis (SFA), and system dynamics modeling.\n- ISE 5124: Quality Management — explores principles and strategies for developing, enhancing, and managing quality across all enterprise systems.\n\nFor more information contact Prof. Triantis at triantis@vt.edu or visit https://www.spl.ise.vt.edu/education.html",
+    "source_url": "https://www.spl.ise.vt.edu/education.html",
+    "chunk_index": 628,
+    "word_count": 145
+  },
+  {
+    "text": "EXACT_ANSWER: SPL currently has 5 ongoing research projects:\n\n1. Human-Automation Interaction of Socio-Technical Infrastructure Systems (LEAP-HI) — Dr. Kostas Triantis received a four-year $2 million National Science Foundation grant to explore how cognitive biases influence trust in automation and decisions to delegate tasks to automated technologies. More info: https://www.spl.ise.vt.edu/research/funded/active/reports.html\n\n2. A Problem Type Taxonomy for Problem-Solving in Organizations — research offering actionable guidance for navigating complex organizational challenges and shaping adaptive policies in an era of rapid digital transformation.\n\n3. Modeling Distributed Situational Awareness in Socio-Technical Systems — in partnership with Human Factors specialists from Clemson University, developing a holistic framework mapping work-system elements, knowledge acquisition and sharing, and emergence of distributed situational awareness, quantifying its impact on efficiency, safety, and operator workload.\n\n4. Learning from Automating in Socio-Technical Systems — in partnership with Georgetown University and Brigham Young University, investigating how organizations and individuals learn from automation use in high-stakes environments, using INFRABEL's traffic control centers in Belgium as a real-world testbed.\n\n5. Balancing Tradeoffs in Socio-Technical Systems: A System Dynamics Approach — leveraging system dynamics modeling to explore key tradeoffs between safety, economic, and workload boundaries using causal loop diagrams, including: intuition vs automation, team familiarity vs flexibility, generalization vs specialization of roles, and competing goal hierarchies.\n\nFor past projects visit: https://www.spl.ise.vt.edu/research/funded/past/summary.html\nFor full research overview visit: https://www.spl.ise.vt.edu/research.html",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
+    "chunk_index": 629,
+    "word_count": 210
+  },
+  {
+    "text": "EXACT_ANSWER: SPL completed funded research projects include:\n\n1. Cognitive Understanding of Complexity — NSF funded. PI: Triantis. Studied how education and real-world experience influence engineers' understanding of complex systems, comparing students and professionals using problem-solving vignettes.\n\n2. Modeling Mental Workload and Multi-Level Factors that Create Errors in Safety-Critical Systems — ISCE-VT funded. PI: Hosseinichimeh, Co-PI: Triantis. Built a system dynamics model calibrated with INFRABEL (Belgian Railway) data to investigate how mental workload, stress, fatigue, and organizational factors lead to human errors.\n\n3. Multi-Perspective Evacuation Performance Measurement — NSF funded. PI: Triantis. Explored what constitutes a successful evacuation by combining sociological, engineering, and performance measurement approaches.\n\n4. Enhancing Small and Mid-Level Farm Viability Through Systems-Based Research — NSF Human Technology Frontier. Linked technology, human factors, and sustainable development for farming systems.\n\n5. Theoretical Foundations of Systems Engineering Workshop — NSF. PI: Triantis. Investigated and defined theoretical foundations in systems engineering.\n\n6. Climate Change and Urban Growth: Sustainable Water Management — ICTAS Grand Challenge, Virginia Tech. Developed a portfolio of tools for water management in the Greater Washington DC area.\n\n7. Efficiency and Work Flow Analyses — McClatchy Tribune. Analyzed business process efficiency for a major news agency adapting to digital transformation.\n\n8. Comprehensive Framework for Road Maintenance Efficiency Measurement — NSF CMMI. Developed DEA-based framework for measuring road maintenance operations efficiency.\n\n9. Traffic Congestion: Actions and Reactions — NSF. Studied causes and effects of traffic congestion and social institution design.\n\n10. Effect of New Technologies on Ship Systems — Office of Naval Research. Developed system dynamics cost models for shipbuilding.\n\n11. Indicators of Chapter Performance — American Red Cross. Defined quality, outcome, and efficiency indicators of chapter performance.\n\n12. TQM Framework for Shipboard Electronic Hardware — Naval Warfare Assessment Center. Developed Total Quality Management assessment guidelines for Navy contracts.\n\nMore details: https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "source_url": "https://www.spl.ise.vt.edu/research/funded/past/summary.html",
+    "chunk_index": 630,
+    "word_count": 280
   }
 ]
