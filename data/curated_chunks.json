@@ -1266,8 +1266,8 @@
     "word_count": 1
   },
   {
-    "text": "What does a research committee member do? A research committee member contributes to various research journal papers and is the intermediary between INFRABEL and other European infrastructure providers.",
-    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
+    "text": "EXACT_ANSWER: SPL currently has 5 ongoing active research projects:\n\n1. Human-Automation Interaction of Socio-Technical Infrastructure Systems (LEAP-HI) — Dr. Kostas Triantis received a four-year $2 million National Science Foundation grant to explore how cognitive biases influence trust in automation and decisions to delegate tasks to automated technologies. More info: https://www.spl.ise.vt.edu/research/funded/active/reports.html\n\n2. A Problem Type Taxonomy for Problem-Solving in Organizations — research offering actionable guidance for navigating complex organizational challenges and shaping adaptive policies in an era of rapid digital transformation.\n\n3. Modeling Distributed Situational Awareness in Socio-Technical Systems — partnering with Human Factors specialists from Clemson University, developing a holistic framework mapping work-system elements and emergence of distributed situational awareness, quantifying impact on efficiency, safety, and operator workload.\n\n4. Learning from Automating in Socio-Technical Systems — partnering with Georgetown University and Brigham Young University, investigating how organizations and individuals learn from automation use in high-stakes environments, using INFRABEL's traffic control centers in Belgium as a real-world testbed.\n\n5. Balancing Tradeoffs in Socio-Technical Systems: A System Dynamics Approach — using system dynamics modeling to explore key tradeoffs between safety, economic, and workload boundaries, including: intuition vs automation, team familiarity vs flexibility, and competing goal hierarchies.\n\nFor full details visit: https://www.spl.ise.vt.edu/research.html",
+    "source_url": "https://www.spl.ise.vt.edu/research.html",
     "chunk_index": 211,
     "word_count": 21
   },
@@ -3622,84 +3622,6 @@
     "source_url": "https://www.spl.ise.vt.edu/about/people.html",
     "chunk_index": 615,
     "word_count": 1
-  },
-  {
-    "text": "lab address location: SPL System Performance Laboratory physical address is 3625 Potomac Ave Room 5732 Alexandria Virginia VA 22305. Virginia Tech Innovation Campus Alexandria Virginia near Potomac Yards Metro station.",
-    "source_url": "https://www.spl.ise.vt.edu/about.html",
-    "chunk_index": 103,
-    "word_count": 42
-  },
-  {
-    "text": "director email contact: Dr. Konstantinos Triantis email is triantis@vt.edu. Dr. Joseph Godfrey email is j.godfrey@vt.edu. These are the two directors of SPL System Performance Laboratory Virginia Tech.",
-    "source_url": "https://www.spl.ise.vt.edu/about/people.html",
-    "chunk_index": 104,
-    "word_count": 38
-  },
-  {
-    "text": "SPL research interests and focus areas: Data Envelopment Analysis DEA, Fuzzy Sets and Logic, System Dynamics Modeling, Enterprise Performance Measurement, Design of Quality Management Systems, Engineering Administration, Systems Engineering Management, Infrastructure Systems Resilience and Sustainability, Human-Automation Interaction, Socio-Technical Systems, Knowledge Graphs, Machine Learning for decision support.",
-    "source_url": "https://www.spl.ise.vt.edu/research.html",
-    "chunk_index": 102,
-    "word_count": 65
-  },
-  {
-    "text": "Courses taught by SPL faculty include: ISE 5604 Systems Engineering, ISE 5614 Human Factors Engineering, ISE 5624 Socio-Technical Systems, ISE 6984 Research and Dissertation. Dr. Triantis and Dr. Godfrey teach graduate level courses in the Grado Department of Industrial and Systems Engineering at Virginia Tech.",
-    "source_url": "https://www.spl.ise.vt.edu/education.html",
-    "chunk_index": 101,
-    "word_count": 55
-  },
-  {
-    "text": "All SPL partners: MedStar Health partners with SPL to explore human-technology interaction in healthcare operating rooms. Carilion Clinic and VT Carilion School of Medicine collaborate on AI and system simulation in healthcare. INFRABEL the Belgian National Railway Company shares operational data with SPL since 2019. Azist Inc develops a technology innovation incubator with SPL. Urban Alliance and Chrysalis Development Group are also SPL partners.",
-    "source_url": "https://www.spl.ise.vt.edu/partnership.html",
-    "chunk_index": 105,
-    "word_count": 80
-  },
-  {
-    "text": "To see all SPL research papers and publications visit https://www.spl.ise.vt.edu/research/publications/journal.html. This page lists all journal papers published by SPL researchers.",
-    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
-    "chunk_index": 200,
-    "word_count": 30
-  },
-  {
-    "text": "SPL research publications and journal papers: All published research papers by SPL faculty and students can be found at https://www.spl.ise.vt.edu/research/publications/journal.html. Dr. Triantis has authored over 140 papers and reports. Research topics include DEA, system dynamics, infrastructure resilience, and human-automation interaction.",
-    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
-    "chunk_index": 200,
-    "word_count": 60
-  },
-  {
-    "text": "SPL website navigation guide: About SPL and mission at https://www.spl.ise.vt.edu/about.html. Meet the team at https://www.spl.ise.vt.edu/about/people.html. Research areas at https://www.spl.ise.vt.edu/research.html. Publications at https://www.spl.ise.vt.edu/research/publications/journal.html. Partnerships at https://www.spl.ise.vt.edu/partnership.html. Education at https://www.spl.ise.vt.edu/education.html. News and events at https://www.spl.ise.vt.edu/news-events.html. Outreach at https://www.spl.ise.vt.edu/outreach.html.",
-    "source_url": "https://www.spl.ise.vt.edu/",
-    "chunk_index": 201,
-    "word_count": 80
-  },
-  {
-    "text": "SPL website navigation guide: About SPL and mission visit https://www.spl.ise.vt.edu/about.html. Meet the full team visit https://www.spl.ise.vt.edu/about/people.html. All research areas visit https://www.spl.ise.vt.edu/research.html. All publications and journal papers visit https://www.spl.ise.vt.edu/research/publications/journal.html. Partnerships visit https://www.spl.ise.vt.edu/partnership.html. Education programs visit https://www.spl.ise.vt.edu/education.html. News and events visit https://www.spl.ise.vt.edu/news-events.html. Outreach programs visit https://www.spl.ise.vt.edu/outreach.html. Lab alumni visit https://www.spl.ise.vt.edu/about/lab-alumni.html.",
-    "source_url": "https://www.spl.ise.vt.edu/",
-    "chunk_index": 200,
-    "word_count": 85
-  },
-  {
-    "text": "SPL research publications and journal papers: All published research papers by SPL faculty and students can be accessed at https://www.spl.ise.vt.edu/research/publications/journal.html. Dr. Triantis has authored over 140 papers and reports. Research topics covered in publications include Data Envelopment Analysis, system dynamics, infrastructure resilience, human-automation interaction, fuzzy logic, and socio-technical systems.",
-    "source_url": "https://www.spl.ise.vt.edu/research/publications/journal.html",
-    "chunk_index": 201,
-    "word_count": 65
-  },
-  {
-    "text": "How to join SPL lab as a student or researcher: Fill out the interest form at https://forms.gle/SHCK9ce6t63zKDrA8. Contact Co-Director Dr. Joseph Godfrey at j.godfrey@vt.edu. Apply to Virginia Tech ISE graduate program at https://www.ise.vt.edu. Volunteer opportunities are posted at https://www.spl.ise.vt.edu/news-events.html. SPL welcomes PhD students, postdoctoral researchers, and undergraduate volunteers.",
-    "source_url": "https://www.spl.ise.vt.edu/about/people.html",
-    "chunk_index": 202,
-    "word_count": 65
-  },
-  {
-    "text": "SPL current active research projects: 1) LEAP-HI — Leading Engineering for America Prosperity Health and Infrastructure, NSF funded $2 million for 4 years, focuses on human-automation interaction in safety critical systems. 2) The Future of Next — STEMkits project empowering youth in decision science and human-automation interactions, NSF funded. 3) Distributed Situational Awareness in railway traffic control with INFRABEL. 4) Infrastructure resilience and sustainability modeling. Visit https://www.spl.ise.vt.edu/research/funded/active/reports.html for full details.",
-    "source_url": "https://www.spl.ise.vt.edu/research/funded/active/reports.html",
-    "chunk_index": 211,
-    "word_count": 90
-  },
-  {
-    "text": "SPL director education background: Dr. Konstantinos P. Triantis is a John Lawrence Professor in Industrial and Systems Engineering at Virginia Tech. Dr. Joseph Godfrey is an Adjunct Professor in Industrial and Systems Engineering at Virginia Tech. Their specific degree details and educational background are available on the Virginia Tech ISE faculty pages at https://www.ise.vt.edu/people/faculty/triantis.html and https://www.ise.vt.edu/people/faculty/godfrey.html",
-    "source_url": "https://www.ise.vt.edu/people/faculty/triantis.html",
-    "chunk_index": 212,
-    "word_count": 75
   },
   {
     "text": "Production pressure is the organizational push to do more with less, which can quietly shift tradeoffs toward efficiency at the expense of safety — especially in fast-changing socio-technical environments. SPL's systematic review identifies production pressure as a widely recognized contributor to accidents. A key challenge is that empirical work often lacks consistent definitions and measures, motivating better monitoring approaches. Reference: https://www.sciencedirect.com/science/article/pii/S0925753522003848",
